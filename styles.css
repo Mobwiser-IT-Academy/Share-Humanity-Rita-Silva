@@ -111,6 +111,7 @@ p{
     display: flex;
     position: relative;
     top:80px;
+    margin-bottom: 200px;
 
 }
 .box-5{
@@ -160,6 +161,18 @@ button{
 
 .button-positioning-3{
     margin-top:34px;
+}
+
+footer{
+    background-color: #c4e6da;
+    height: 100px;
+}
+
+.copyright{
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top:25px;
 }
 
 
