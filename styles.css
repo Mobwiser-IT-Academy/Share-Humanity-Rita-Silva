@@ -38,7 +38,7 @@ h5{
 hr{
     height: 3px;
     border-style: dotted;
-    border-color: #a7d7c5;
+    border-color: #c4e6da;
     border-bottom: none;
     border-left:none;
     border-right:none;
@@ -67,9 +67,16 @@ p{
     font-size: 25px; 
 }
 
+.question-2{
+    position: relative;
+    top:20px;
+}
+
 
 .container-1{
     display: flex;
+    position:relative;
+    top: 15px;
   
 }
 .box-1{
