@@ -3,3 +3,11 @@ body{
     text-align: center;
 
 }
+
+h1 {
+    color:#f4f9f4;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700; ;
+    font-size: 120px ;
+    
+}
