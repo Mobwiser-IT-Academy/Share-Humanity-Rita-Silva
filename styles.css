@@ -76,7 +76,7 @@ p{
 .container-1{
     display: flex;
     position:relative;
-    top: 50px;
+    top: 20px;
   
 }
 .box-1{
@@ -110,7 +110,7 @@ p{
 .container-2{
     display: flex;
     position: relative;
-    top:80px;
+    top:50px;
     margin-bottom: 200px;
 
 }
