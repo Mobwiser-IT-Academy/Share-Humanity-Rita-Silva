@@ -82,7 +82,7 @@ ul {
 
 li a {
 
-    padding:0 100px;
+    margin:0 100px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -92,6 +92,11 @@ li a {
     top:20px;
     
   
+  }
+
+input {
+      width: 150px;
+      height: 30px;
   }
 
 p{
