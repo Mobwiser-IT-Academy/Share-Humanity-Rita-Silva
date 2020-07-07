@@ -1,6 +1,7 @@
 body{
     background-color: #74b49b;
     text-align: center;
+    margin:0px;
 
 }
 
@@ -11,3 +12,50 @@ h1 {
     font-size: 120px ;
     
 }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+.navbar{
+
+    background-color: #c4e6da;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    position: relative;
+
+  }
+
+li a {
+
+    margin:0 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #5c8d89;
+    position: relative;
+    top:20px;
+    
+  
+  }
+
+.searchbar {
+      width: 160px;
+      height: 40px;
+      position: relative;
+      top: 10px;
+      border: #5c8d89;
+      border-width: 2px;
+      font-size: 18px;
+      color: #5c8d89;
+
+  }
