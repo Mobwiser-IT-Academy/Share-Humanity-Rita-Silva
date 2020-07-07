@@ -94,9 +94,16 @@ li a {
   
   }
 
-input {
-      width: 150px;
-      height: 30px;
+.searchbar {
+      width: 160px;
+      height: 40px;
+      position: relative;
+      top: 10px;
+      border: #5c8d89;
+      border-width: 2px;
+      font-size: 18px;
+      color: #5c8d89;
+
   }
 
 p{
