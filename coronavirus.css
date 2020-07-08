@@ -13,6 +13,13 @@ h1 {
     
 }
 
+h3 {
+  color:#ace9d3;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700; 
+  font-size: 50px ;
+}
+
 
 ul {
     list-style-type: none;
@@ -64,9 +71,29 @@ li a {
       width: 70%;
   }
 
+.description-covid{
+  width: 70%;
+  text-align: center;
+}
+
   p {
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400; 
-    font-size: 25px; 
+    font-size: 25px;
+    width: 70%;
+    margin: 30px auto;
+
+}
+
+footer{
+  background-color: #c4e6da;
+  height: 100px;
+}
+
+.copyright{
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  top:25px;
 }
