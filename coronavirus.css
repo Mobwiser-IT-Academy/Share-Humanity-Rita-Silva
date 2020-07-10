@@ -86,6 +86,21 @@ li a {
 
 }
 
+.covidworld{
+  width: 70%;
+  position: relative;
+}
+
+.go-top{
+
+  color: #c4e6da;
+  position: static;
+
+
+
+}
+
+
 footer{
   background-color: #c4e6da;
   height: 100px;
