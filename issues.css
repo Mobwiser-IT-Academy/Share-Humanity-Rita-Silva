@@ -70,3 +70,23 @@ li a {
     font-weight: 400; 
     font-size: 25px; 
 }
+
+.go-top{
+
+  color: #c4e6da;
+  position: static;
+
+
+}
+
+footer{
+  background-color: #c4e6da;
+  height: 100px;
+}
+
+.copyright{
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  top:25px;
+}
