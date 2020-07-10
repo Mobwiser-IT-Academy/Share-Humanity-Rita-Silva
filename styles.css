@@ -217,6 +217,14 @@ button{
     margin-top:34px;
 }
 
+.go-top{
+
+    color: #c4e6da;
+    position: static;
+
+
+}
+
 footer{
     background-color: #c4e6da;
     height: 100px;
