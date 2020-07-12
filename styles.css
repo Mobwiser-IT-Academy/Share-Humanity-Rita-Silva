@@ -38,7 +38,7 @@ h5{
     margin-top: -20px;
 }
 
-hr{
+/* hr{
     height: 3px;
     border-style: dotted;
     border-color: #c4e6da;
@@ -48,7 +48,7 @@ hr{
     border-width: 15px;
     width: 30%;
   
-}
+} */
 
 
 
@@ -251,8 +251,8 @@ footer{
 }
 
 .imagem-planeta{
-    width: 20%;
-    margin-top: 30px;
+    width: 40%;
+    margin-top: 40px;
 }
 
 h1 {
@@ -308,43 +308,60 @@ hr{
 } */
 
 
-                                       /* NAVBAR */
-ul {
-    list-style-type: none;
-  
-  }
-
-  li {
-   
-  }
-
-.navbar{
-
-    background-color: #c4e6da;
-    height: 70px;
-   
-
-  }
-
-li a {
-
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #5c8d89;
+                                /* NAVBAR */
+ ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ margin-left: -25px;
  
-  
-  }
+}
+                                    
+ li {
+ display: inline;
+
+}
+                                    
+.navbar{
+                                    
+   background-color: #c4e6da;
+   padding: 0;
+   margin: 0;
+   height: 70px;
+                                    
+ }
+                                    
+li a {
+                                    
+margin:0 5px;
+display: inline;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 16px;
+font-weight: 700;
+text-decoration: none;
+color: #5c8d89;
+position: relative;
+top:25px;
+
+                                        
+                                      
+}
+
+.nav-item{
+
+}
 
 .searchbar {
       width: 100px;
       height: 20px;
       position: relative;
+      top: 21px;
+      right:-10px;
       border: #5c8d89;
       border-width: 2px;
       font-size: 10px;
       color: #5c8d89;
+      
 
   }
 
@@ -362,7 +379,7 @@ p{
 
 
 .container-1{
-   display: inline;
+    display: inline;
     position:relative;
     top: 5px;
   
@@ -396,9 +413,9 @@ p{
 }
 
 .container-2{
-    display: inline;
-    top:50px;
-    margin-bottom: 200px;
+    display: inline; 
+    position: relative;
+    top: 10px;
 
 }
 .box-5{
