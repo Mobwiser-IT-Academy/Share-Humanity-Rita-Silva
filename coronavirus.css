@@ -91,14 +91,25 @@ li a {
   position: relative;
 }
 
+
+
+
+.estatisticas-covid{
+
+  width: 70%;
+ position: relative;
+ margin-bottom: 120px;
+ 
+
+}
+
 .go-top{
 
   color: #c4e6da;
-  position: static;
+  position: relative;
+  left: -600px;
 
-
-
-}
+ }
 
 
 footer{
