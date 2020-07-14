@@ -69,6 +69,10 @@ li a {
 
   .covid19{
       width: 70%;
+      border: solid;
+ border-width: 2.5px;
+ border-color: #c4e6da;
+
   }
 
 .description-covid{
@@ -89,6 +93,11 @@ li a {
 .covidworld{
   width: 70%;
   position: relative;
+  border: solid;
+ border-width: 2.5px;
+ border-color: #c4e6da;
+ margin-bottom: 30px;
+
 }
 
 
@@ -98,16 +107,19 @@ li a {
 
   width: 70%;
  position: relative;
- margin-bottom: 120px;
- 
+ margin-top: 30px;
+ margin-bottom: 30px;
+ border: solid;
+ border-width: 2.5px;
+ border-color: #c4e6da;
 
 }
 
 .go-top{
 
   color: #c4e6da;
-  position: relative;
-  left: -600px;
+  position: static;
+
 
  }
 
