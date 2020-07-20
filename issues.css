@@ -90,3 +90,131 @@ footer{
   position: relative;
   top:25px;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+
+  body{
+    background-color: #74b49b;
+    text-align: center;
+    margin:0px;
+  
+  }
+  
+  h1 {
+    color:#f4f9f4;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700; ;
+    font-size: 80px ;
+    
+  }
+  
+  h3 {
+  color:#ace9d3;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700; 
+  font-size: 40px ;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -25px;
+    
+   }
+                                       
+    li {
+    display: inline;
+   
+   }
+                                       
+   .navbar{
+                                       
+      background-color: #c4e6da;
+      padding: 0;
+      margin: 0;
+      height: 70px;
+                                       
+    }
+                                       
+   li a {
+                                       
+   margin:0 5px;
+   display: inline;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   text-decoration: none;
+   color: #5c8d89;
+   position: relative;
+   top:25px;
+   
+                                           
+                                         
+   }
+   
+   
+   .searchbar {
+         width: 100px;
+         height: 20px;
+         position: relative;
+         top: 21px;
+         right:-10px;
+         border: #5c8d89;
+         border-width: 2px;
+         font-size: 10px;
+         color: #5c8d89;
+         
+   
+     }
+  
+  .covid19{
+      width: 70%;
+  }
+  
+  .description-covid{
+  width: 70%;
+  text-align: center;
+  }
+  
+  p {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400; 
+    font-size: 25px;
+    width: 70%;
+    margin: 30px auto;
+  
+  }
+  
+  .covidworld{
+  width: 70%;
+  position: relative;
+  }
+  
+  .go-top{
+  
+  color: #c4e6da;
+  position: static;
+  
+  }
+  
+  
+  footer{
+    background-color: #c4e6da;
+    height: 100px;
+  }
+  
+  .copyright{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top:35px;
+  }
+  
+  
+  
+  }
