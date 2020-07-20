@@ -1,83 +1,301 @@
 body{
-    background-color: #74b49b;
-    text-align: center;
-    margin:0px;
+  background-color: #74b49b;
+  text-align: center;
+  margin:0px;
 
 }
 
 h1 {
-    color:#f4f9f4;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700; ;
-    font-size: 120px ;
-    
+  color:#f4f9f4;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700; ;
+  font-size: 120px ;
+  
 }
 
+h3 {
+color:#ace9d3;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 700; 
+font-size: 50px ;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400; 
+  font-size: 25px;
+  width: 70%;
+  margin: 30px auto;
+
+}
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  li {
-    display: inline;
-  }
+li {
+  display: inline;
+}
 
 .navbar{
 
-    background-color: #c4e6da;
-    padding: 0;
-    margin: 0;
-    height: 80px;
-    position: relative;
+  background-color: #c4e6da;
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  position: relative;
 
-  }
+}
 
 li a {
 
-    margin:0 100px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #5c8d89;
-    position: relative;
-    top:20px;
-    
+  margin:0 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #5c8d89;
+  position: relative;
+  top:20px;
   
-  }
+
+}
+
+li a:hover {
+  color: #f4f9f4;
+ }
 
 .searchbar {
-      width: 160px;
-      height: 40px;
-      position: relative;
-      top: 10px;
-      border: #5c8d89;
-      border-width: 2px;
-      font-size: 18px;
-      color: #5c8d89;
+    width: 160px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    border: #5c8d89;
+    border-width: 2px;
+    font-size: 18px;
+    color: #5c8d89;
+    border-radius: 5px;
 
-  }
-
-  .covid19{
-      width: 70%;
-  }
-
-  p {
-    color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 400; 
-    font-size: 25px; 
 }
+
+.covid19{
+    width: 70%;
+
+
+}
+
+
 
 .go-top{
 
-  color: #c4e6da;
-  position: static;
+color: #c4e6da;
+position: static;
 
 
 }
+
+
+footer{
+background-color: #c4e6da;
+height: 100px;
+}
+
+.copyright{
+font-size: 40px;
+font-weight: 400;
+position: relative;
+top:25px;
+}
+
+
+
+/* ---------------------------------------------------------- !!QUERY 1 400-509!! ------------------------------------------------------------- */
+
+@media only  screen and (min-width: 400px) and (max-width: 509px) {
+
+
+
+h1 {
+color:#f4f9f4;
+font-family: 'Amatic SC', cursive;
+font-weight: 700; ;
+font-size: 80px ;
+
+}
+
+h3 {
+color:#ace9d3;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 700; 
+font-size: 40px ;
+}
+
+
+                                     /* NAVBAR */
+                                     ul {
+                                      list-style-type: none;
+                                      margin: 0;
+                                      padding: 0;
+                                    }
+                                  
+                                    li {
+                                      display: inline;
+                                    }
+                                  
+                                  .navbar{
+                                  
+                                      background-color: #c4e6da;
+                                      padding: 0;
+                                      margin: 0;
+                                      height: 70px;
+                                      position: relative;
+                                  
+                                    }
+                                  
+                                  li a {
+                                  
+                                      margin:0 4px;
+                                      font-family: 'Open Sans Condensed', sans-serif;
+                                      font-size: 18px;
+                                      font-weight: 700;
+                                      text-decoration: none;
+                                      color: #5c8d89;
+                                      position: relative;
+                                      top:20px;
+                              
+                                      
+                                    
+                                  }
+                                  
+                                    li a:hover {
+                                      color: #f4f9f4;
+                                     }
+                                  
+                                  .searchbar {
+                                        width: 100px;
+                                        height: 25px;
+                                        position: relative;
+                                        top: 18px;
+                                        border: #5c8d89;
+                                        border-width: 2px;
+                                        font-size: 18px;
+                                        color: #5c8d89;
+                                        border-radius: 5px;
+                                  
+                                    }
+
+
+
+
+.go-top{
+
+color: #c4e6da;
+position: static;
+
+}
+
+
+footer{
+background-color: #c4e6da;
+height: 100px;
+}
+
+.copyright{
+font-size: 40px;
+font-weight: 400;
+position: relative;
+top:25px;
+}
+
+
+}
+
+/* ------------------------------------------------------------ !!QUERY 2 510-768!! ------------------------------------------------------------- */
+
+@media only  screen and (min-width: 510px) and (max-width: 768px) {
+
+
+h1 {
+  color:#f4f9f4;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700; ;
+  font-size: 80px ;
+  
+}
+
+h3 {
+color:#ace9d3;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 700; 
+font-size: 40px ;
+}
+
+
+/* NAVBAR */
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+display: inline;
+}
+
+.navbar{
+
+background-color: #c4e6da;
+padding: 0;
+margin: 0;
+height: 70px;
+position: relative;
+
+}
+
+li a {
+
+margin:0 10px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 20px;
+font-weight: 700;
+text-decoration: none;
+color: #5c8d89;
+position: relative;
+top:20px;
+
+
+}
+
+li a:hover {
+color: #f4f9f4;
+}
+
+.searchbar {
+  width: 130px;
+  height: 30px;
+  position: relative;
+  top: 17px;
+  border: #5c8d89;
+  border-width: 2px;
+  font-size: 18px;
+  color: #5c8d89;
+  border-radius: 5px;
+
+}
+
+
+
+
+.go-top{
+
+color: #c4e6da;
+position: static;
+
+}
+
 
 footer{
   background-color: #c4e6da;
@@ -92,129 +310,210 @@ footer{
 }
 
 
-@media only screen and (max-width: 768px) {
+}
+
+/* ----------------------------------------------------------- !!QUERY 3 769-1199!!------------------------------------------------------------- */
+
+@media only  screen and (min-width: 769px) and (max-width: 1199px) {
 
 
-  body{
-    background-color: #74b49b;
-    text-align: center;
-    margin:0px;
+h1 {
+  color:#f4f9f4;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700; ;
+  font-size: 80px ;
   
-  }
-  
-  h1 {
-    color:#f4f9f4;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700; ;
-    font-size: 80px ;
-    
-  }
-  
-  h3 {
-  color:#ace9d3;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700; 
-  font-size: 40px ;
-  }
-  
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: -25px;
-    
-   }
-                                       
-    li {
-    display: inline;
-   
-   }
-                                       
-   .navbar{
-                                       
-      background-color: #c4e6da;
-      padding: 0;
-      margin: 0;
-      height: 70px;
-                                       
-    }
-                                       
-   li a {
-                                       
-   margin:0 5px;
-   display: inline;
-   font-family: 'Open Sans Condensed', sans-serif;
-   font-size: 16px;
-   font-weight: 700;
-   text-decoration: none;
-   color: #5c8d89;
-   position: relative;
-   top:25px;
-   
-                                           
-                                         
-   }
-   
-   
-   .searchbar {
-         width: 100px;
-         height: 20px;
-         position: relative;
-         top: 21px;
-         right:-10px;
-         border: #5c8d89;
-         border-width: 2px;
-         font-size: 10px;
-         color: #5c8d89;
-         
-   
-     }
-  
-  .covid19{
-      width: 70%;
-  }
-  
-  .description-covid{
-  width: 70%;
-  text-align: center;
-  }
-  
-  p {
-    color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 400; 
-    font-size: 25px;
-    width: 70%;
-    margin: 30px auto;
-  
-  }
-  
-  .covidworld{
-  width: 70%;
+}
+
+h3 {
+color:#ace9d3;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 700; 
+font-size: 40px ;
+}
+
+
+ /* NAVBAR */
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.navbar{
+
+  background-color: #c4e6da;
+  padding: 0;
+  margin: 0;
+  height: 70px;
   position: relative;
-  }
+
+}
+
+li a {
+
+  margin:0 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #5c8d89;
+  position: relative;
+  top:20px;
   
-  .go-top{
-  
-  color: #c4e6da;
-  position: static;
-  
-  }
-  
-  
-  footer{
-    background-color: #c4e6da;
-    height: 100px;
-  }
-  
-  .copyright{
-    font-size: 20px;
-    font-weight: 400;
+
+}
+
+li a:hover {
+  color: #f4f9f4;
+ }
+
+.searchbar {
+    width: 130px;
+    height: 30px;
     position: relative;
-    top:35px;
+    top: 17px;
+    border: #5c8d89;
+    border-width: 2px;
+    font-size: 18px;
+    color: #5c8d89;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+.go-top{
+
+color: #c4e6da;
+position: static;
+
+}
+
+
+footer{
+  background-color: #c4e6da;
+  height: 100px;
+}
+
+.copyright{
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  top:25px;
+}
+
+
+
+}
+
+  /* -------------------------------------------------------- !!QUERY 4 1200-1400!!----------------------------------------------------------- */
+
+@media only  screen and (min-width: 1200px) and (max-width: 1400px) {
+
+
+h1 {
+  color:#f4f9f4;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700; ;
+  font-size: 80px ;
+  
+}
+
+h3 {
+color:#ace9d3;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 700; 
+font-size: 40px ;
+}
+
+
+ /* NAVBAR */
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -30px;
+  
+ }
+                                     
+  li {
+  display: inline;
+ 
+ }
+                                     
+ .navbar{
+                                     
+    background-color: #c4e6da;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+                                     
   }
-  
-  
-  
-  }
+                                     
+ li a {
+                                     
+ margin:0 20px;
+ display: inline;
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+ text-decoration: none;
+ color: #5c8d89;
+ position: relative;
+ top:18px;
+ 
+ }
+ 
+ li a:hover {
+     color: #f4f9f4;
+    }
+ 
+ 
+ .searchbar {
+       width: 120px;
+       height: 30px;
+       position: relative;
+       top: 10px;
+       right:-60;
+       border: #5c8d89;
+       border-width: 2px;
+       font-size: 15px;
+       color: #5c8d89;
+       border-radius: 5px;
+       
+ 
+   }
+
+
+
+.go-top{
+
+color: #c4e6da;
+position: static;
+
+}
+
+
+footer{
+  background-color: #c4e6da;
+  height: 100px;
+}
+
+.copyright{
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  top:25px;
+}
+
+
+
+}
