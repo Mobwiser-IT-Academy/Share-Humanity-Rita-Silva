@@ -1,5 +1,5 @@
 body{
-    background-color: #74b49b;
+    background-color: #cae9ff;
     text-align: center;
     margin:0px;
 
@@ -14,26 +14,27 @@ body{
 h1 {
     color:#f4f9f4;
     font-family: 'Amatic SC', cursive;
-    font-weight: 700; ;
-    font-size: 120px ;
-    
+    font-weight: 700; 
+    font-size: 180px ;
 }
+
+
 
 h4 {
 
-    color:#ace9d3;
+    color:#59a5d8;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700; 
-    font-size: 50px ;
+    font-size: 40px ;
     margin-top: 10px;
    
 }
 
 h5{
-    color:#5c8d89;
+    color:#133c55;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700; 
-    font-size: 40px ;
+    font-size: 35px ;
     margin-bottom: -20px;
     margin-top: -20px;
 }
@@ -74,7 +75,7 @@ ul {
 
 .navbar{
 
-    background-color: #c4e6da;
+    background-color: #1b4965;
     padding: 0;
     margin: 0;
     height: 80px;
@@ -89,7 +90,7 @@ li a {
     font-size: 30px;
     font-weight: 700;
     text-decoration: none;
-    color: #5c8d89;
+    color: #62b6cb;
     position: relative;
     top:20px;
     
@@ -114,10 +115,11 @@ li a {
   }
 
 p{
-    color: white;
+    color: #345568;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400; 
     font-size: 25px; 
+    padding:0 10px;
 }
 
 .question-2{
@@ -136,6 +138,14 @@ p{
     flex: 1;
     margin-left: 30px;
     margin-right: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow:2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    width: 25%;
+}
+
+.imagem-card{
+    width: 100%;
 }
 
 .container-2{
@@ -148,41 +158,46 @@ p{
 
 .priority{
     margin-bottom: 10px;
-    color: #5c8d89;
+    color: #1b4965;
     font-weight: 400;
 }
 
 button{
-    background-color: #a7d7c5;
-    color: #5c8d89;
+    background-color: #cae9ff;
+    color: #1b4965;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size:20px;
     border: none;
+    margin-bottom: 30px;
 }
 
-.button-positioning{
+/* .button-positioning{
     margin-top:35px;
 }
 
 .button-positioning-2{
-    margin-top:68px;
-}
-
-.button-positioning-3{
     margin-top:34px;
 }
 
+.button-positioning-3{
+    margin-top:0;
+}
+
+.button-positioning-4{
+    margin-top:0;
+} */
+
 .go-top{
 
-    color: #c4e6da;
+    color: #1b4965;
     position: static;
 
 
 }
 
 footer{
-    background-color: #c4e6da;
+    background-color: #fff;
     height: 100px;
 }
 
@@ -196,8 +211,8 @@ footer{
 
 @media only  screen and (min-width: 400px) and (max-width: 509px) {
 
-    body {
-        background-color: #74b49b;
+    body{
+        background-color: #cae9ff;
         text-align: center;
         margin:0px;
     
@@ -221,7 +236,7 @@ footer{
     
     h4 {
     
-        color:#ace9d3;
+        color:#59a5d8;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 700; 
         font-size: 30px ;
@@ -230,7 +245,7 @@ footer{
     }
     
     h5{
-        color:#5c8d89;
+        color:#133c55;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 700; 
         font-size: 30px ;
@@ -251,7 +266,7 @@ footer{
     
     .navbar{
     
-        background-color: #c4e6da;
+        background-color: #1b4965;
         padding: 0;
         margin: 0;
         height: 70px;
@@ -266,7 +281,7 @@ footer{
         font-size: 18px;
         font-weight: 700;
         text-decoration: none;
-        color: #5c8d89;
+        color:#59a5d8;
         position: relative;
         top:20px;
 
@@ -283,16 +298,16 @@ footer{
           height: 25px;
           position: relative;
           top: 18px;
-          border: #5c8d89;
+          border: #1b4965;
           border-width: 2px;
           font-size: 18px;
-          color: #5c8d89;
+          color: #1b4965;
           border-radius: 5px;
     
       }
     
     p{
-        color: white;
+        color: #345568;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 400; 
         font-size: 25px; 
@@ -300,7 +315,7 @@ footer{
     
     .question-2{
         position: relative;
-        top:70px;
+        top:40px;
     }
     
     
@@ -309,11 +324,25 @@ footer{
         position:relative;
         top: 5px;
       
+       
+      
     }
     .box{
-        flex: 1;
+        
         margin-left: 30px;
         margin-right: 30px;
+        background-color: transparent;
+        box-shadow: none;
+        width: 87%;
+        
+    
+        
+    }
+    
+    .imagem-card{
+
+        width: 100%;
+       
     }
     
     .container-2{
@@ -327,13 +356,13 @@ footer{
     .priority{
         margin-top: 30px;
         margin-bottom: 10px;
-        color: #5c8d89;
+        color: inherit;
         font-weight: 400;
     }
     
     button{
-        background-color: #a7d7c5;
-        color: #5c8d89;
+        background-color: #fff;;
+        color: #1b4965;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 700;
         font-size:20px;
@@ -354,15 +383,16 @@ footer{
     
     .go-top{
     
-        color: #c4e6da;
-        position: absolute;
+        color: #1b4965;
+        position: relative;
         margin-top: 30px;
+        
     
     
     }
     
     footer{
-        background-color: #c4e6da;
+        background-color: #fff;
         height: 100px;
     }
     
@@ -371,9 +401,7 @@ footer{
         font-weight: 400;
         position: relative;
         top:25px;
-
-
-}
+    }
 
 /* -------------------------------- Query 2 510-768 ------------------------------ */
 
@@ -382,7 +410,7 @@ footer{
 @media only screen and  (min-width:510px) and (max-width: 768px) {
 
     body{
-        background-color: #74b49b;
+        background-color: inherit;
         text-align: center;
         margin:0px;
     
@@ -474,7 +502,7 @@ footer{
       }
     
     p{
-        color: white;
+        color: #62b6cb;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 400; 
         font-size: 25px; 
@@ -497,7 +525,7 @@ footer{
         margin-left: 30px;
         margin-right: 30px;
     }
-    
+
     .container-2{
         display: block;
         position: relative;
