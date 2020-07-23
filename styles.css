@@ -41,30 +41,8 @@ h5{
     margin-top: -20px;
 }
 
-/* hr{
-    height: 3px;
-    border-style: dotted;
-    border-color: #c4e6da;
-    border-bottom: none;
-    border-left:none;
-    border-right:none;
-    border-width: 15px;
-    width: 30%;
-  
-} */
+ /* NAVBAR */
 
-
-
-/* ol{
-    color:#f4f9f4;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700; 
-    font-size: 50px;
-    list-style-position: inside;
-} */
-
-
-                                       /* NAVBAR */
 ul {
     list-style-type: none;
     margin: 0;
@@ -108,10 +86,10 @@ li a {
       height: 40px;
       position: relative;
       top: 18px;
-      border:#5fa8d3;
+      border:#1b4965;
       border-width: 2px;
       font-size: 18px;
-      color: #5fa8d3;
+      color: #1b4965;
       border-radius: 5px;
       font-family: 'Open Sans Condensed', sans-serif;
       font-weight: 700;
@@ -163,7 +141,6 @@ p{
 .priority{
     margin-bottom: 10px;
     color: #1b4965;
-    font-weight: 400;
 }
 
 button{
@@ -245,53 +222,27 @@ footer{
       }
     
     .navbar{
-    
-        background-color: #1b4965;
-        padding: 0;
-        margin: 0;
+   
         height: 70px;
-        position: relative;
-    
+
       }
     
     li a {
     
         margin:0 4px;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        text-decoration: none;
-        color:#59a5d8;
-        position: relative;
-        top:20px;
-
-        
-      
+        font-size:18px;
     }
-    
-      li a:hover {
-        color: #f4f9f4;
-       }
     
     .searchbar {
           width: 100px;
           height: 25px;
           position: relative;
           top: 21px;
-          border: #1b4965;
-          border-width: 2px;
-          font-size: 18px;
-          color: #1b4965;
-          border-radius: 5px;
-          font-family: 'Open Sans Condensed', sans-serif;
-          font-weight: 700; 
+        
     
       }
     
     p{
-        color: #345568;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 400; 
         font-size: 25px; 
     }
     
@@ -302,17 +253,10 @@ footer{
     
     
     .container-1{
-        display: block;
-        position:relative;
-        top: 5px;
-      
-       
-      
+        display: block; 
     }
     .box{
-        
-        margin-left: 30px;
-        margin-right: 30px;
+
         background-color: transparent;
         box-shadow: none;
         width: 87%;
@@ -337,19 +281,13 @@ footer{
     
     .priority{
         margin-top: 30px;
-        margin-bottom: 10px;
-        color: inherit;
-        font-weight: 400;
+        margin-bottom: 10px; 
+    }
+
+    button{
+        background-color: white;
     }
     
-    button{
-        background-color: #fff;;
-        color: #1b4965;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700;
-        font-size:20px;
-        border: none;
-    }
     
     .button-positioning{
         margin-top:0;
@@ -364,25 +302,7 @@ footer{
     }
     
     .go-top{
-    
-        color: #1b4965;
-        position: relative;
         margin-top: 30px;
-        
-    
-    
-    }
-    
-    footer{
-        background-color: #fff;
-        height: 100px;
-    }
-    
-    .copyright{
-        font-size: 40px;
-        font-weight: 400;
-        position: relative;
-        top:25px;
     }
 
 /* -------------------------------- Query 2 510-768 ------------------------------ */
@@ -400,98 +320,33 @@ footer{
     
     
     h1 {
-        color:#f4f9f4;
-        font-family: 'Amatic SC', cursive;
-        font-weight: 700; ;
-        font-size: 100px ;
-        
+        font-size: 100px;
     }
     
     h4 {
-    
-        color:#59a5d8 ;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700; 
-        font-size: 30px ;
-        margin-top: px;
-       
+        font-size: 30px ;    
     }
-    
-    h5{
-        color:#133c55;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700; 
-        font-size: 30px ;
-        margin-bottom: -20px;
-        margin-top: -20px;
-    }
-       
+  
      /* NAVBAR */
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-    
-      li {
-        display: inline;
-      }
     
     .navbar{
-    
-        background-color: #1b4965;
-        padding: 0;
-        margin: 0;
         height: 70px;
-        position: relative;
-    
       }
     
     li a {
     
         margin:0 10px;
-        font-family: 'Open Sans Condensed', sans-serif;
         font-size: 20px;
-        font-weight: 700;
-        text-decoration: none;
-        color: #59a5d8;
-        position: relative;
-        top:20px;
-        
       
       }
-    
-      li a:hover {
-        color: #f4f9f4;
-       }
+
     
     .searchbar {
           width: 130px;
           height: 30px;
           position: relative;
           top: 17px;
-          border: #1b4965;
-          border-width: 2px;
-          font-size: 18px;
-          color: #1b4965;
-          border-radius: 5px;
-          font-family: 'Open Sans Condensed', sans-serif;
-          font-weight: 700; 
-    
-    
       }
-    
-    p{
-        color: #345568;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 400; 
-        font-size: 25px; 
-    }
-    
-    .question-2{
-        position: relative;
-        top:70px;
-    }
     
     
     .container-1{
@@ -501,9 +356,6 @@ footer{
       
     }
     .box{
-        flex: 1;
-        margin-left: 30px;
-        margin-right: 30px;
         background-color: transparent;
         box-shadow: none;
         width: 80%;
@@ -523,15 +375,11 @@ footer{
         color: inherit;
         font-weight: 400;
     }
-    
-    button{
+
+    button {
         background-color: #fff;
-        color: #1b4965;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700;
-        font-size:20px;
-        border: none;
     }
+    
     
     .button-positioning{
         margin-top:0;
@@ -546,27 +394,9 @@ footer{
     }
     
     .go-top{
-    
-        color: #1b4965;
-        position: static;
         margin: 30px 0;
-    
-    
     }
     
-    footer{
-        background-color: #fff;
-        height: 100px;
-    }
-    
-    .copyright{
-        font-size: 40px;
-        font-weight: 400;
-        position: relative;
-        top:25px;
-
-
-}
 }
 
 /* ---------------------------------- Query 3 769-1199 ------------------------------- */
@@ -581,72 +411,30 @@ footer{
     
     
     h1 {
-        color:#f4f9f4;
-        font-family: 'Amatic SC', cursive;
-        font-weight: 700; ;
-        font-size: 100px ;
-        
+        font-size: 100px ;  
     }
     
     h4 {
-    
-        color:#59a5d8;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700; 
         font-size: 30px ;
-        margin-top: px;
-       
     }
     
     h5{
-        color:#133c55;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700; 
-        font-size: 30px ;
-        margin-bottom: -20px;
-        margin-top: -20px;
+   font-size: 30px ;
     }
        
        /* NAVBAR */
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-    
-      li {
-
-     display:inline;
-
-      }
     
     .navbar{
-    
-        background-color: #1b4965;
-        padding: 0;
-        margin: 0;
+
         height: 70px;
-        position: relative;
-    
+
       }
     
     li a {
     
         margin:0 10px;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 30px;
-        font-weight: 700;
-        text-decoration: none;
-        color: #59a5d8;
-        position: relative;
-        top:20px;
-        
-      
       }
     
-      li a:hover {
-        color: #f4f9f4;
-       }
     
     .searchbar {
           width: 130px;
@@ -654,28 +442,10 @@ footer{
           position: relative;
           top: 12px;
           right: -30px;
-          border: #5fa8d3;
-          border-width: 2px;
           font-size: 15px;
-          color: #5fa8d3;
-          border-radius: 5px;
-          font-family: 'Open Sans Condensed', sans-serif;
-          font-weight: 700;
-    
       }
     
-    p{
-        color: #345568;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 400; 
-        font-size: 25px; 
-    }
-    
-    .question-2{
-        position: relative;
-        top:70px;
-    }
-    
+
     
     .container-1{
         display: block;
@@ -712,17 +482,12 @@ footer{
     .priority{
         margin-top: 30px;
         margin-bottom: 10px;
-        color: inherit;
         font-weight: 400;
     }
     
     button{
         background-color: #fff;
-        color: #1b4965;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700;
         font-size:20px;
-        border: none;
         margin-top: 20px;
     }
     
@@ -739,25 +504,10 @@ footer{
     }
     
     .go-top{
-    
-        color: #1b4965;
-        position: static;
         margin: 40px 0;
-    
-    
     }
     
-    footer{
-        background-color: #fff;
-        height: 100px;
-    }
-    
-    .copyright{
-        font-size: 40px;
-        font-weight: 400;
-        position: relative;
-        top:25px;
-}
+
 }
 /*  ---------------------------------- Query 4 1200-1400 ------------------------------- */
 
@@ -765,11 +515,7 @@ footer{
 @media only screen and (min-width:1200px) and (max-width:1400px) {
 
     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
         margin-left: -30px;
-        
        }
                                            
         li {
@@ -778,31 +524,19 @@ footer{
        }
                                            
        .navbar{
-                                           
-          background-color: #1b4965;
-          padding: 0;
-          margin: 0;
-          height: 70px;
-                                           
+    
+          height:70px;                                
         }
                                            
        li a {
                                            
        margin:0 20px;
        display: inline;
-       font-family: 'Open Sans Condensed', sans-serif;
        font-size: 30px;
-       font-weight: 700;
-       text-decoration: none;
-       color: #59a5d8;
        position: relative;
        top:18px;
        
        }
-       
-       li a:hover {
-           color: #f4f9f4;
-          }
        
        
        .searchbar {
@@ -811,27 +545,7 @@ footer{
              position: relative;
              top: 13px;
              right:-60;
-             border: #5fa8d3;
-             border-width: 2px;
-             font-size: 15px;
-             color: #5fa8d3;
-             border-radius: 5px;
-             
-       
          }
-
-         footer{
-            background-color: #fff;
-            height: 100px;
-        }
-        
-        .copyright{
-            font-size: 40px;
-            font-weight: 400;
-            position: relative;
-            top:25px;
-    }
-
         }
 
     
