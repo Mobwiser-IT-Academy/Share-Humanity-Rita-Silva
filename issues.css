@@ -1,5 +1,5 @@
 body{
-  background-color: #74b49b;
+  background-color: #cae9ff;
   text-align: center;
   margin:0px;
 
@@ -14,14 +14,14 @@ h1 {
 }
 
 h3 {
-color:#ace9d3;
+color:#59a5d8;
 font-family: 'Open Sans Condensed', sans-serif;
 font-weight: 700; 
 font-size: 50px ;
 }
 
 p {
-  color: white;
+  color:#133c55;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 400; 
   font-size: 25px;
@@ -42,7 +42,7 @@ li {
 
 .navbar{
 
-  background-color: #c4e6da;
+  background-color: #1b4965;
   padding: 0;
   margin: 0;
   height: 80px;
@@ -57,7 +57,7 @@ li a {
   font-size: 30px;
   font-weight: 700;
   text-decoration: none;
-  color: #5c8d89;
+  color: #59a5d8;
   position: relative;
   top:20px;
   
@@ -72,26 +72,24 @@ li a:hover {
     width: 160px;
     height: 40px;
     position: relative;
-    top: 10px;
-    border: #5c8d89;
+    top: 12px;
+    border: #5fa8d3;
     border-width: 2px;
     font-size: 18px;
-    color: #5c8d89;
+    color: #5fa8d3;
     border-radius: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 700;
 
 }
 
-.covid19{
-    width: 70%;
 
-
-}
 
 
 
 .go-top{
 
-color: #c4e6da;
+color: #1b4965;
 position: static;
 
 
@@ -99,8 +97,10 @@ position: static;
 
 
 footer{
-background-color: #c4e6da;
+background-color: #fff;
 height: 100px;
+position: relative;
+bottom:0;
 }
 
 .copyright{
@@ -119,97 +119,37 @@ top:25px;
 
 
 h1 {
-color:#f4f9f4;
-font-family: 'Amatic SC', cursive;
-font-weight: 700; ;
 font-size: 80px ;
 
 }
 
 h3 {
-color:#ace9d3;
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: 700; 
 font-size: 40px ;
 }
 
 
-                                     /* NAVBAR */
-                                     ul {
-                                      list-style-type: none;
-                                      margin: 0;
-                                      padding: 0;
-                                    }
+ /* NAVBAR */
+
                                   
-                                    li {
-                                      display: inline;
-                                    }
-                                  
-                                  .navbar{
-                                  
-                                      background-color: #c4e6da;
-                                      padding: 0;
-                                      margin: 0;
-                                      height: 70px;
-                                      position: relative;
-                                  
-                                    }
-                                  
-                                  li a {
-                                  
-                                      margin:0 4px;
-                                      font-family: 'Open Sans Condensed', sans-serif;
-                                      font-size: 18px;
-                                      font-weight: 700;
-                                      text-decoration: none;
-                                      color: #5c8d89;
-                                      position: relative;
-                                      top:20px;
+ .navbar{
+
+  height:70px;
                               
-                                      
-                                    
-                                  }
                                   
-                                    li a:hover {
-                                      color: #f4f9f4;
-                                     }
+}
                                   
-                                  .searchbar {
-                                        width: 100px;
-                                        height: 25px;
-                                        position: relative;
-                                        top: 18px;
-                                        border: #5c8d89;
-                                        border-width: 2px;
-                                        font-size: 18px;
-                                        color: #5c8d89;
-                                        border-radius: 5px;
+ li a {
+ margin:0 4px;
+ font-size: 18px;
+}
                                   
-                                    }
 
-
-
-
-.go-top{
-
-color: #c4e6da;
-position: static;
-
+.searchbar {
+ width: 100px;
+ height: 25px;
+ position: relative;
+ top: 18px;
 }
-
-
-footer{
-background-color: #c4e6da;
-height: 100px;
-}
-
-.copyright{
-font-size: 40px;
-font-weight: 400;
-position: relative;
-top:25px;
-}
-
 
 }
 
@@ -219,58 +159,25 @@ top:25px;
 
 
 h1 {
-  color:#f4f9f4;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700; ;
-  font-size: 80px ;
-  
+  font-size: 80px ;  
 }
 
 h3 {
-color:#ace9d3;
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: 700; 
 font-size: 40px ;
 }
 
 
 /* NAVBAR */
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-}
-
-li {
-display: inline;
-}
 
 .navbar{
-
-background-color: #c4e6da;
-padding: 0;
-margin: 0;
 height: 70px;
-position: relative;
-
 }
 
 li a {
 
 margin:0 10px;
-font-family: 'Open Sans Condensed', sans-serif;
 font-size: 20px;
-font-weight: 700;
-text-decoration: none;
-color: #5c8d89;
-position: relative;
-top:20px;
 
-
-}
-
-li a:hover {
-color: #f4f9f4;
 }
 
 .searchbar {
@@ -278,37 +185,7 @@ color: #f4f9f4;
   height: 30px;
   position: relative;
   top: 17px;
-  border: #5c8d89;
-  border-width: 2px;
-  font-size: 18px;
-  color: #5c8d89;
-  border-radius: 5px;
-
 }
-
-
-
-
-.go-top{
-
-color: #c4e6da;
-position: static;
-
-}
-
-
-footer{
-  background-color: #c4e6da;
-  height: 100px;
-}
-
-.copyright{
-  font-size: 40px;
-  font-weight: 400;
-  position: relative;
-  top:25px;
-}
-
 
 }
 
@@ -318,99 +195,37 @@ footer{
 
 
 h1 {
-  color:#f4f9f4;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700; ;
   font-size: 80px ;
   
 }
 
 h3 {
-color:#ace9d3;
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: 700; 
 font-size: 40px ;
 }
 
 
  /* NAVBAR */
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-}
-
+ 
 .navbar{
 
-  background-color: #c4e6da;
-  padding: 0;
-  margin: 0;
   height: 70px;
-  position: relative;
 
 }
 
 li a {
 
   margin:0 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  color: #5c8d89;
-  position: relative;
-  top:20px;
-  
 
 }
-
-li a:hover {
-  color: #f4f9f4;
- }
 
 .searchbar {
     width: 130px;
     height: 30px;
     position: relative;
     top: 17px;
-    border: #5c8d89;
-    border-width: 2px;
-    font-size: 18px;
-    color: #5c8d89;
-    border-radius: 5px;
 
 }
-
-
-
-
-
-
-.go-top{
-
-color: #c4e6da;
-position: static;
-
-}
-
-
-footer{
-  background-color: #c4e6da;
-  height: 100px;
-}
-
-.copyright{
-  font-size: 40px;
-  font-weight: 400;
-  position: relative;
-  top:25px;
-}
-
-
 
 }
 
@@ -420,40 +235,24 @@ footer{
 
 
 h1 {
-  color:#f4f9f4;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700; ;
   font-size: 80px ;
-  
 }
 
 h3 {
-color:#ace9d3;
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: 700; 
+
 font-size: 40px ;
 }
 
 
  /* NAVBAR */
  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
   margin-left: -30px;
   
  }
-                                     
-  li {
-  display: inline;
- 
- }
-                                     
+
  .navbar{
-                                     
-    background-color: #c4e6da;
-    padding: 0;
-    margin: 0;
+
     height: 70px;
                                      
   }
@@ -461,59 +260,20 @@ font-size: 40px ;
  li a {
                                      
  margin:0 20px;
- display: inline;
- font-family: 'Open Sans Condensed', sans-serif;
- font-size: 30px;
- font-weight: 700;
- text-decoration: none;
- color: #5c8d89;
  position: relative;
  top:18px;
  
  }
  
- li a:hover {
-     color: #f4f9f4;
-    }
- 
- 
+
  .searchbar {
        width: 120px;
        height: 30px;
        position: relative;
        top: 10px;
        right:-60;
-       border: #5c8d89;
-       border-width: 2px;
        font-size: 15px;
-       color: #5c8d89;
-       border-radius: 5px;
-       
- 
+
    }
-
-
-
-.go-top{
-
-color: #c4e6da;
-position: static;
-
-}
-
-
-footer{
-  background-color: #c4e6da;
-  height: 100px;
-}
-
-.copyright{
-  font-size: 40px;
-  font-weight: 400;
-  position: relative;
-  top:25px;
-}
-
-
 
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: #74b49b;
+    background-color: #cae9ff;
     text-align: center;
     margin:0px;
 
@@ -14,7 +14,7 @@ h1 {
 }
 
 h3 {
-  color:#ace9d3;
+  color:#59a5d8;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700; 
   font-size: 50px ;
@@ -33,7 +33,7 @@ ul {
 
 .navbar{
 
-    background-color: #c4e6da;
+    background-color: #1b4965;
     padding: 0;
     margin: 0;
     height: 80px;
@@ -48,7 +48,7 @@ li a {
     font-size: 30px;
     font-weight: 700;
     text-decoration: none;
-    color: #5c8d89;
+    color: #59a5d8;
     position: relative;
     top:20px;
     
@@ -63,12 +63,15 @@ li a {
       width: 160px;
       height: 40px;
       position: relative;
-      top: 10px;
-      border: #5c8d89;
+      top: 12px;
+      border: #5fa8d3;
       border-width: 2px;
       font-size: 18px;
-      color: #5c8d89;
+      color: #5fa8d3;
       border-radius: 5px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 700;
+
 
   }
 
@@ -81,10 +84,11 @@ li a {
 .description-covid{
   width: 70%;
   text-align: center;
+  margin: 20px auto;
 }
 
   p {
-    color: white;
+    color: #133c55;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400; 
     font-size: 25px;
@@ -96,8 +100,12 @@ li a {
 .covidworld{
   width: 70%;
   position: relative;
+  }
 
 
+.covid-world-description{
+
+  margin-top: 50px;
 }
 
 
@@ -115,15 +123,14 @@ li a {
 
 .go-top{
 
-  color: #c4e6da;
-  position: static;
+  color: #1b4965;
 
 
  }
 
 
  footer{
-  background-color: #c4e6da;
+  background-color: #fff;
   height: 100px;
 }
 
@@ -141,125 +148,59 @@ li a {
 @media only  screen and (min-width: 400px) and (max-width: 509px) {
 
 
-body{
-  background-color: #74b49b;
-  text-align: center;
-  margin:0px;
-
-}
 
 h1 {
-  color:#f4f9f4;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700; ;
+
   font-size: 80px ;
   
 }
 
 h3 {
-color:#ace9d3;
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: 700; 
+
 font-size: 40px ;
 }
 
 
-                                       /* NAVBAR */
-                                       ul {
-                                        list-style-type: none;
-                                        margin: 0;
-                                        padding: 0;
-                                      }
+/* NAVBAR */
+
                                     
-                                      li {
-                                        display: inline;
-                                      }
                                     
-                                    .navbar{
                                     
-                                        background-color: #c4e6da;
-                                        padding: 0;
-                                        margin: 0;
-                                        height: 70px;
-                                        position: relative;
+.navbar {
                                     
-                                      }
-                                    
-                                    li a {
-                                    
-                                        margin:0 4px;
-                                        font-family: 'Open Sans Condensed', sans-serif;
-                                        font-size: 18px;
-                                        font-weight: 700;
-                                        text-decoration: none;
-                                        color: #5c8d89;
-                                        position: relative;
-                                        top:20px;
-                                
+height: 70px;
                                         
-                                      
-                                    }
                                     
-                                      li a:hover {
-                                        color: #f4f9f4;
-                                       }
-                                    
-                                    .searchbar {
-                                          width: 100px;
-                                          height: 25px;
-                                          position: relative;
-                                          top: 18px;
-                                          border: #5c8d89;
-                                          border-width: 2px;
-                                          font-size: 18px;
-                                          color: #5c8d89;
-                                          border-radius: 5px;
-                                    
-                                      }
-
-.covid19{
-    width: 70%;
 }
-
-.description-covid{
-width: 70%;
-text-align: center;
+                                    
+li a {
+                                    
+ margin:0 4px;
+ font-size: 18px;
+}                                 
+                                     
+.searchbar {
+width: 100px;
+height: 25px;
+top: 18px;
 }
 
 p {
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 400; 
-  font-size: 25px;
-  width: 70%;
-  margin: 30px auto;
+  width: 90%;
+}
 
+.covid19{
+  width: 90%;
 }
 
 .covidworld{
-width: 70%;
-position: relative;
-}
+  width: 90%;
+  }
 
-.go-top{
+  .estatisticas-covid{
 
-color: #c4e6da;
-position: static;
-
-}
-
-
-footer{
-  background-color: #c4e6da;
-  height: 100px;
-}
-
-.copyright{
-  font-size: 40px;
-  font-weight: 400;
-  position: relative;
-  top:25px;
-}
+    width: 90%;
+  }
 
 
 }
@@ -269,112 +210,59 @@ footer{
 @media only  screen and (min-width: 510px) and (max-width: 768px) {
 
 
-  body{
-    background-color: #74b49b;
-    text-align: center;
-    margin:0px;
-  
-  }
+ 
   
   h1 {
-    color:#f4f9f4;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700; ;
-    font-size: 80px ;
-    
+  font-size: 80px ;  
   }
   
   h3 {
-  color:#ace9d3;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700; 
   font-size: 40px ;
+  padding-right: 10px;
+  padding-left: 10px;
   }
   
   
 /* NAVBAR */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-li {
-  display: inline;
-}
 
 .navbar{
-
-  background-color: #c4e6da;
-  padding: 0;
-  margin: 0;
   height: 70px;
-  position: relative;
-
 }
 
 li a {
 
   margin:0 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  color: #5c8d89;
-  position: relative;
-  top:20px;
-  
-
 }
-
-li a:hover {
-  color: #f4f9f4;
- }
 
 .searchbar {
     width: 130px;
     height: 30px;
-    position: relative;
     top: 17px;
-    border: #5c8d89;
-    border-width: 2px;
-    font-size: 18px;
-    color: #5c8d89;
-    border-radius: 5px;
-
 }
   
   .covid19{
-      width: 70%;
+      width: 90%;
   }
   
   .description-covid{
-  width: 70%;
-  text-align: center;
+  width: 90%;
   }
   
   p {
-    color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 400; 
-    font-size: 25px;
-    width: 70%;
-    margin: 30px auto;
-  
+    width: 90%;
   }
   
   .covidworld{
-  width: 70%;
+  width: 90%;
   position: relative;
   }
-  
-  .go-top{
-  
-  color: #c4e6da;
-  position: static;
-  
+
+  .estatisticas-covid{
+
+    width: 90%;
   }
-  
   
   footer{
     background-color: #c4e6da;
@@ -395,125 +283,57 @@ li a:hover {
 
 @media only  screen and (min-width: 769px) and (max-width: 1199px) {
 
-
-  body{
-    background-color: #74b49b;
-    text-align: center;
-    margin:0px;
-  
-  }
-  
   h1 {
-    color:#f4f9f4;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700; ;
     font-size: 80px ;
-    
   }
   
   h3 {
-  color:#ace9d3;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700; 
   font-size: 40px ;
   }
   
   
    /* NAVBAR */
-   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline;
-  }
 
 .navbar{
-
-    background-color: #c4e6da;
-    padding: 0;
-    margin: 0;
     height: 70px;
-    position: relative;
-
   }
 
 li a {
 
     margin:0 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #5c8d89;
-    position: relative;
-    top:20px;
-    
   
   }
 
-  li a:hover {
-    color: #f4f9f4;
-   }
 
 .searchbar {
-      width: 130px;
-      height: 30px;
-      position: relative;
-      top: 17px;
-      border: #5c8d89;
-      border-width: 2px;
-      font-size: 18px;
-      color: #5c8d89;
-      border-radius: 5px;
-
-  }
+width: 130px;
+height: 30px;     
+top: 17px;
+}
   
   .covid19{
-      width: 70%;
+      width: 90%;
   }
   
   .description-covid{
-  width: 70%;
-  text-align: center;
+  width: 90%;
   }
   
   p {
-    color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 400; 
-    font-size: 25px;
-    width: 70%;
-    margin: 30px auto;
-  
-  }
+    width: 90%;
+  };
   
   .covidworld{
-  width: 70%;
+  width: 90%;
   position: relative;
   }
-  
-  .go-top{
-  
-  color: #c4e6da;
-  position: static;
-  
-  }
-  
-  
-  footer{
-    background-color: #c4e6da;
-    height: 100px;
-}
 
-.copyright{
-    font-size: 40px;
-    font-weight: 400;
-    position: relative;
-    top:25px;
-}
+  .estatisticas-covid{
+
+    width: 90%;
+  }
+
   
   
   
@@ -524,12 +344,7 @@ li a {
 @media only  screen and (min-width: 1200px) and (max-width: 1400px) {
 
 
-  body{
-    background-color: #74b49b;
-    text-align: center;
-    margin:0px;
   
-  }
   
   h1 {
     color:#f4f9f4;
@@ -540,18 +355,13 @@ li a {
   }
   
   h3 {
-  color:#ace9d3;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700; 
   font-size: 40px ;
   }
   
   
    /* NAVBAR */
    ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+   
     margin-left: -30px;
     
    }
@@ -563,9 +373,7 @@ li a {
                                        
    .navbar{
                                        
-      background-color: #c4e6da;
-      padding: 0;
-      margin: 0;
+      background-color: #1b4965;
       height: 70px;
                                        
     }
@@ -574,39 +382,27 @@ li a {
                                        
    margin:0 20px;
    display: inline;
-   font-family: 'Open Sans Condensed', sans-serif;
-   font-size: 30px;
-   font-weight: 700;
-   text-decoration: none;
-   color: #5c8d89;
-   position: relative;
+   color: #59a5d8;
    top:18px;
    
    }
    
-   li a:hover {
-       color: #f4f9f4;
-      }
-   
-   
+
    .searchbar {
          width: 120px;
          height: 30px;
          position: relative;
          top: 10px;
          right:-60;
-         border: #5c8d89;
+         border: #5fa8d3;
          border-width: 2px;
          font-size: 15px;
-         color: #5c8d89;
+         color: #5fa8d3;
          border-radius: 5px;
          
    
      }
   
-  .covid19{
-      width: 70%;
-  }
   
   .description-covid{
   width: 70%;
@@ -614,7 +410,7 @@ li a {
   }
   
   p {
-    color: white;
+    color:#133c55;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400; 
     font-size: 25px;
@@ -628,26 +424,11 @@ li a {
   position: relative;
   }
   
-  .go-top{
+ 
   
-  color: #c4e6da;
-  position: static;
-  
-  }
-  
-  
-  footer{
-    background-color: #c4e6da;
-    height: 100px;
-}
 
-.copyright{
-    font-size: 40px;
-    font-weight: 400;
-    position: relative;
-    top:25px;
-}
-  
+
+
   
   
   }
