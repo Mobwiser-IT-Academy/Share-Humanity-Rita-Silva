@@ -157,6 +157,12 @@ button{
     margin-bottom: 30px;
 }
 
+button:hover {
+    
+    cursor: pointer;
+
+}
+
 /* .button-positioning{
     margin-top:35px;
 }
