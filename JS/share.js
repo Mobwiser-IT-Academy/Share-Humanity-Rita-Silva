@@ -162,7 +162,6 @@ function append(){
 }
 
 createHtml();
-issue1();
 remove();
 append();
 
