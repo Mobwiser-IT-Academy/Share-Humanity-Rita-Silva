@@ -30,7 +30,6 @@ let issues = {
 }
 
 
-
 function createHtml(){
 
   let container = document.createElement("div");
@@ -49,7 +48,7 @@ function createHtml(){
   container.appendChild(div);
 
   div.classList.add("box");
-  div.id="issue" + i+1;
+  div.id="issue" + (i+1);
 
   let img = document.createElement("img");
   img.src=issues.src[i];
@@ -83,31 +82,22 @@ function createHtml(){
   container.appendChild(div);
 
   div.classList.add("box");
-  div.id="issue1";
+
   }
   
-
 }
 
-  var object = [
-    issue1 = document.getElementById("#issue1"),
-    issue2 = document.getElementById("#issue2"),
-    issue3 = document.getElementById("#issue3"),
-    issue4 = document.getElementById("#issue4"),
-    issue5 = document.getElementById("#issue5"),
-    issue6 = document.getElementById("#issue6"),
-    issue7 = document.getElementById("#issue7"),
-    issue8 = document.getElementById("#issue8"),
-   ]
+var object = [
+  issue1 = document.getElementById("#issue1"),
+  issue2 = document.getElementById("#issue2"),
+  issue3 = document.getElementById("#issue3"),
+  issue4 = document.getElementById("#issue4"),
+  issue5 = document.getElementById("#issue5"),
+  issue6 = document.getElementById("#issue6"),
+  issue7 = document.getElementById("#issue7"),
+  issue8 = document.getElementById("#issue8"),
+ ]
 
-
-
-
-
-
-
-
-// var object  = [issue1 , issue2, issue3, issue4, issue5, issue6, issue7, issue8];
 
 function remove(){
 
@@ -145,6 +135,9 @@ let numbersArray = createArrayOfNumbers(0,7);
 
 
 function append(){
+
+ 
+
   
   for(i=0; i<=7; i++){
 
