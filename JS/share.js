@@ -79,9 +79,7 @@ function createHtml(){
 
   div.appendChild(a);
 
-  container.appendChild(div);
-
-  div.classList.add("box");
+  
 
   }
   
