@@ -30,10 +30,15 @@ let issues = {
 }
 
 
+
 function createHtml(){
 
+  let array= [];
+
+  let section= document.getElementById("issues-container")
+
   let container = document.createElement("div");
- 
+
   let goTop= document.getElementById("#goTop");
 
   document.body.insertBefore(container, goTop);
@@ -41,14 +46,19 @@ function createHtml(){
   container.classList.add("container-1");
   container.id="container-1";
 
-  for(i=0; i<8; i++){
+  section.insertAdjacentElement('afterbegin', container);
+
+
+  for (i=0; i<8; i++){
 
   let div = document.createElement("div");
-
-  container.appendChild(div);
+  
 
   div.classList.add("box");
   div.id="issue" + (i+1);
+
+  array.push(div);
+  container.appendChild(array[i]);
 
   let img = document.createElement("img");
   img.src=issues.src[i];
@@ -70,91 +80,150 @@ function createHtml(){
   button.innerHTML="VIEW DETAIL";
   a.href=issues.href[i]
 
-  if(i>0){
-    a.href=issues.href[1]
-  }
-
-
   a.appendChild(button);
 
   div.appendChild(a);
 
-  
 
-  }
-  
-}
-
-var object = [
-  issue1 = document.getElementById("#issue1"),
-  issue2 = document.getElementById("#issue2"),
-  issue3 = document.getElementById("#issue3"),
-  issue4 = document.getElementById("#issue4"),
-  issue5 = document.getElementById("#issue5"),
-  issue6 = document.getElementById("#issue6"),
-  issue7 = document.getElementById("#issue7"),
-  issue8 = document.getElementById("#issue8"),
- ]
-
-
-function remove(){
-
-
-
-for (i=0; i<object.length; i++){
-
-    object[i].remove();
-}
-
-}
-
-function getRandomNumber(min,max){
-
-  let step1 = max - min + 1;
-  let step2 = Math.random()*step1;
-  let result = Math.floor(step2)+min;
-  return result;
-  console.log(result);
-}
-function createArrayOfNumbers(start, end){
-  let myArray=[];
-  
-  for(let i= start; i<=end; i++){
-    myArray.push(i);
+  if(i>0){
+    a.href=issues.href[1]
   }
 
-  return myArray;
-  
+  }
 
+  
 }
 
-let numbersArray = createArrayOfNumbers(0,7);
-
-
-
-function append(){
 
  
 
+// function getRandomNumber(min,max){
+
+//   let step1 = max - min + 1;
+//   let step2 = Math.random()*step1;
+//   let result = Math.floor(step2)+min;
+//   return result;
+//   console.log(result);
+// }
+
+// function createArrayOfNumbers(start, end){
+//   let myArray=[];
   
-  for(i=0; i<=7; i++){
+//   for(let i= start; i<=end; i++){
+//     myArray.push(i);
+//   }
+
+//   return myArray;
+  
+
+// }
+
+// let numbersArray = createArrayOfNumbers(0,7);
+
+
+
+// function append(){
+
+
+//   for(i=0; i<8; i++){
 
   
-  let randomIndex = getRandomNumber(0, numbersArray.length-1);
-  let randomNumber = numbersArray[randomIndex];
-  numbersArray.splice(randomIndex,1);
+//   let randomIndex = getRandomNumber(0, numbersArray.length-1);
+//   let randomNumber = numbersArray[randomIndex];
+//   numbersArray.splice(randomIndex,1);
 
-  document.getElementById("#container-1").appendChild(object[randomNumber]);
+//   let text = document.createTextNode("OLA")
 
-  }
+//   let container= document.getElementById("#container-1");
+
+//   container.appendChild(text);
+
+//   }
 
 
   
-}
+// }
 
 createHtml();
-remove();
-append();
+
+let container= document.getElementById("container-1");
+let issue1= document.getElementById("issue1");
+let issue2= document.getElementById("issue2");
+let issue3= document.getElementById("issue3");
+let issue4= document.getElementById("issue4");
+let issue5= document.getElementById("issue5");
+let issue6= document.getElementById("issue6");
+let issue7= document.getElementById("issue7");
+let issue8= document.getElementById("issue8");
 
 
+function showAll(){
+  container.appendChild(issue1);
+  container.appendChild(issue2);
+  container.appendChild(issue3);
+  container.appendChild(issue4);
+  container.appendChild(issue5);
+  container.appendChild(issue6);
+  container.appendChild(issue7);
+  container.appendChild(issue8);
 
+}
+
+function health(){
+
+  container.appendChild(issue1)
+  issue2.remove();
+  issue3.remove();
+  issue4.remove();
+  issue5.remove();
+  issue6.remove();
+  issue7.remove();
+  issue8.remove();
+
+}
+
+function social(){
+
+  issue1.remove();
+  issue5.remove();
+
+  container.appendChild(issue2);
+  container.appendChild(issue3);
+  container.appendChild(issue4);
+  container.appendChild(issue6);
+  container.appendChild(issue7);
+  container.appendChild(issue8);
+ 
+}
+
+function economic(){
+
+  issue1.remove();
+  issue5.remove();
+  issue8.remove();
+
+  container.appendChild(issue2);
+  container.appendChild(issue3);
+  container.appendChild(issue4);
+  container.appendChild(issue6);
+  container.appendChild(issue7);
+  
+
+
+}
+
+function environment(){
+  
+  issue1.remove();
+  issue2.remove();
+  issue3.remove();
+  issue6.remove();
+  issue7.remove();
+  issue8.remove();
+
+
+  container.appendChild(issue4);
+  container.appendChild(issue5);
+
+
+}
