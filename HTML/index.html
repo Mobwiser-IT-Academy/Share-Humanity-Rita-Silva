@@ -31,8 +31,26 @@
         <li><a class="nav-item" href="#">ABOUT US</a></li>
         <li><a class="nav-item" href="#">OUR WORK</a></li>
         <li><a class="nav-item" id="contact" href="#">CONTACT</a></li>
-        <li> <input class="searchbar" type="text" placeholder="   Search.."></li>
-      </ul>
+        <li> <div class="search-container">
+            <form action="/action_page.php">
+              <input id="searchbar-1" class="searchbar" type="text" placeholder="Search.." name="search">
+              <button id="search-button" class="search-button" type="submit" onclick="searchAction()"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+      </ul> 
+
+    </div>
+
+    <div class="filter">
+
+<ul>
+    <li id="show-all" onclick="showAll()"><a href="#issues-container">Show All issues</a></li>
+    <li id="health" onclick="health()"><a href="#issues-container">Health</a></li>
+    <li id="social" onclick="social()"><a href="#issues-container">Social</a></li>
+    <li id="economic" onclick="economic()" ><a href="#issues-container">Economic</a></li>
+    <li id="climate" onclick="environment()"><a href="#issues-container">Environment</a></li>
+    <li></li>
+</ul>
 
     </div>
 
@@ -43,6 +61,9 @@
  
    <div class="subtitulo"> <h4> What are the humanitarian global issues we are facing right now? </h4>
    </div>
+
+
+   <section id="issues-container"></section>
 
 <!-- <div class="container-1" id="#container-1">
 
