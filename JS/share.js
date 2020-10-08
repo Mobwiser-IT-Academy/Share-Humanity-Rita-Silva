@@ -11,56 +11,63 @@ const issues = [
 	{
 		title: "Poverty",
 		src: "https://borgenproject.org/wp-content/uploads/Poverty-in-Malawi.jpg",
-		description: "",
-		href: "",
+		description:
+			"More than <strong> 704 Million </strong> people in the world live in extreme poverty.",
+		href: "issues.html",
 	},
 
 	{
 		title: "Hunger",
 		src:
 			"https://www.lowyinstitute.org/sites/default/files/49838682888_f94f9ad9f4_k_0.jpg",
-		description: "",
-		href: "",
+		description:
+			"Around the world, <strong>821 Million </strong> people do not have enough of the food they need to live an active, healthy life",
+		href: "issues.html",
 	},
 
 	{
 		title: "Water",
 		src:
 			"ttps://www.health.harvard.edu/media/content/images/cr/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg",
-		description: "",
-		href: "",
+		description:
+			"<strong> 829 000</strong> people are estimated to die each year from diarrhoea as a result of unsafe drinking-water, sanitation, and hand hygiene.",
+		href: "issues.html",
 	},
 
 	{
 		title: "Climate Change",
 		src:
 			"https://images.theconversation.com/files/292578/original/file-20190916-19030-1c91vdb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=cli",
-		description: "",
-		href: "",
+		description:
+			"<strong>11%</strong> of the world’s population is currently vulnerable to climate change impacts such as droughts, floods, heat waves, extreme weather events and sea-level rise",
+		href: "issues.html",
 	},
 
 	{
 		title: "Refugees",
 		src:
 			"https://www.theelders.org/sites/default/files/migrated4/syrian-refugee-child-beach-600x400.jpg",
-		description: "",
-		href: "",
+		description:
+			"At least <strong> 79.5 Million </strong> people around the world have been forced to flee their homes. Among them are nearly <strong>26 Million</strong> refugees, around half of whom are under the age of 18",
+		href: "issues.html",
 	},
 
 	{
 		title: "Gender Equality",
 		src:
 			"https://i1.wp.com/www.travindy.com/wp-content/uploads/2017/12/PATA-will-highlight-the-issue-of-gender-equality-in-2018-Dec122017.png?resize=710%2C502&ssl=1",
-		description: "",
-		href: "",
+		description:
+			"Despite progress, gender inequality continues to hold women and girls back and deprive them of basic rights and opportunities.",
+		href: "issues.html",
 	},
 
 	{
 		title: "Domestic Violence",
 		src:
 			"https://media3.s-nbcnews.com/j/newscms/2018_43/2616181/181023-domestic-violence-stock-ac-618p_5c28e9c89f761909895faa939e650813.fit-2000w.jpg",
-		description: "",
-		href: "",
+		description:
+			"About <strong>1 in 3 (35%) </strong> of women worldwide have experienced either physical and/or sexual intimate partner violence or non-partner sexual violence in their lifetime.",
+		href: "issues.html",
 	},
 ];
 
