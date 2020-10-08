@@ -10,49 +10,55 @@ const issues = [
 
 	{
 		title: "Poverty",
-		src: "",
+		src: "https://borgenproject.org/wp-content/uploads/Poverty-in-Malawi.jpg",
 		description: "",
 		href: "",
 	},
 
 	{
 		title: "Hunger",
-		src: "",
+		src:
+			"https://www.lowyinstitute.org/sites/default/files/49838682888_f94f9ad9f4_k_0.jpg",
 		description: "",
 		href: "",
 	},
 
 	{
 		title: "Water",
-		src: "",
+		src:
+			"ttps://www.health.harvard.edu/media/content/images/cr/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg",
 		description: "",
 		href: "",
 	},
 
 	{
 		title: "Climate Change",
-		src: "",
+		src:
+			"https://images.theconversation.com/files/292578/original/file-20190916-19030-1c91vdb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=cli",
 		description: "",
 		href: "",
 	},
 
 	{
 		title: "Refugees",
-		src: "",
+		src:
+			"https://www.theelders.org/sites/default/files/migrated4/syrian-refugee-child-beach-600x400.jpg",
 		description: "",
 		href: "",
 	},
 
 	{
 		title: "Gender Equality",
-		src: "",
+		src:
+			"https://i1.wp.com/www.travindy.com/wp-content/uploads/2017/12/PATA-will-highlight-the-issue-of-gender-equality-in-2018-Dec122017.png?resize=710%2C502&ssl=1",
 		description: "",
 		href: "",
 	},
 
 	{
 		title: "Domestic Violence",
-		src: "",
+		src:
+			"https://media3.s-nbcnews.com/j/newscms/2018_43/2616181/181023-domestic-violence-stock-ac-618p_5c28e9c89f761909895faa939e650813.fit-2000w.jpg",
 		description: "",
 		href: "",
 	},
