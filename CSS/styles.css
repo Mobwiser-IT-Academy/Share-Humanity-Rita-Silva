@@ -82,6 +82,7 @@ li {
 
 .navbar li a:hover {
     color: #f4f9f4;
+    
 }
 
 .searchbar {
@@ -123,6 +124,7 @@ li {
     opacity: 0;
     animation: fade 3s forwards;
     animation-play-state:running;
+    
 }
 
 @keyframes fade {
@@ -135,52 +137,63 @@ li {
     }
 }
 
-/* .filter:hover {
-    transition:1s opacity;
-    opacity:1;
-  } */
-
-
-/* 
-.filter:hover {
-animation-name: filter-animation;
-animation-duration: 1.5s;
-animation-fill-mode: forwards;
-
-}
-
-@keyframes filter-animation{
-    0% {opacity: 0;}
-    100% {opacity:1}
-
-} */
 
 .filter li {
 
     margin: 0 30px;
-    font-size: 20px;
-    font-weight: 800;
-    text-transform: uppercase;
     padding: 0;
+       
 }
 
-.filter li a {
+.filter  li a {
 
     text-decoration: none;
     color: #1D4965;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
 }
 
-.filter li:hover {
-
-    cursor: pointer;
-    color: #CAE9FF;
+.filter  li a:hover{
+    font-size: 1.3rem;
+    color:#5AA5D7;
 }
 
-.filter li:active {
-    color: #fff;
+
+
+#issues-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 25px;
+    padding: 0;
+    justify-content: center;
 }
 
-p {
+#issues-container div{
+    margin: 35px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    width: 20%;
+
+}
+
+#issues-container img{
+    width: 100%;
+
+}
+
+#issues-container a{
+
+    text-decoration: none;
+    color:#1b4965;
+    text-transform: uppercase;
+
+}
+
+#issues-container p {
     color: #345568;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400;
@@ -188,50 +201,9 @@ p {
     padding: 0 10px;
 }
 
-.question-2 {
-    position: relative;
-    top: 70px;
-}
-
-
-.container-1 {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    top: 25px;
-    padding: 0;
-    justify-content: center;
 
 
 
-
-}
-
-.box {
-
-    margin: 35px;
-    border-radius: 3px;
-    background-color: #fff;
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-    width: 20%;
-}
-
-.imagem-card {
-    width: 100%;
-}
-
-/* .container-2{
-    display: flex;
-    position: relative;
-    top:50px;
-    margin-bottom: 200px;
-
-} */
-
-.priority {
-    margin-bottom: 10px;
-    color: #1b4965;
-}
 
 button {
     background-color: #cae9ff;
@@ -249,21 +221,6 @@ button:hover {
 
 }
 
-/* .button-positioning{
-    margin-top:35px;
-}
-
-.button-positioning-2{
-    margin-top:34px;
-}
-
-.button-positioning-3{
-    margin-top:0;
-}
-
-.button-positioning-4{
-    margin-top:0;
-} */
 
 .go-top {
 
@@ -272,10 +229,6 @@ button:hover {
     right:6px;
     top:785px;
     z-index: 1;
-
-   
-
-
 }
 
 footer {
@@ -396,9 +349,6 @@ footer {
     .filter li {
 
         margin: 0 10px;
-        font-size: 15px;
-        font-weight: 800;
-        text-transform: uppercase;
         padding: 0;
         position: relative;
         left:10px;
@@ -406,25 +356,29 @@ footer {
     
     .filter li a {
     
+        font-size: 15px;
         text-decoration: none;
         color: #1D4965;
+        font-weight: 800;
+        text-transform: uppercase;
     }
     
-    .filter li:hover {
+    .filter li a:hover {
     
         cursor: pointer;
-        color: #CAE9FF;
+        color: #5AA5D7;
+        font-size: 1.05rem;
     }
     
-    .filter li:active {
-        color: #fff;
-    }
+  
 
 
 
 
 
-    p {
+
+
+   #issues-container p {
         font-size: 25px;
     }
 
@@ -434,11 +388,11 @@ footer {
     }
 
 
-    .container-1 {
+ #issues-container {
         display: flex;
     }
 
-    .box {
+  #issues-container div {
 
         background-color: transparent;
         box-shadow: none;
@@ -448,7 +402,7 @@ footer {
 
     }
 
-    .imagem-card {
+  #issues-container img {
 
         width: 100%;
 
@@ -456,18 +410,7 @@ footer {
 
 
 
-    .container-2 {
-        display: block;
-        position: relative;
-        top: 10px;
-        margin-bottom: 0px;
 
-    }
-
-    .priority {
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
 
     button {
         background-color: white;
@@ -576,34 +519,36 @@ footer {
         left:10px;
     }
 
+    .filter li a {
+    
+        font-size: 15px;
+        text-decoration: none;
+        color: #1D4965;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    .filter li a:hover {
+    
+        cursor: pointer;
+        color: #5AA5D7;
+        font-size: 1.05rem;
+    }
+    
 
 
-    .container-1 {
+
+#issues-container {
         display: flex;
         position: relative;
         top: 5px;
 
     }
 
-    .box {
+  #issues-container div {
         background-color: transparent;
         box-shadow: none;
         width: 80%;
-    }
-
-    .container-2 {
-        display: block;
-        position: relative;
-        top: 10px;
-        margin-bottom: 0px;
-
-    }
-
-    .priority {
-        margin-top: 30px;
-        margin-bottom: 10px;
-        color: inherit;
-        font-weight: 400;
     }
 
     button {
@@ -714,7 +659,7 @@ footer {
     }
 
 
-    .container-1 {
+#issues-container {
         display: flex;
         position: relative;
         top: 5px;
@@ -722,7 +667,7 @@ footer {
 
     }
 
-    .box {
+#issues-container div{
 
         background-color: transparent;
         box-shadow: none;
@@ -731,27 +676,12 @@ footer {
 
     }
 
-    .imagem-card {
+#issues-container img {
 
         width: 100%;
         margin-top: 20px;
     }
 
-    .container-2 {
-        display: block;
-        position: relative;
-        top: 10px;
-        margin-bottom: 0px;
-
-
-
-    }
-
-    .priority {
-        margin-top: 30px;
-        margin-bottom: 10px;
-        font-weight: 400;
-    }
 
     button {
         background-color: #fff;
@@ -859,7 +789,7 @@ footer {
     }
 
 
-    .container-1 {
+ #issues-container {
         display: flex;
         position: relative;
         top: 200px;
@@ -867,7 +797,7 @@ footer {
 
     }
 
-    .box {
+#issues-container div {
 
         background-color: transparent;
         box-shadow: none;
@@ -876,19 +806,12 @@ footer {
 
     }
 
-    .imagem-card {
+#issues-container img {
 
         width: 100%;
         margin-top: 20px;
     }
 
-   
-
-    .priority {
-        margin-top: 30px;
-        margin-bottom: 10px;
-        font-weight: 400;
-    }
 
     button {
         background-color: #fff;
