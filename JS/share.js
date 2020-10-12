@@ -146,7 +146,5 @@ function filterByType(issue) {
 
 
   container.innerHTML = issuesHtml;
-  console.log(array)
-
 
 };
