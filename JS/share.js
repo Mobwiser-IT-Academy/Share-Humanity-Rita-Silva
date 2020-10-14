@@ -23,7 +23,7 @@ const issues = [{
   },
 
   {
-    category: ["Social", "Environment", "Planet", "Water"],
+    category: ["Social", "Environment", "Planet", "Water", "Climate"],
     title: "Water",
     src: "https://www.health.harvard.edu/media/content/images/cr/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg",
     description: "<strong> 829 000</strong> people are estimated to die each year from diarrhoea as a result of unsafe drinking-water, sanitation, and hand hygiene.",
@@ -31,7 +31,7 @@ const issues = [{
   },
 
   {
-    category: ["Environment", "Climate change", "Planet"],
+    category: ["Environment", "Climate change", "Planet", "climate"],
     title: "Climate Change",
     src: "https://images.theconversation.com/files/292578/original/file-20190916-19030-1c91vdb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=cli",
     description: "<strong>11%</strong> of the world’s population is currently vulnerable to climate change impacts such as droughts, floods, heat waves, extreme weather events and sea-level rise",
