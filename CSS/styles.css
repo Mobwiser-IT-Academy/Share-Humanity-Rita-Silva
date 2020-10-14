@@ -227,7 +227,7 @@ button:hover {
     color: #1b4965;
     position: fixed;
     right:6px;
-    top:785px;
+    top:775px;
     z-index: 1;
 }
 
@@ -570,7 +570,7 @@ footer {
 
     .go-top {
         margin: 40px 0;
-        top:750px;
+        top:735px;
         right:10px;
     }
 
@@ -701,8 +701,10 @@ footer {
         margin-top: 0;
     }
 
+   
     .go-top {
         margin: 40px 0;
+        top:735px
     }
 
 }
@@ -833,7 +835,7 @@ footer {
 
     .go-top {
         margin: 40px 0;
-        top:750px;
+        top:735px;
         right:20px;
     }
 
