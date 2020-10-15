@@ -244,9 +244,210 @@ footer {
     top: 25px;
 }
 
+/*-------------------------------------------------------- QUERY --------------*/
+
+@media only screen and (min-width: 0px) and (max-width: 445px) {
+
+
+    .imagem-planeta {
+        width: 30%;
+        margin-top: 35px;
+        margin-bottom: -20px;
+
+    }
+
+
+    h1 {
+        font-size: 100px;
+    }
+
+    h4 {
+        font-size: 30px;
+        margin: 2px 15px;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li  {
+        display: inline;
+    }
+
+    .navbar {
+
+        height: 50px;
+
+    }
+
+
+    .navbar  ul {
+        position: relative;
+        left: -80px;
+        top:-5px
+    }
+
+   .navbar li a {
+
+        margin: 0px 2px;
+        font-size: 15px;
+    }
+
+    .searchbar {
+        width: 150px;
+        height: 33px;
+        position: relative;
+        top: 12px;
+        right: 0px;
+        font-size: 15px;
+    }
+
+    .search-container {
+
+        position: absolute;
+        right: -80px;
+        padding: 0;
+        margin: 0;
+        top:0;
+        float: right;
+
+    }
+
+    .search-button {
+        background-color: #CAE9FF;
+        position: absolute;
+        top: 12px;
+        right: 0;
+        height: 35px;
+        width: 35px;
+    }
+
+    .filter {
+        background-color: rgba(255, 255, 255, 0.651);
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1D4965;
+        opacity: 0;
+        animation: fade 3s forwards;
+        animation-play-state:running;
+    }
+    
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .filter li {
+
+        margin: 0 4px;
+        padding: 0;
+        position: relative;
+        left:10px;
+    }
+    
+    .filter li a {
+    
+        font-size: 10px;
+        text-decoration: none;
+        color: #1D4965;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    .filter li a:hover {
+        color:#1D4965;
+        font-size: 10px;
+
+    }
+
+   #issues-container p {
+    font-size: 25px;
+}
+
+.question-2 {
+    position: relative;
+    top: 40px;
+}
+
+
+#issues-container {
+    display: flex;
+}
+
+#issues-container div {
+
+    background-color: transparent;
+    box-shadow: none;
+    width: 87%;
+
+
+
+}
+
+#issues-container img {
+
+    width: 100%;
+
+}
+
+
+
+
+
+button {
+    background-color: white;
+}
+
+
+.button-positioning {
+    margin-top: 0;
+}
+
+.button-positioning-2 {
+    margin-top: 0;
+}
+
+.button-positioning-3 {
+    margin-top: 0;
+}
+
+.go-top {
+    position: static;
+    margin: 40px 0;
+    top:750px;
+    right:10px;
+}
+
+footer {
+    position: relative;
+    background-color: #fff;
+    height: 85px;
+    bottom:-190px;
+}
+
+.copyright{
+    font-size: 30px;
+}
+
+
+    
+  
+}
+
+
 /*----------------------------------------- !!Query 1 400-509!! -------------------------- */
 
-@media only screen and (min-width: 400px) and (max-width: 509px) {
+@media only screen and (min-width: 445px) and (max-width: 509px) {
 
 
     .imagem-planeta {

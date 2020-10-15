@@ -156,11 +156,143 @@ li a {
   top:25px;
 }
 
+@media only  screen and (min-width: 0px) and (max-width: 444px) {
+
+  h1 {
+
+    font-size: 80px ;
+    
+  }
+  
+  h3 {
+  
+  font-size: 40px ;
+  }
+  
+  
+  /* NAVBAR */
+  
+                                      
+                                      
+                                      
+  .navbar {
+                                      
+  height: 70px;
+                                          
+                                      
+  }
+                                      
+  .navbar li a {
+                                      
+   margin:0 4px;
+   font-size: 18px;
+  }    
+  
+  .navbar{
+    height: 60px;
+  }
+  
+  .navbar li a {
+  
+    margin:0 4px;
+    font-size: 17px;
+  }
+  
+  .navbar {
+
+    height: 50px;
+
+}
+
+
+.navbar  ul {
+    position: relative;
+    left: -80px;
+    top:-5px
+}
+
+.navbar li a {
+
+    margin: 0px 2px;
+    font-size: 15px;
+}
+
+.searchbar {
+    width: 150px;
+    height: 33px;
+    position: relative;
+    top: 12px;
+    right: 0px;
+    font-size: 15px;
+}
+
+.search-container {
+
+    position: absolute;
+    right: -80px;
+    padding: 0;
+    margin: 0;
+    top:0;
+    float: right;
+
+}
+
+.search-button {
+    background-color: #CAE9FF;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    height: 35px;
+    width: 35px;
+}
+                                       
+  
+  
+  p {
+    width: 90%;
+  }
+  
+  .covid19{
+    width: 90%;
+  }
+  
+  .covidworld{
+    width: 90%;
+    }
+  
+    .estatisticas-covid{
+  
+      width: 90%;
+    }
+
+    .go-top {
+      position: static;
+      margin: 40px 0;
+      top:750px;
+      right:10px;
+  }
+  
+  footer {
+      position: relative;
+      background-color: #fff;
+      height: 100px;
+      bottom:-230px;
+  }
+  
+  .copyright{
+    position: relative;
+    top:30px;
+      font-size: 30px;
+  }
+  
+  
+  }
+  
 
 
 /* ---------------------------------------------------------- !!QUERY 1 400-509!! ------------------------------------------------------------- */
 
-@media only  screen and (min-width: 400px) and (max-width: 509px) {
+@media only  screen and (min-width: 445px) and (max-width: 509px) {
 
 
 
@@ -195,13 +327,13 @@ height: 70px;
 }    
 
 .navbar{
-  height: 70px;
+  height: 60px;
 }
 
 .navbar li a {
 
-  margin:0 5px;
-  font-size: 20px;
+  margin:0 4px;
+  font-size: 17px;
 }
 
 .searchbar {
@@ -257,7 +389,7 @@ p {
 }
 
 
-@media only  screen and (min-width: 510px) and (max-width: 628px) {
+@media only  screen and (min-width: 510px) and (max-width: 627px) {
 
 
   .navbar{
@@ -300,9 +432,10 @@ p {
   }
 
 }
+
 /* ------------------------------------------------------------ !!QUERY 2 510-768!! ------------------------------------------------------------- */
 
-@media only  screen and (min-width: 627px) and (max-width: 768px) {
+@media only  screen and (min-width: 628px) and (max-width: 768px) {
 
 
  
@@ -324,10 +457,15 @@ p {
 .navbar{
   height: 70px;
 }
+/* .navbar ul{
+  margin-left:-30px;
+} */
+
+
 
 .navbar li a {
 
-  margin:0 10px;
+  margin:0 8px;
   font-size: 20px;
 }
 
@@ -411,8 +549,8 @@ p {
 
 .navbar ul {
 
-  position: relative;
-  left: 45px;
+  position: absolute;
+  left: 25px;
 }
 
  .navbar li a {
@@ -436,7 +574,7 @@ p {
 
     position: relative;
     top: 21px;
-    right:50px;
+    right:-65px;
 
 }
 
