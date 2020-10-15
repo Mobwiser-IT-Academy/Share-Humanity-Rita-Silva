@@ -1,5 +1,5 @@
 const issues = [{
-    category: ["Health", "Coronavirus", "Covid"],
+    category: ["Health", "Coronavirus", "Covid", "Corona", "Pandemic"],
     title: "Coronavirus Pandemic",
     src: "https://executivedigest.sapo.pt/wp-content/uploads/2020/03/coronavirus1.jpg",
     description: "Coronavirus Pandemic is afecting right now more than <strong>12 Million </strong> People around the world.",
@@ -137,7 +137,7 @@ searchButton.addEventListener("click", function () {
 
   searchBar.value = "";
 
-  window.location.hash = "#issues-container"
+  window.location = "#issues-container"
 
 });
 
@@ -147,6 +147,6 @@ searchBar.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
     event.preventDefault();
     document.getElementById("search-button").click();
-    window.location.hash = "#issues-container"
+    window.location = "#issues-container"
   }
 });
