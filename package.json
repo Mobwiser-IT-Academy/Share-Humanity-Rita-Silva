@@ -11,10 +11,13 @@
     "url": "git+https://github.com/Mobwiser-IT-Academy/Share-Humanity-Rita-Silva.git"
   },
   "keywords": [],
-  "author": "",
+  "author": " Rita Silva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mobwiser-IT-Academy/Share-Humanity-Rita-Silva/issues"
   },
-  "homepage": "https://github.com/Mobwiser-IT-Academy/Share-Humanity-Rita-Silva#readme"
+  "homepage": "https://github.com/Mobwiser-IT-Academy/Share-Humanity-Rita-Silva#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
