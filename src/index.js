@@ -1,3 +1,6 @@
+import "./styles.css"
+
+
 const issues = [{
         category: ["Health", "Coronavirus", "Covid", "Corona", "Pandemic"],
         title: "Coronavirus Pandemic",

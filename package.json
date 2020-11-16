@@ -5,8 +5,7 @@
   "main": "nothing.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start":""
-  
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,9 @@
   "dependencies": {
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0"
   }
 }
