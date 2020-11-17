@@ -1,0 +1,1 @@
+import "./issuesPage/issues.css"

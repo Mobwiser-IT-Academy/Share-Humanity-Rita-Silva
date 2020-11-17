@@ -1,10 +1,17 @@
 const path = require("path");
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "development",
-    entry: "./src/index.js",
+    entry: {
+        mainPage: "./src/index.js",
+        corona: "./src/corona.js",
+        issues: "./src/issues.js"
+
+
+    },
     output: {
-        filename: "main.[contentHash].js",
+        filename: "[name].main.js",
         path: path.resolve(__dirname, "dist")
 
     },
@@ -14,5 +21,6 @@ module.exports = {
             use: ["style-loader", "css-loader"]
         }]
 
-    }
+    },
+
 };
