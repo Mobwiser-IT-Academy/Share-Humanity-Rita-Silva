@@ -1,1 +1,0 @@
-import "./coronaPage/coronavirus.css"

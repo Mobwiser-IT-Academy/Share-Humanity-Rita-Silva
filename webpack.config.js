@@ -4,14 +4,14 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: "development",
     entry: {
-        mainPage: "./src/index.js",
-        corona: "./src/corona.js",
-        issues: "./src/issues.js"
+        index: "./src/index/index.js",
+        coronavirus: "./src/coronavirus/coronavirus.js",
+        detail: "./src/detail/detail.js"
 
 
     },
     output: {
-        filename: "[name].main.js",
+        filename: "[name].bundle.js",
         path: path.resolve(__dirname, "dist")
 
     },
