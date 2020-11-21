@@ -19,77 +19,7 @@ h3 {
   font-size: 50px ;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline;
-  }
-
-.navbar{
-
-    background-color: #1b4965;
-    padding: 0;
-    margin: 0;
-    height: 80px;
-    position: relative;
-
-  }
-
-li a {
-
-    margin:0 100px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #59a5d8;
-    position: relative;
-    top:20px;
-    
-  
-}
-
-  li a:hover {
-    color: #f4f9f4;
-   }
-
-   .searchbar {
-    width: 280px;
-    height: 40px;
-    border: #1b4965;
-    border-width: 2px;
-    font-size: 18px;
-    color: #1b4965;
-    border-radius:none;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
-
-}
-
-.search-container {
-
-    position: relative;
-    top: 21px;
-    float: right;
-
-}
-
-.search-button {
-    background-color: #CAE9FF;
-    border:none;
-    position: absolute;
-    right: 0;
-    height: 42px;
-    width: 42px;
-
-}
-
-  .covid19{
+.covid19{
       width: 70%;
 
 
@@ -135,18 +65,10 @@ li a {
 
 }
 
-.go-top{
-
-  color: #1b4965;
 
 
- }
 
 
- footer{
-  background-color: #fff;
-  height: 100px;
-}
 
 .copyright{
   font-size: 40px;
@@ -155,7 +77,7 @@ li a {
   top:25px;
 }
 
-@media only  screen and (min-width: 0px) and (max-width: 444px) {
+@media only  screen and (min-width: 0px) and (max-width: 509px) {
 
   h1 {
 
@@ -167,84 +89,6 @@ li a {
   
   font-size: 40px ;
   }
-  
-  
-  /* NAVBAR */
-  
-                                      
-                                      
-                                      
-  .navbar {
-                                      
-  height: 70px;
-                                          
-                                      
-  }
-                                      
-  .navbar li a {
-                                      
-   margin:0 4px;
-   font-size: 18px;
-  }    
-  
-  .navbar{
-    height: 60px;
-  }
-  
-  .navbar li a {
-  
-    margin:0 4px;
-    font-size: 17px;
-  }
-  
-  .navbar {
-
-    height: 50px;
-
-}
-
-
-.navbar  ul {
-    position: relative;
-    left: -80px;
-    top:-5px
-}
-
-.navbar li a {
-
-    margin: 0px 2px;
-    font-size: 15px;
-}
-
-.searchbar {
-    width: 150px;
-    height: 33px;
-    position: relative;
-    top: 12px;
-    right: 0px;
-    font-size: 15px;
-}
-
-.search-container {
-
-    position: absolute;
-    right: -80px;
-    padding: 0;
-    margin: 0;
-    top:0;
-    float: right;
-
-}
-
-.search-button {
-    background-color: #CAE9FF;
-    position: absolute;
-    top: 12px;
-    right: 0;
-    height: 35px;
-    width: 35px;
-}
-                                       
   
   
   p {
@@ -264,19 +108,9 @@ li a {
       width: 90%;
     }
 
-    .go-top {
-      position: static;
-      margin: 40px 0;
-      top:750px;
-      right:10px;
-  }
+ 
   
-  footer {
-      position: relative;
-      background-color: #fff;
-      height: 100px;
-      bottom:-230px;
-  }
+ 
   
   .copyright{
     position: relative;
@@ -307,65 +141,6 @@ font-size: 40px ;
 }
 
 
-/* NAVBAR */
-
-                                    
-                                    
-                                    
-.navbar {
-                                    
-height: 70px;
-                                        
-                                    
-}
-                                    
-.navbar li a {
-                                    
- margin:0 4px;
- font-size: 18px;
-}    
-
-.navbar{
-  height: 60px;
-}
-
-.navbar li a {
-
-  margin:0 4px;
-  font-size: 17px;
-}
-
-.searchbar {
-  width: 140px;
-  height: 30px;
-  position: relative;
-  top: -5px;
-  right: 0;
-  font-size: 15px;
-}
-
-
-
-.search-container {
-
-  position: relative;
-  top: 21px;
-  right:0px;
-
-}
-
-.search-button {
-  position: absolute;
-  right: 0;
-  top: -5px;
-  height: 32px;
-  width: 32px;
-
-
-
-}
-                                     
-
 
 p {
   width: 90%;
@@ -391,44 +166,6 @@ p {
 @media only  screen and (min-width: 510px) and (max-width: 627px) {
 
 
-  .navbar{
-    height: 70px;
-  }
-  
-  .navbar li a {
-  
-    margin:0 6px;
-    font-size: 20px;
-  }
-  
-  .searchbar {
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: -5px;
-    right: 0;
-  }
-  
-  
-  
-  .search-container {
-  
-    position: relative;
-    top: 21px;
-    right:0px;
-  
-  }
-  
-  .search-button {
-    position: absolute;
-    right: 0;
-    top: -5px;
-    height: 42px;
-    width: 42px;
-  
-  
-  
-  }
 
 }
 
@@ -449,51 +186,8 @@ p {
   padding-left: 10px;
   }
   
-  
-/* NAVBAR */
 
-
-.navbar{
-  height: 70px;
-}
-/* .navbar ul{
-  margin-left:-30px;
-} */
-
-
-
-.navbar li a {
-
-  margin:0 8px;
-  font-size: 20px;
-}
-
-.searchbar {
-  width: 250px;
-  height: 40px;
-  position: relative;
-  top: -5px;
-  right: 0;
-}
-
-
-
-.search-container {
-
-  position: relative;
-  top: 21px;
-  right:0px;
-
-}
-
-.search-button {
-  position: absolute;
-  right: 0;
-  top: -5px;
-  height: 42px;
-  width: 42px;
-}
-  
+ 
   .covid19{
       width: 90%;
   }
@@ -540,57 +234,8 @@ p {
   }
   
   
-   /* NAVBAR */
-
-.navbar{
-    height: 70px;
-  }
-
-.navbar ul {
-
-  position: absolute;
-  left: 25px;
-}
-
- .navbar li a {
-
-    margin:0 10px;
-    font-size: 25px;
-  
-  }
-
-  .searchbar {
-    width: 250px;
-    height: 40px;
-    position: relative;
-    top: -5px;
-    right: 0;
-}
 
 
-
-.search-container {
-
-    position: relative;
-    top: 21px;
-    right:-65px;
-
-}
-
-.search-button {
-    position: absolute;
-    right: 0;
-    top: -5px;
-    height: 42px;
-    width: 42px;
-
-
-
-}
-
-
-
-  
   .covid19{
       width: 90%;
   }
@@ -640,57 +285,7 @@ p {
   
    /* NAVBAR */
 
-                                       
-   .navbar {
 
-    height: 80px;
-}
-
-.navbar ul{
-
-    position: relative;
-    left:180px;
-}
-
-.navbar li a {
-
-    margin: 0 20px;
-    display: inline;
-    font-size: 30px;
-    position: relative;
-    top: 18px;
-
-}
-
-
-.searchbar {
-    width: 250px;
-    height: 40px;
-    position: relative;
-    top: -5px;
-    right: 0;
-}
-
-
-
-.search-container {
-
-    position: relative;
-    top: 21px;
-    right:180px;
-
-}
-
-.search-button {
-    position: absolute;
-    right: 0;
-    top: -5px;
-    height: 42px;
-    width: 42px;
-
-
-
-}
   
   .description-covid{
   width: 70%;
@@ -711,14 +306,7 @@ p {
   width: 70%;
   position: relative;
   }
-  
  
-  
-
-
-
-  
-  
   }
 
 
@@ -727,64 +315,5 @@ p {
 
   @media only  screen and (min-width: 1400px) and (max-width: 1515px) {
   
-  
-  
-  
-  
-                                       
-    .navbar {
 
-      height: 80px;
-  }
-  
-  .navbar ul{
-  
-      position: relative;
-      left:180px;
-  }
-  
-  .navbar li a {
-  
-      margin: 0 20px;
-      display: inline;
-      font-size: 30px;
-      position: relative;
-      top: 18px;
-  
-  }
-  
-  
-  .searchbar {
-      width: 250px;
-      height: 40px;
-      position: relative;
-      top: -5px;
-      right: 0;
-  }
-  
-  
-  
-  .search-container {
-  
-      position: relative;
-      top: 21px;
-      right:180px;
-  
-  }
-  
-  .search-button {
-      position: absolute;
-      right: 0;
-      top: -5px;
-      height: 42px;
-      width: 42px;
-  
-  
-  
-  }
-  
-  
-  
-  
-  
   }

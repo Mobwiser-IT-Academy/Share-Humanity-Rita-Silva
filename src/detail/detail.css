@@ -30,78 +30,14 @@ p {
 
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-}
-
-.navbar{
-
-  background-color: #1b4965;
-  padding: 0;
-  margin: 0;
-  height: 80px;
-  position: relative;
-
-}
-
-li a {
-
-  margin:0 100px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  text-decoration: none;
-  color: #59a5d8;
-  position: relative;
-  top:20px;
-  
-
-}
-
-li a:hover {
-  color: #f4f9f4;
- }
-
-.searchbar {
-    width: 160px;
-    height: 40px;
-    position: relative;
-    top: 12px;
-    border: #5fa8d3;
-    border-width: 2px;
-    font-size: 18px;
-    color: #5fa8d3;
-    border-radius: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
-      font-weight: 700;
-
-}
+ 
 
 
 
 
 
-.go-top{
-
-color: #1b4965;
-position: static;
 
 
-}
-
-
-footer{
-background-color: #fff;
-height: 100px;
-position: relative;
-bottom:0;
-}
 
 .copyright{
 font-size: 35px;
@@ -112,7 +48,7 @@ top:25px;
 
 
 
-/* ---------------------------------------------------------- !!QUERY 1 400-509!! ------------------------------------------------------------- */
+/* ---------------------------------------------------------- !!QUERY 1 400-509!! -------------------------------------------b------------------ */
 
 @media only  screen and (min-width: 0px) and (max-width: 509px) {
 
@@ -125,30 +61,6 @@ font-size: 80px ;
 
 h3 {
 font-size: 40px ;
-}
-
-
- /* NAVBAR */
-
-                                  
- .navbar{
-
-  height:70px;
-                              
-                                  
-}
-                                  
- li a {
- margin:0 4px;
- font-size: 18px;
-}
-                                  
-
-.searchbar {
- width: 100px;
- height: 25px;
- position: relative;
- top: 18px;
 }
 
 .copyright{
@@ -172,24 +84,6 @@ h3 {
 font-size: 40px ;
 }
 
-
-/* NAVBAR */
-
-.navbar{
-height: 70px;
-}
-
-
-
-li a {
-
-margin:0 10px;
-font-size: 20px;
-
-}
-
-
-
 }
 
 /* ----------------------------------------------------------- !!QUERY 3 769-1199!!------------------------------------------------------------- */
@@ -207,29 +101,6 @@ font-size: 40px ;
 }
 
 
- /* NAVBAR */
- 
-.navbar{
-
-  height: 70px;
-
-}
-
-li a {
-
-  margin:0 10px;
-  font-size: 20px;
-
-}
-
-.searchbar {
-    width: 130px;
-    height: 30px;
-    position: relative;
-    top: 17px;
-
-}
-
 }
 
   /* -------------------------------------------------------- !!QUERY 4 1200-1400!!----------------------------------------------------------- */
@@ -245,38 +116,5 @@ h3 {
 
 font-size: 40px ;
 }
-
-
- /* NAVBAR */
- ul {
-
-  margin-left: -30px;
-  
- }
-
- .navbar{
-
-    height: 70px;
-                                     
-  }
-                                     
- li a {
-                                     
- margin:0 20px;
- position: relative;
- top:18px;
- 
- }
- 
-
- .searchbar {
-       width: 120px;
-       height: 30px;
-       position: relative;
-       top: 10px;
-       right:-60;
-       font-size: 15px;
-
-   }
 
 }
