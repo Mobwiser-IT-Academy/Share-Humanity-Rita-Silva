@@ -1,1 +1,1 @@
-import "./coronavirus.css";
+import './coronavirus.css';

@@ -7,7 +7,8 @@
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve",
     "deploy": "gh-pages -d dist",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "lint": "eslint . --fix "
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
     "css-loader": "^5.0.1",
+    "eslint": "^7.15.0",
     "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.0",
     "lodash": "^4.17.20",
