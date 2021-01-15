@@ -8,7 +8,7 @@
     "start": "webpack serve",
     "deploy": "gh-pages -d dist",
     "prettier": "prettier --write .",
-    "lint": "eslint . --fix "
+    "lint": "eslint . --fix"
   },
   "repository": {
     "type": "git",

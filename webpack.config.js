@@ -10,6 +10,7 @@ module.exports = {
     },
     output: {
         filename: '[name].bundle.js',
+        // eslint-disable-next-line no-undef
         path: path.resolve(__dirname, 'dist'),
     },
 

@@ -131,16 +131,15 @@ environment.addEventListener('click', function () {
     createHtml('Environment');
 });
 // Search Bar Filter
+var searchBar = document.getElementById('searchbar');
+var search = searchBar.value;
 searchButton.addEventListener('click', function () {
-    var searchBar = document.getElementById('searchbar');
-    var search = searchBar.value;
     var upperSearch =
     search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
     createHtml(upperSearch);
     window.location = '#issues-container';
     console.log(search);
 });
-var searchBar = document.getElementById('searchbar');
 searchBar.addEventListener('keyup', function (event) {
     if (event.keyCode === 13) {
         event.preventDefault();

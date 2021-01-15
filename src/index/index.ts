@@ -102,7 +102,7 @@ function createHtml(filterByCategory: string) {
 
     console.log(issues);
 
-    const container: any = document.getElementById('issues-container');
+    const container = document.getElementById('issues-container');
     container.innerHTML = issuesHtml;
 }
 
@@ -110,13 +110,13 @@ createHtml('');
 
 //
 
-const showAll: any = document.getElementById('show-all');
-const health: any = document.getElementById('health');
-const social: any = document.getElementById('social');
-const economic: any = document.getElementById('economic');
-const environment: any = document.getElementById('environment');
-const container: any = document.getElementById('issues-container');
-const searchButton: any = document.getElementById('search-button');
+const showAll = document.getElementById('show-all');
+const health = document.getElementById('health');
+const social = document.getElementById('social');
+const economic = document.getElementById('economic');
+const environment = document.getElementById('environment');
+const container = document.getElementById('issues-container');
+const searchButton = document.getElementById('search-button');
 
 showAll.addEventListener('click', function () {
     createHtml('');
@@ -136,10 +136,10 @@ environment.addEventListener('click', function () {
 });
 
 // Search Bar Filter
+const searchBar = document.getElementById('searchbar');
+const search = searchBar.value;
 
 searchButton.addEventListener('click', function () {
-    const searchBar = document.getElementById('searchbar');
-    const search = searchBar.value;
     const upperSearch =
     search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
 
@@ -149,8 +149,6 @@ searchButton.addEventListener('click', function () {
 
     console.log(search);
 });
-
-const searchBar = document.getElementById('searchbar');
 
 searchBar.addEventListener('keyup', function (event) {
     if (event.keyCode === 13) {
