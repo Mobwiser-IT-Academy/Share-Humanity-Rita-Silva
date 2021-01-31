@@ -64,16 +64,17 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/detail/detail.js":
+/***/ "./src/detail/detail.ts":
 /*!******************************!*\
-  !*** ./src/detail/detail.js ***!
+  !*** ./src/detail/detail.ts ***!
   \******************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _detail_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./detail.css */ \"./src/detail/detail.css\");\n;\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/detail/detail.js?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! ./detail.css */ \"./src/detail/detail.css\");\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/detail/detail.ts?");
 
 /***/ })
 
@@ -146,7 +147,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _det
 /************************************************************************/
 /******/ 	// startup
 /******/ 	// Load entry module
-/******/ 	__webpack_require__("./src/detail/detail.js");
+/******/ 	__webpack_require__("./src/detail/detail.ts");
 /******/ 	// This entry module used 'exports' so it can't be inlined
 /******/ })()
 ;

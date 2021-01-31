@@ -1,6 +1,6 @@
-import "./index.css";
 
-const issues = [
+require("./index.css");
+var issues = [
     {
         category: ["Health", "Coronavirus", "Covid", "Corona", "Pandemic"],
         title: "Coronavirus Pandemic",
@@ -10,7 +10,6 @@ const issues = [
       "Coronavirus Pandemic is afecting right now more than <strong>12 Million </strong> People around the world.",
         href: "coronavirus.html",
     },
-
     {
         category: ["Social", "Economic", "Poverty"],
         title: "Poverty",
@@ -19,7 +18,6 @@ const issues = [
       "More than <strong> 704 Million </strong> people in the world live in extreme poverty.",
         href: "detail.html",
     },
-
     {
         category: ["Social", "Economic", "Africa", "Hunger", "Food"],
         title: "Hunger",
@@ -29,7 +27,6 @@ const issues = [
       "Around the world, <strong>821 Million </strong> people do not have enough of the food they need to live an active, healthy life",
         href: "detail.html",
     },
-
     {
         category: ["Social", "Environment", "Planet", "Water", "Climate"],
         title: "Water",
@@ -39,7 +36,6 @@ const issues = [
       "<strong> 829 000</strong> people are estimated to die each year from diarrhoea as a result of unsafe drinking-water, sanitation, and hand hygiene.",
         href: "detail.html",
     },
-
     {
         category: ["Environment", "Climate change", "Planet", "climate"],
         title: "Climate Change",
@@ -49,7 +45,6 @@ const issues = [
       "<strong>11%</strong> of the world’s population is currently vulnerable to climate change impacts such as droughts, floods, heat waves, extreme weather events and sea-level rise",
         href: "detail.html",
     },
-
     {
         category: [
             "Social",
@@ -66,7 +61,6 @@ const issues = [
       "At least <strong> 79.5 Million </strong> people around the world have been forced to flee their homes. Among them are nearly <strong>26 Million</strong> refugees, around half of whom are under the age of 18",
         href: "detail.html",
     },
-
     {
         category: ["Social", "Economic", "Gender", "Equality", "Gender equality"],
         title: "Gender Equality",
@@ -76,7 +70,6 @@ const issues = [
       "Despite progress, gender inequality continues to hold women and girls back and deprive them of basic rights and opportunities.",
         href: "detail.html",
     },
-
     {
         category: ["Social", "Domestic violence", "Violence"],
         title: "Domestic Violence",
@@ -87,41 +80,43 @@ const issues = [
         href: "detail.html",
     },
 ];
-
-function createHtml(filterByCategory: string) {
-    let issuesHtml = "";
-
-    for (let i = 0; i < issues.length; i++) {
+function createHtml(filterByCategory) {
+    var issuesHtml = "";
+    for (var i = 0; i < issues.length; i++) {
         if (
             !filterByCategory ||
-      issues[i].category.some((issue) => issue === filterByCategory)
+      issues[i].category.some(function (issue) {
+          return issue === filterByCategory;
+      })
         ) {
-            issuesHtml += `<div><img src=${issues[i].src}></img><h5>${issues[i].title}</h5> <p>${issues[i].description}</p> <button> <a href=${issues[i].href}>View Detail</a></button></div>`;
+            issuesHtml +=
+        "<div><img src=" +
+        issues[i].src +
+        "></img><h5>" +
+        issues[i].title +
+        "</h5> <p>" +
+        issues[i].description +
+        "</p> <button> <a href=" +
+        issues[i].href +
+        ">View Detail</a></button></div>";
         }
     }
-
     console.log(issues);
-
-    const container = document.getElementById("issues-container");
+    var container = document.getElementById("issues-container");
     container.innerHTML = issuesHtml;
 }
-
 createHtml("");
-
 //
-
-const showAll = document.getElementById("show-all");
-const health = document.getElementById("health");
-const social = document.getElementById("social");
-const economic = document.getElementById("economic");
-const environment = document.getElementById("environment");
-const container = document.getElementById("issues-container");
-const searchButton = document.getElementById("search-button");
-
+var showAll = document.getElementById("show-all");
+var health = document.getElementById("health");
+var social = document.getElementById("social");
+var economic = document.getElementById("economic");
+var environment = document.getElementById("environment");
+var container = document.getElementById("issues-container");
+var searchButton = document.getElementById("search-button");
 showAll.addEventListener("click", function () {
     createHtml("");
 });
-
 health.addEventListener("click", function () {
     createHtml("Health");
 });
@@ -134,26 +129,20 @@ economic.addEventListener("click", function () {
 environment.addEventListener("click", function () {
     createHtml("Environment");
 });
-
 // Search Bar Filter
-const searchBar = document.getElementById("searchbar");
-const search = searchBar.value;
-
+var searchBar = document.getElementById("searchbar");
+var search = searchBar.value;
 searchButton.addEventListener("click", function () {
-    const upperSearch =
+    var upperSearch =
     search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
-
     createHtml(upperSearch);
-
-    window.location.href = "#issues-container";
-
+    window.location = "#issues-container";
     console.log(search);
 });
-
 searchBar.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
         event.preventDefault();
         document.getElementById("search-button").click();
-        window.location.href = "#issues-container"; 
+        window.location = "#issues-container";
     }
 });

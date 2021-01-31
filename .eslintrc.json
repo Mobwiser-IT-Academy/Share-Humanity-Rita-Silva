@@ -11,8 +11,7 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "indent": ["error", 4],
-    "quotes": ["error", "single"],
+    "quotes": ["error", "double"],
     "semi": ["error", "always"]
   }
 }

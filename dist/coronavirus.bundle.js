@@ -64,16 +64,17 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/coronavirus/coronavirus.js":
+/***/ "./src/coronavirus/coronavirus.ts":
 /*!****************************************!*\
-  !*** ./src/coronavirus/coronavirus.js ***!
+  !*** ./src/coronavirus/coronavirus.ts ***!
   \****************************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _coronavirus_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./coronavirus.css */ \"./src/coronavirus/coronavirus.css\");\n;\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/coronavirus/coronavirus.js?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! ./coronavirus.css */ \"./src/coronavirus/coronavirus.css\");\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/coronavirus/coronavirus.ts?");
 
 /***/ })
 
@@ -146,7 +147,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cor
 /************************************************************************/
 /******/ 	// startup
 /******/ 	// Load entry module
-/******/ 	__webpack_require__("./src/coronavirus/coronavirus.js");
+/******/ 	__webpack_require__("./src/coronavirus/coronavirus.ts");
 /******/ 	// This entry module used 'exports' so it can't be inlined
 /******/ })()
 ;
