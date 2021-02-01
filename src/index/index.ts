@@ -101,8 +101,9 @@ function createHtml(filterByCategory: string) {
     }
 
     console.log(issues);
+    
+    const container = (<HTMLElement>document.getElementById("issues-container"));
 
-    const container = document.getElementById("issues-container");
     container.innerHTML = issuesHtml;
 }
 
@@ -110,36 +111,39 @@ createHtml("");
 
 //
 
+
+
 const showAll = document.getElementById("show-all");
 const health = document.getElementById("health");
 const social = document.getElementById("social");
 const economic = document.getElementById("economic");
 const environment = document.getElementById("environment");
-const container = document.getElementById("issues-container");
 const searchButton = document.getElementById("search-button");
 
-showAll.addEventListener("click", function () {
+
+
+showAll?.addEventListener("click", function () {
     createHtml("");
 });
 
-health.addEventListener("click", function () {
+health?.addEventListener("click", function () {
     createHtml("Health");
 });
-social.addEventListener("click", function () {
+social?.addEventListener("click", function () {
     createHtml("Social");
 });
-economic.addEventListener("click", function () {
+economic?.addEventListener("click", function () {
     createHtml("Economic");
 });
-environment.addEventListener("click", function () {
+environment?.addEventListener("click", function () {
     createHtml("Environment");
 });
 
 // Search Bar Filter
-const searchBar = document.getElementById("searchbar");
-const search = searchBar.value;
 
-searchButton.addEventListener("click", function () {
+
+searchButton?.addEventListener("click", function () {
+  const search = (<HTMLInputElement> document.getElementById("searchbar")).value;
     const upperSearch =
     search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
 
@@ -150,10 +154,13 @@ searchButton.addEventListener("click", function () {
     console.log(search);
 });
 
-searchBar.addEventListener("keyup", function (event) {
+const searchBar = document.getElementById("searchbar");
+
+searchBar?.addEventListener("keyup", function (event) {
+
     if (event.keyCode === 13) {
         event.preventDefault();
-        document.getElementById("search-button").click();
+        document.getElementById("search-button")?.click();
         window.location.href = "#issues-container"; 
     }
 });
