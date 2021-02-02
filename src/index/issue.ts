@@ -100,7 +100,6 @@ createHtml(filterByCategory: string):void{
         }
     }
 
-    console.log(this.issues);
     
     const container = (<HTMLElement>document.getElementById("issues-container"));
 
