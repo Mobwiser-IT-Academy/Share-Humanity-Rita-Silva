@@ -1,4 +1,5 @@
 import "./index.css";
+import {Issue} from "./issue";
 
 const issues = [
     {
