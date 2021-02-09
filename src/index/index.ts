@@ -52,5 +52,3 @@ searchBar?.addEventListener("keyup", function (event) {
     window.location.href = "#issues-container";
   }
 });
-
-

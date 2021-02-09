@@ -1,5 +1,4 @@
 export class Issue {
-  
   issues = [
     {
       category: ["Health", "Coronavirus", "Covid", "Corona", "Pandemic"],
@@ -89,8 +88,8 @@ export class Issue {
   ];
 
   createHtml(filterByCategory: string): void {
-    let issuesHtml:string;
-    issuesHtml="";
+    let issuesHtml: string;
+    issuesHtml = "";
 
     for (let i = 0; i < this.issues.length; i++) {
       if (
