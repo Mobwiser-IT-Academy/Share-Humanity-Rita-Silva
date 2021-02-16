@@ -1,6 +1,6 @@
 import "./index.css";
 import { Issue } from "./issue";
-import {issueService} from "./issueService";
+import {IssueService} from "./issueService";
 
 const issues = [
   {
@@ -84,9 +84,8 @@ const issues = [
   },
 ];
 
-issueService.generateHtml(issues);
+IssueService.createHtml("");
 
-const issueInstance = new Issue();
 const showAll = document.getElementById("show-all");
 const health = document.getElementById("health");
 const social = document.getElementById("social");
@@ -95,20 +94,20 @@ const environment = document.getElementById("environment");
 const searchButton = document.getElementById("search-button");
 
 showAll?.addEventListener("click", function () {
-  issueService.generateHtml("");
+  IssueService.createHtml("");
 });
 
 health?.addEventListener("click", function () {
-  issueService.generateHtml("Health");
+  IssueService.createHtml("Health");
 });
 social?.addEventListener("click", function () {
-  issueService.generateHtml("Social");
+  IssueService.createHtml("Social");
 });
 economic?.addEventListener("click", function () {
-  issueService.generateHtml("Economic");
+  IssueService.createHtml("Economic");
 });
 environment?.addEventListener("click", function () {
-  issueService.generateHtml("Environment");
+  IssueService.createHtml("Environment");
 });
 
 // Search Bar Filter
@@ -118,7 +117,7 @@ searchButton?.addEventListener("click", function () {
   const upperSearch =
     search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
 
-  issueService.generateHtml(upperSearch);
+  IssueService.createHtml(upperSearch);
 
   window.location.href = "#issues-container";
 
