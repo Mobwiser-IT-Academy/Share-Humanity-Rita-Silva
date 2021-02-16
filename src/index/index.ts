@@ -2,8 +2,8 @@ import "./index.css";
 import { Issue } from "./issue";
 import {IssueService} from "./issueService";
 
-const issues = [
-  {
+export const issues:Issue[] = [
+  { 
     category: ["Health", "Coronavirus", "Covid", "Corona", "Pandemic"],
     title: "Coronavirus Pandemic",
     src:
@@ -61,6 +61,7 @@ const issues = [
     description:
       "At least <strong> 79.5 Million </strong> people around the world have been forced to flee their homes. Among them are nearly <strong>26 Million</strong> refugees, around half of whom are under the age of 18",
     href: "detail.html",
+   
   },
 
   {

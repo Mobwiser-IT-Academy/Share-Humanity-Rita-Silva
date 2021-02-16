@@ -1,11 +1,21 @@
 
 export class Issue {
 
-private src: string="";
-private title:string="";
-private description:string="";
-private href:string="";
-private category:string[]=[];
+src:string;
+title:string;
+description;
+href:string;
+category:string[];
+
+constructor(src:string,title:string,description:string,href:string,category:string[]){
+this.src=src;
+this.title=title;
+this.description=description;
+this.href=href;
+this.category=category;
+
+
+}
 
 public get html() {
 
