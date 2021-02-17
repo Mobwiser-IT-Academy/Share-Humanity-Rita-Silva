@@ -1,0 +1,16 @@
+
+.image{
+position: fixed;
+    background-image: url("../../dist/images/humanitarian_team.jpg");
+    height: 600px;
+    width: 100%;
+    opacity: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.image h1{
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
