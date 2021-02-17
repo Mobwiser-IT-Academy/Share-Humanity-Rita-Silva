@@ -7,6 +7,7 @@ module.exports = {
     index: "./src/index/index.ts",
     coronavirus: "./src/coronavirus/coronavirus.ts",
     detail: "./src/detail/detail.ts",
+    about: "./src/about/about.ts"
   },
   output: {
     filename: "[name].bundle.js",
@@ -29,6 +30,11 @@ module.exports = {
       filename: "detail.html",
       template: "./src/detail/detail.html",
     }),
+
+    new HtmlWebpackPlugin({
+      filename:"about.html",
+      template:"./src/about/about.html"
+    })
   ],
 
   module: {
