@@ -32,15 +32,27 @@
   z-index: 2;
   position: relative;
   top: 120px;
-  opacity: 0;
-  animation: jump 1.7s 0.5s infinite;
+  animation: jump 1.5s  infinite;
 }
 
-@keyframe fade {
-  from {
+.button-animation{
+  opacity: 0;
+  animation: fade-button 1.5s  forwards ;
+}
+
+@keyframes fade{
+  0% {
     opacity: 0;
   }
-  to {
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes fade-button {
+  0% {
+    opacity: 0;
+  }
+  100%{
     opacity: 1;
   }
 }
@@ -48,15 +60,12 @@
 @keyframes jump {
   0% {
     transform: translate3d(0, 0, 0);
-    opacity: 1;
   }
   50% {
-    transform: translate3d(0, 70%, 0);
-    opacity: 1;
+    transform: translate3d(0, 30%, 0);
   }
   100% {
     transform: translate3d(0, 0, 0);
-    opacity: 1;
   }
 }
 
@@ -71,5 +80,10 @@
 
 #about-container p {
   color: #fff;
-  width: 90%;
+  width: 60%;
+  text-align: center;
+}
+
+#about-container i{
+  color: #fff;
 }
