@@ -7,7 +7,7 @@ module.exports = {
     index: "./src/index/index.ts",
     coronavirus: "./src/coronavirus/coronavirus.ts",
     detail: "./src/detail/detail.ts",
-    about: "./src/about/about.ts"
+    about: "./src/about/about.ts",
   },
   output: {
     filename: "[name].bundle.js",
@@ -32,9 +32,9 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      filename:"about.html",
-      template:"./src/about/about.html"
-    })
+      filename: "about.html",
+      template: "./src/about/about.html",
+    }),
   ],
 
   module: {
@@ -48,16 +48,15 @@ module.exports = {
         use: "ts-loader",
         exclude: /node_modules/,
       },
-      
-        {
-          test: /\.(png|jpe?g|gif)$/i,
-          use: [
-            {
-              loader: 'file-loader',
-            },
-          ],
-        },
-      
+
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
     ],
   },
 

@@ -1,12 +1,8 @@
 import "./about.css";
 
-const button=document.getElementById("arrow-down");
+const button = document.getElementById("arrow-down");
 
-
-button?.addEventListener("click",() => {
-    button.style.opacity="1";
-    button.style.animation="none";
+button?.addEventListener("click", () => {
+  button.style.opacity = "1";
+  button.style.animation = "none";
 });
-
-
-
