@@ -21,4 +21,13 @@ export class IssueService {
   }
   
     )}
+
+
+    public static clearSearchbar(){
+      
+      const searchbar = <HTMLInputElement>document.getElementById("searchbar");
+      searchbar.value="";
+
+    }
+
 }
