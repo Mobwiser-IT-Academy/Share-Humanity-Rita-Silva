@@ -10,17 +10,17 @@
   // webpackBootstrap
   /******/ "use strict";
   /******/ var __webpack_modules__ = {
-    /***/ "./node_modules/css-loader/dist/cjs.js!./src/detail/detail.css":
-      /*!*********************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/detail/detail.css ***!
-  \*********************************************************************/
+    /***/ "./node_modules/css-loader/dist/cjs.js!./src/about/about.css":
+      /*!*******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/about/about.css ***!
+  \*******************************************************************/
       /*! namespace exports */
       /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
       /*! other exports [not provided] [no usage info] */
       /*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
       /***/ (module, __webpack_exports__, __webpack_require__) => {
         eval(
-          '__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n;\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, "body {\\n  background-color: #cae9ff;\\n  text-align: center;\\n  margin: 0px;\\n}\\n\\nh1 {\\n  color: #f4f9f4;\\n  font-family: \\"Amatic SC\\", cursive;\\n  font-weight: 700;\\n  font-size: 120px;\\n}\\n\\nh3 {\\n  color: #59a5d8;\\n  font-family: \\"Open Sans Condensed\\", sans-serif;\\n  font-weight: 700;\\n  font-size: 50px;\\n}\\n\\n.navbar-2 {\\n  background-color: #1b4965;\\n  padding: 0;\\n  margin: 0;\\n  height: 80px;\\n  position: relative;\\n}\\n\\n.navbar-2 li a {\\n  margin: 0 70px;\\n  font-family: \\"Open Sans Condensed\\", sans-serif;\\n  font-size: 30px;\\n  font-weight: 700;\\n  text-decoration: none;\\n  color: #59a5d8;\\n  position: relative;\\n  top: 20px;\\n}\\n\\n.navbar-2 li a:hover {\\n  color: #f4f9f4;\\n}\\n\\np {\\n  color: #133c55;\\n  font-family: \\"Open Sans Condensed\\", sans-serif;\\n  font-weight: 400;\\n  font-size: 25px;\\n  width: 70%;\\n  margin: 30px auto;\\n}\\n\\n.copyright {\\n  font-size: 35px;\\n  font-weight: 400;\\n  position: relative;\\n  top: 25px;\\n}\\n\\n/* ---------------------------------------------------------- !!QUERY 1 400-509!! -------------------------------------------b------------------ */\\n\\n@media only screen and (min-width: 0px) and (max-width: 509px) {\\n  h1 {\\n    font-size: 60px;\\n  }\\n\\n  h3 {\\n    font-size: 40px;\\n  }\\n\\n  .navbar-2 {\\n    height: 50px;\\n  }\\n\\n  .navbar-2 li a {\\n    margin: 0 7px;\\n    font-size: 20px;\\n    top: 10px;\\n  }\\n\\n  .copyright {\\n    font-size: 25px;\\n    position: relative;\\n    top: 30px;\\n  }\\n}\\n\\n/* ------------------------------------------------------------ !!QUERY 2 510-768!! ------------------------------------------------------------- */\\n\\n@media only screen and (min-width: 510px) and (max-width: 768px) {\\n  h1 {\\n    font-size: 80px;\\n  }\\n\\n  h3 {\\n    font-size: 40px;\\n  }\\n\\n  .navbar-2 {\\n    height: 60px;\\n  }\\n\\n  .navbar-2 li a {\\n    margin: 0 10px;\\n    font-size: 30px;\\n    top: 10px;\\n  }\\n}\\n\\n/* ----------------------------------------------------------- !!QUERY 3 769-1199!!------------------------------------------------------------- */\\n\\n@media only screen and (min-width: 769px) and (max-width: 1199px) {\\n  h1 {\\n    font-size: 80px;\\n  }\\n\\n  h3 {\\n    font-size: 40px;\\n  }\\n\\n  .navbar-2 {\\n    height: 65px;\\n  }\\n\\n  .navbar-2 li a {\\n    margin: 0 15px;\\n    font-size: 35px;\\n    top: 10px;\\n  }\\n}\\n\\n/* -------------------------------------------------------- !!QUERY 4 1200-1400!!----------------------------------------------------------- */\\n", ""]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/detail/detail.css?./node_modules/css-loader/dist/cjs.js'
+          '__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _dist_images_hands_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../dist/images/hands.jpg */ "./dist/images/hands.jpg");\n// Imports\n;\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_dist_images_hands_jpg__WEBPACK_IMPORTED_MODULE_2__.default);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, ".image {\\n  position: relative;\\n  height: 800px;\\n  width: 100%;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  flex-direction: column;\\n}\\n\\n.image::before {\\n  content: \\"\\";\\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\\n  background-size: cover;\\n  position: absolute;\\n  top: 0px;\\n  right: 0px;\\n  bottom: 0px;\\n  left: 0px;\\n  opacity: 0.4;\\n}\\n.image h1 {\\n  font-family: \\"Open Sans Condensed\\", sans-serif;\\n  color: #133c55;\\n  opacity: 1;\\n  z-index: 1;\\n  animation: fade 2s;\\n}\\n\\n#arrow-down {\\n  color: #133c55;\\n  z-index: 2;\\n  position: relative;\\n  top: 120px;\\n  animation: jump 1.5s  infinite;\\n}\\n\\n.button-animation{\\n  opacity: 0;\\n  animation: fade-button 1.5s  forwards ;\\n}\\n\\n@keyframes fade{\\n  0% {\\n    opacity: 0;\\n  }\\n  100%{\\n    opacity: 1;\\n  }\\n}\\n@keyframes fade-button {\\n  0% {\\n    opacity: 0;\\n  }\\n  100%{\\n    opacity: 1;\\n  }\\n}\\n\\n@keyframes jump {\\n  0% {\\n    transform: translate3d(0, 0, 0);\\n  }\\n  50% {\\n    transform: translate3d(0, 30%, 0);\\n  }\\n  100% {\\n    transform: translate3d(0, 0, 0);\\n  }\\n}\\n\\n#about-container {\\n  background-color: #133c55;\\n  height: 800px;\\n  display: flex;\\n  flex-direction: column;\\n  position: relative;\\n  top: 0;\\n}\\n\\n#about-container p {\\n  color: #fff;\\n  width: 60%;\\n  text-align: center;\\n}\\n\\n#about-container i{\\n  color: #fff;\\n}\\n", ""]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/about/about.css?./node_modules/css-loader/dist/cjs.js'
         );
 
         /***/
@@ -41,10 +41,45 @@
         /***/
       },
 
-    /***/ "./src/detail/detail.css":
+    /***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+      /*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+      /*! unknown exports (runtime-defined) */
+      /*! runtime requirements: module */
+      /*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+      /***/ (module) => {
+        eval(
+          '\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== \'string\') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^[\'"].*[\'"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/["\'() \\t\\n]/.test(url) || options.needQuotes) {\n    return "\\"".concat(url.replace(/"/g, \'\\\\"\').replace(/\\n/g, \'\\\\n\'), "\\"");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://share-humanity-rita-silva/./node_modules/css-loader/dist/runtime/getUrl.js?'
+        );
+
+        /***/
+      },
+
+    /***/ "./dist/images/hands.jpg":
       /*!*******************************!*\
-  !*** ./src/detail/detail.css ***!
+  !*** ./dist/images/hands.jpg ***!
   \*******************************/
+      /*! namespace exports */
+      /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+      /*! other exports [not provided] [no usage info] */
+      /*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.d, __webpack_require__.* */
+      /***/ (
+        __unused_webpack_module,
+        __webpack_exports__,
+        __webpack_require__
+      ) => {
+        eval(
+          '__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "e04bc3f5e3edfcf2923f4990b4eae02c.jpg");\n\n//# sourceURL=webpack://share-humanity-rita-silva/./dist/images/hands.jpg?'
+        );
+
+        /***/
+      },
+
+    /***/ "./src/about/about.css":
+      /*!*****************************!*\
+  !*** ./src/about/about.css ***!
+  \*****************************/
       /*! namespace exports */
       /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
       /*! other exports [not provided] [no usage info] */
@@ -55,7 +90,7 @@
         __webpack_require__
       ) => {
         eval(
-          '__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_detail_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./detail.css */ "./node_modules/css-loader/dist/cjs.js!./src/detail/detail.css");\n;\n            \n\nvar options = {};\n\noptions.insert = "head";\noptions.singleton = false;\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_detail_css__WEBPACK_IMPORTED_MODULE_1__.default, options);\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_detail_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/detail/detail.css?'
+          '__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./about.css */ "./node_modules/css-loader/dist/cjs.js!./src/about/about.css");\n;\n            \n\nvar options = {};\n\noptions.insert = "head";\noptions.singleton = false;\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_1__.default, options);\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/about/about.css?'
         );
 
         /***/
@@ -76,17 +111,17 @@
         /***/
       },
 
-    /***/ "./src/detail/detail.ts":
-      /*!******************************!*\
-  !*** ./src/detail/detail.ts ***!
-  \******************************/
+    /***/ "./src/about/about.ts":
+      /*!****************************!*\
+  !*** ./src/about/about.ts ***!
+  \****************************/
       /*! flagged exports */
       /*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
       /*! other exports [not provided] [no usage info] */
       /*! runtime requirements: __webpack_exports__, __webpack_require__ */
       /***/ (__unused_webpack_module, exports, __webpack_require__) => {
         eval(
-          '\nObject.defineProperty(exports, "__esModule", ({ value: true }));\n__webpack_require__(/*! ./detail.css */ "./src/detail/detail.css");\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/detail/detail.ts?'
+          '\nObject.defineProperty(exports, "__esModule", ({ value: true }));\n__webpack_require__(/*! ./about.css */ "./src/about/about.css");\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/about/about.ts?'
         );
 
         /***/
@@ -153,6 +188,21 @@
       /******/
     };
     /******/
+  })(); /* webpack/runtime/global */
+  /******/
+  /******/ /******/ (() => {
+    /******/ __webpack_require__.g = (function () {
+      /******/ if (typeof globalThis === "object") return globalThis;
+      /******/ try {
+        /******/ return this || new Function("return this")();
+        /******/
+      } catch (e) {
+        /******/ if (typeof window === "object") return window;
+        /******/
+      }
+      /******/
+    })();
+    /******/
   })(); /* webpack/runtime/hasOwnProperty shorthand */
   /******/
   /******/ /******/ (() => {
@@ -174,10 +224,36 @@
       /******/
     };
     /******/
+  })(); /* webpack/runtime/publicPath */
+  /******/
+  /******/ /******/ (() => {
+    /******/ var scriptUrl;
+    /******/ if (__webpack_require__.g.importScripts)
+      scriptUrl = __webpack_require__.g.location + "";
+    /******/ var document = __webpack_require__.g.document;
+    /******/ if (!scriptUrl && document) {
+      /******/ if (document.currentScript)
+        /******/ scriptUrl = document.currentScript.src;
+      /******/ if (!scriptUrl) {
+        /******/ var scripts = document.getElementsByTagName("script");
+        /******/ if (scripts.length)
+          scriptUrl = scripts[scripts.length - 1].src;
+        /******/
+      }
+      /******/
+    } // When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration // or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+    /******/ /******/ /******/ if (!scriptUrl)
+      throw new Error("Automatic publicPath is not supported in this browser");
+    /******/ scriptUrl = scriptUrl
+      .replace(/#.*$/, "")
+      .replace(/\?.*$/, "")
+      .replace(/\/[^\/]+$/, "/");
+    /******/ __webpack_require__.p = scriptUrl;
+    /******/
   })(); // startup // Load entry module
   /******/
   /************************************************************************/
-  /******/ /******/ /******/ __webpack_require__("./src/detail/detail.ts");
+  /******/ /******/ /******/ __webpack_require__("./src/about/about.ts");
   /******/ // This entry module used 'exports' so it can't be inlined
   /******/
 })();
