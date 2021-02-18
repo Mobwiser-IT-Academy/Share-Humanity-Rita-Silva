@@ -1,16 +1,66 @@
-
-.image{
-position: fixed;
-    background-image: url("../../dist/images/humanitarian_team.jpg");
-    height: 600px;
+.image {
+    position: relative; 
+    height: 800px;
     width: 100%;
-    opacity: 90%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image::before {    
+      content: "";
+      background-image: url("../../dist/images/hands.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.40;
 }
 .image h1{
     font-family: "Open Sans Condensed", sans-serif;
+    color:#133c55;
+    opacity: 1;
+    z-index: 1;
+    animation: fade 2s ;
 }
 
+#arrow-down{
+    color:#133c55;
+    z-index:2;
+    position: relative;
+    top:120px;
+    opacity: 0;
+    animation:jump 1.7s  0.5s infinite ;
+
+
+}
+
+@keyframe fade {
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+
+@keyframes jump {
+    0%   {transform: translate3d(0,0,0); opacity: 1; }
+    50% {transform: translate3d(0,70%,0) ; opacity: 1;}
+    100%   {transform: translate3d(0,0,0); opacity: 1;}
+
+  }
+
+  #about-container{
+      background-color: #133c55;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top:0;
+
+  }
+
+  #about-container p{
+      color: #fff;
+      width: 90%;
+  }
