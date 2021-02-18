@@ -32,19 +32,19 @@
   z-index: 2;
   position: relative;
   top: 120px;
-  animation: jump 1.5s  infinite;
+  animation: jump 1.5s infinite;
 }
 
-.button-animation{
+.button-animation {
   opacity: 0;
-  animation: fade-button 1.5s  forwards ;
+  animation: fade-button 1.5s forwards;
 }
 
-@keyframes fade{
+@keyframes fade {
   0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -52,7 +52,7 @@
   0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -84,6 +84,6 @@
   text-align: center;
 }
 
-#about-container i{
+#about-container i {
   color: #fff;
 }
