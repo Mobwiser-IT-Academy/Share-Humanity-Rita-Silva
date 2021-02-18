@@ -101,7 +101,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /*! runtime requirements: __webpack_exports__, __webpack_require__ */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! ./about.css */ \"./src/about/about.css\");\nconst button = document.getElementById(\"arrow-down\");\nbutton === null || button === void 0 ? void 0 : button.addEventListener(\"click\", function () {\n    button.style.opacity = \"1\";\n    button.style.animation = \"none\";\n});\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/about/about.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! ./about.css */ \"./src/about/about.css\");\nconst button = document.getElementById(\"arrow-down\");\nbutton === null || button === void 0 ? void 0 : button.addEventListener(\"click\", () => {\n    button.style.opacity = \"1\";\n    button.style.animation = \"none\";\n});\n\n\n//# sourceURL=webpack://share-humanity-rita-silva/./src/about/about.ts?");
 
 /***/ })
 
