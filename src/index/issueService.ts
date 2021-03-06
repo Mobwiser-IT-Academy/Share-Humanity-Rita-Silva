@@ -3,7 +3,7 @@ import { issues } from "./index";
 
 export class IssueService {
   public static createHtml(filterByCategory: string): void {
-    let html: string = "";
+    let html = "";
 
     issues.forEach((issue: Issue) => {
       if (

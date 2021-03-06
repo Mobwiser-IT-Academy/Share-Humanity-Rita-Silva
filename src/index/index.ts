@@ -104,7 +104,7 @@ environment?.addEventListener("click", () => {
 // Search Bar Filter
 
 searchButton?.addEventListener("click", () => {
-  let search = (<HTMLInputElement>document.getElementById("searchbar")).value;
+  const search = (<HTMLInputElement>document.getElementById("searchbar")).value;
   const upperSearch =
     search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
 
