@@ -1,6 +1,29 @@
 import "./index.css";
 import { Issue } from "./issue";
 import { IssueService } from "./issueService";
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+
+
+firebase.initializeApp( {
+  apiKey: "AIzaSyDfMNPfvTkPKJrZ93a54DD7UvpXeiNoR38",
+  authDomain: "share-humanity.firebaseapp.com",
+  projectId: "share-humanity",
+  
+});
+ let db = firebase.firestore();
+
+db.collection('Issues')
+
+db.collection('Issues').get().then((snapshot)=>{
+  snapshot.forEach((doc)=>{
+    console.log(doc.data())
+  })
+})
+
+
+
+
 
 export const issues: Issue[] = [
   new Issue(
