@@ -1,7 +1,13 @@
 import { Issue } from "./issue";
 import { issues } from "./index";
 
+
+
+
 export class IssueService {
+
+
+
   public static createHtml(filterByCategory: string): void {
     let html = "";
 

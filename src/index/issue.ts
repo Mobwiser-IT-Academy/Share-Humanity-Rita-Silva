@@ -11,7 +11,9 @@ export class Issue {
     description: string,
     href: string,
     category: string[]
-  ) {
+  ) 
+  
+  {
     this.src = src;
     this.title = title;
     this.description = description;
