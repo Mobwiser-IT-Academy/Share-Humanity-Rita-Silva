@@ -4,6 +4,7 @@ export class Issue {
   description;
   href: string;
   category: string[];
+  data:any;
 
   constructor(
     src: string,
