@@ -1,35 +1,28 @@
 import "./index.css";
 import { Issue } from "./issue";
 import { IssueService } from "./issueService";
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+import firebase from "firebase/app";
+import "firebase/firestore";
 
-
-firebase.initializeApp( {
+firebase.initializeApp({
   apiKey: "AIzaSyDfMNPfvTkPKJrZ93a54DD7UvpXeiNoR38",
   authDomain: "share-humanity.firebaseapp.com",
   projectId: "share-humanity",
-  
 });
 
 const db = firebase.firestore();
 
-const firebaseData:any = db.collection("Issues");
+const firebaseData: any = db.collection("Issues");
 
 export const issues: Issue[] = [];
 
-firebaseData.get()
-    .then((snapshot:Issue[]) => {
-        snapshot.forEach((doc:any) => {
-      issues.push(doc.data()
-              );    
-              
-              IssueService.createHtml("");
+firebaseData.get().then((snapshot: Issue[]) => {
+  snapshot.forEach((doc: any) => {
+    issues.push(doc.data());
 
-              
-          });
-    });
-  
+    IssueService.createHtml("");
+  });
+});
 
 const showAll = document.getElementById("show-all");
 const health = document.getElementById("health");

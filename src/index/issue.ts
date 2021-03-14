@@ -4,7 +4,7 @@ export class Issue {
   description;
   href: string;
   category: string[];
-  data:any;
+  data: any;
 
   constructor(
     src: string,
@@ -12,9 +12,7 @@ export class Issue {
     description: string,
     href: string,
     category: string[]
-  ) 
-  
-  {
+  ) {
     this.src = src;
     this.title = title;
     this.description = description;
