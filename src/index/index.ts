@@ -20,9 +20,12 @@ firebaseData.get().then((snapshot: Issue[]) => {
   snapshot.forEach((doc: any) => {
     issues.push(doc.data());
 
-    IssueService.createHtml("");
   });
+  IssueService.createHtml("");
+
 });
+
+
 
 const showAll = document.getElementById("show-all");
 const health = document.getElementById("health");
