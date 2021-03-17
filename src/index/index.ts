@@ -21,7 +21,8 @@ firebaseData.get().then((snapshot: Issue[]) => {
     issues.push(doc.data());
 
   });
-  IssueService.createHtml("");
+  
+  IssueService.createHtml(issues,"");
 
 });
 
@@ -35,20 +36,20 @@ const environment = document.getElementById("environment");
 const searchButton = document.getElementById("search-button");
 
 showAll?.addEventListener("click", () => {
-  IssueService.createHtml("");
+  IssueService.createHtml(issues,"");
 });
 
 health?.addEventListener("click", () => {
-  IssueService.createHtml("Health");
+  IssueService.createHtml(issues,"Health");
 });
 social?.addEventListener("click", () => {
-  IssueService.createHtml("Social");
+  IssueService.createHtml(issues,"Social");
 });
 economic?.addEventListener("click", () => {
-  IssueService.createHtml("Economic");
+  IssueService.createHtml(issues,"Economic");
 });
 environment?.addEventListener("click", () => {
-  IssueService.createHtml("Environment");
+  IssueService.createHtml(issues,"Environment");
 });
 
 // Search Bar Filter
@@ -58,7 +59,7 @@ searchButton?.addEventListener("click", () => {
   const upperSearch =
     search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
 
-  IssueService.createHtml(upperSearch);
+  IssueService.createHtml(issues,upperSearch);
 
   window.location.href = "#issues-container";
   console.log(search);
@@ -67,7 +68,6 @@ searchButton?.addEventListener("click", () => {
 });
 
 const searchBar = <HTMLInputElement>document.getElementById("searchbar");
-
 searchBar?.addEventListener("keyup", (event) => {
   if (event.keyCode === 13) {
     event.preventDefault();

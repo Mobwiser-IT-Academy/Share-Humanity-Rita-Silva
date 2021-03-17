@@ -1,8 +1,7 @@
 import { Issue } from "./issue";
-import { issues } from "./index";
 
 export class IssueService {
-  public static createHtml(filterByCategory: string): void {
+  public static createHtml(issues:Issue[],filterByCategory: string): void {
     let html = "";
 
     issues.forEach((issue: Issue) => {
