@@ -14,7 +14,7 @@ const db = firebase.firestore();
 
 const firebaseData: any = db.collection("Issues");
 
-export const issues: Issue[] = [];
+const issues: Issue[] = [];
 
 firebaseData.get().then((snapshot: Issue[]) => {
   snapshot.forEach((doc: any) => {
