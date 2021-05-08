@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Mobwiser-IT-Academy/Share-Humanity-Rita-Silva#readme",
   "dependencies": {
+    "firebase": "^8.2.10",
     "webpack": "^5.4.0"
   },
   "devDependencies": {
