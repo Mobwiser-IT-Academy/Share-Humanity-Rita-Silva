@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TitleContainerComponent } from './title-container/title-container.component';
 import { FilterNavbarComponent } from './filter-navbar/filter-navbar.component';
+import { IssuesContainerComponent } from './issues-container/issues-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     TitleContainerComponent,
-    FilterNavbarComponent
+    FilterNavbarComponent,
+    IssuesContainerComponent
   ],
   imports: [
     BrowserModule
