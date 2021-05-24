@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { TitleContainerComponent } from './title-container/title-container.component';
-import { FilterNavbarComponent } from './filter-navbar/filter-navbar.component';
-import { IssuesContainerComponent } from './issues-container/issues-container.component';
+import { NavbarComponent } from './Home/navbar/navbar.component';
+import { TitleContainerComponent } from './Home/title-container/title-container.component';
+import { FilterNavbarComponent } from './Home/filter-navbar/filter-navbar.component';
+import { IssuesContainerComponent } from './Home/issues-container/issues-container.component';
+import { CoronavirusComponent } from './coronavirus/coronavirus.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { IssuesContainerComponent } from './issues-container/issues-container.co
     NavbarComponent,
     TitleContainerComponent,
     FilterNavbarComponent,
-    IssuesContainerComponent
+    IssuesContainerComponent,
+    CoronavirusComponent
   ],
   imports: [
     BrowserModule

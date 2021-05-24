@@ -1,4 +1,4 @@
-export const ISSUES = [
+export const Issues = [
     {
         category: ["Health", "Coronavirus", "Covid", "Corona", "Pandemic"],
         title: "Coronavirus Pandemic",
@@ -19,7 +19,7 @@ export const ISSUES = [
         description1: "More than ",
         strong1:"704 Million",
         description2:"people in the world live in extreme poverty.",
-        href: "detail.html",
+        href: "../coronavirus/coronavirusl.component.html",
     },
 
     {
