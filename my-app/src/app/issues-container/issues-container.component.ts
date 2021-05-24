@@ -18,15 +18,15 @@ issues=ISSUES
 
    let issuesHtml='';
   
-    for(let i=0; i<this.issues.length; i++){
+//     for(let i=0; i<this.issues.length; i++){
 
-      issuesHtml += `<div><h5>${this.issues[i].title}</h5><img src=${this.issues[i].src}></img> <p>${this.issues[i].description}</p> <button> <a href=${this.issues[i].href}>View Detail</a></button></div>`;
-    }
+//       issuesHtml += `<div class="box"><h5>${this.issues[i].title}</h5><img src=${this.issues[i].src}></img> <p>${this.issues[i].description}</p> <button> <a href=${this.issues[i].href}>View Detail</a></button></div>`;
+//     }
 
-    let container = (<HTMLElement>document.getElementById("issues-container"));
+//     let container = (<HTMLElement>document.getElementById("issues-container"));
 
-container.innerHTML = issuesHtml;
-}
+// container.innerHTML = issuesHtml;
+// }
 
 
 
@@ -34,5 +34,5 @@ container.innerHTML = issuesHtml;
 }
 
   
-
+}
 

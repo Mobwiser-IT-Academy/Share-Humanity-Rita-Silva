@@ -1,7 +1,7 @@
 
 <section id="issues-container" class="container" >
-    <div  *ngFor="let issue of issues" >
-        <h5>{{issue.title}}</h5><img src={{issue.src}} /> <p>{{issue.description}}</p> <button><a href={{issue.href}}>View Detail</a></button>
+    <div class="box" *ngFor="let issue of issues" >
+        <img src={{issue.src}} /><h5>{{issue.title}}</h5> <p>{{issue.description1}} <strong>{{issue.strong1}}</strong> {{issue.description2}} <strong>{{issue.strong2}}</strong> {{issue.description3}}</p> <button><a href={{issue.href}}>View Detail</a></button>
 
     </div>
 

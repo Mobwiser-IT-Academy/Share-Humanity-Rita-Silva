@@ -1,4 +1,10 @@
-
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
 
 h5 {
   color: #133c55;
@@ -9,18 +15,16 @@ h5 {
   margin-top: 10px;
 }
 
-section div {
+.box {
   margin: 35px;
   border-radius: 3px;
   background-color: #fff;
-  display: flex;
-  flex-direction: row;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   width: 20%;
 }
 
 div img {
-  width: 50%;
+  width: 100%;
 }
 
 div a {
