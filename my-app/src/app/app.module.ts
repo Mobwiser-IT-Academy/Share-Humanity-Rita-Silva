@@ -1,24 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './Home/navbar/navbar.component';
-import { TitleContainerComponent } from './Home/title-container/title-container.component';
-import { FilterNavbarComponent } from './Home/filter-navbar/filter-navbar.component';
-import { IssuesContainerComponent } from './Home/issues-container/issues-container.component';
-import { CoronavirusComponent } from './coronavirus/coronavirus.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { WorkComponent } from './work/work.component';
+import { ContactComponent } from './contact/contact.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    TitleContainerComponent,
-    FilterNavbarComponent,
-    IssuesContainerComponent,
-    CoronavirusComponent
+    HomeComponent,
+    AboutComponent,
+    WorkComponent,
+    ContactComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

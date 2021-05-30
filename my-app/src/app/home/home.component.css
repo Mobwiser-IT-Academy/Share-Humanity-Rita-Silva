@@ -1,0 +1,79 @@
+.imagem-planeta {
+    width: 10%;
+    margin-top: 90px;
+  }
+  
+  h1 {
+    color: #f4f9f4;
+    font-family: "Amatic SC", cursive;
+    font-weight: 700;
+    font-size: 180px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  h4 {
+    color: #59a5d8;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  
+  h5 {
+    color: #133c55;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+  }
+  
+  .filter {
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d4965;
+    opacity: 0;
+    animation: fade 3s forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .filter li {
+    margin: 0 30px;
+    padding: 0;
+  }
+  
+  .filter li a {
+    text-decoration: none;
+    color: #1d4965;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .filter li a:hover {
+    font-size: 1.3rem;
+    color: #5aa5d7;
+  }
+  .go-top {
+    color: #1b4965;
+    position: fixed;
+    right: 6px;
+    top: 750px;
+    z-index: 1;
+  }
+  
+ 

@@ -1,8 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body {
     background-color: #cae9ff;
     padding: 0;
     margin: 0;
     font-family: "Open Sans Condensed", sans-serif;
     text-align: center;
-}
+  }
+
+  .navbar {
+    background-color: #1b4965;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    position: relative;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .navbar li a {
+    margin: 0 70px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #59a5d8;
+    position: relative;
+    top: 20px;
+  }
+  
+  .navbar li a:hover {
+    color: #f4f9f4;
+  }
+  
+  .searchbar {
+    width: 280px;
+    height: 40px;
+    border: #1b4965;
+    border-width: 2px;
+    font-size: 18px;
+    color: #1b4965;
+    border-radius: 0;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+  }
+  
+  .search-container {
+    position: relative;
+    top: 21px;
+    float: right;
+  }
+  
+  .search-button {
+    position: absolute;
+    right: 0;
+    height: 42px;
+    width: 42px;
+  }
+
+  button {
+    background-color: #cae9ff;
+    color: #1b4965;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  footer {
+    position: relative;
+    background-color: #fff;
+    height: 100px;
+  }
+  
+  .copyright {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+  }

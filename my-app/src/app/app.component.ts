@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {IssuesContainerComponent} from 'src/app/Home/issues-container/issues-container.component'
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,18 @@ import {IssuesContainerComponent} from 'src/app/Home/issues-container/issues-con
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'Share Humanity';
+  faSearch = faSearch;
 
-  constructor(){
-    
-  }
+
+
+
+testSearchButton(){
+
+  alert()
+
+}
+
+
 
 }
