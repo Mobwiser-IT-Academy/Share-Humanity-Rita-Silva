@@ -1,7 +1,7 @@
 
 <div class="filter">
     <ul>
-      <li (click)="test()" id="show-all"><a href="/home/#issues-container">Show All issues</a></li>
+      <li  id="show-all"><a href="/home/#issues-container">Show All issues</a></li>
       <li id="health"><a href="/home/#issues-container">Health</a></li>
       <li id="social"><a href="/home/#issues-container">Social</a></li>
       <li id="economic"><a href="/home/#issues-container">Economic</a></li>
@@ -22,9 +22,11 @@
       <h4>What are the humanitarian global issues we are facing right now?</h4>
     </div>
 
-    <section id="issues-container">
-          <div *ngFor="let issue of issues" class="box"><img src={{issue.src}}/><h5>{{issue.title}}</h5> <p>{{issue.description}}</p> <button><a href={{issue.href}}>View Detail</a></button></div>
-    </section>
+    <div id="issues-container">
+          <div *ngFor="let issue of issues" class="box"><img src={{issue.src}}/><h5>{{issue.title}}</h5> <p [innerHTML]="issue.description"></p> <button><a href={{issue.href}}>View Detail</a></button></div>
+
+          
+        </div>
 
     <a href="/home" id="#goTop">
       
