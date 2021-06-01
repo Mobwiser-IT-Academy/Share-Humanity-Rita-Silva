@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -9,16 +8,17 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'Share Humanity';
-  faSearch = faSearch;
+ 
 
 
+clearHtml(){
 
-
-testSearchButton(){
-
-  alert()
+ let button= document.getElementById('enter-container');
+ button!.innerHTML=''
 
 }
+
+
 
 
 

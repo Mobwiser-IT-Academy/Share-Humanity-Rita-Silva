@@ -1,57 +1,8 @@
-<link
-href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-rel="stylesheet"
-/>
+<app-navbar></app-navbar>
 
-<link
-href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=PT+Sans+Narrow:wght@400;700&display=swap"
-rel="stylesheet"
-/>
-<script
-src="https://kit.fontawesome.com/8d9f176b71.js"
-crossorigin="anonymous"
-></script>
-
-<section id="navbar-section">
-  <div class="navbar" id="page-top">
-    <ul>
-      <li><a class="active" routerLink="/home">HOME</a></li>
-      <li><a routerLink="/about">ABOUT US</a></li>
-      <li><a routerLink="/work">OUR WORK</a></li>
-      <li><a id="contact" routerLink="contact">CONTACT</a></li>
-      <li>
-        <div class="search-container">
-          <input
-            id="searchbar"
-            class="searchbar"
-            type="text"
-            placeholder="Search.."
-            name="search"
-          />
-          <button (click)="testSearchButton()" id="search-button" class="search-button" type="submit">
-            <fa-icon class="fa-1x "[icon]="faSearch"></fa-icon>
-          </button>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-</section>
+<app-home id="home-container"></app-home>
+<app-about id="about-container"></app-about>
 
 
 
-
-<div class="jumbotron">
-  <div class="container">
-      <div class="row">
-          <div>
-              <router-outlet></router-outlet>
-          </div>
-      </div>
-  </div>
-</div>
-
-
-<footer>
-  <p class="copyright">Share Humanity © 2020</p>
-</footer>
+<app-footer></app-footer>

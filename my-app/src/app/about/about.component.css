@@ -79,7 +79,7 @@ p{
     }
   }
   
-  #about-container {
+  #about-container-2 {
     background-color: #133c55;
     height: 1000px;
     display: flex;
@@ -89,12 +89,12 @@ p{
     top: 0;
   }
   
-  #about-container p {
+  #about-container-2 p {
     color: #fff;
     width: 80%;
   }
   
-  #about-container i {
+  #about-container-2 i {
     color: #fff;
   }
 
