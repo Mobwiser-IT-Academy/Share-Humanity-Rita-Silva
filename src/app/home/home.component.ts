@@ -11,7 +11,6 @@ import {issues} from '../mock-issues'
 export class HomeComponent implements OnInit {
 
 issues=issues;
-public goTop=document.getElementById('goTop');
 
 
   constructor() { 
