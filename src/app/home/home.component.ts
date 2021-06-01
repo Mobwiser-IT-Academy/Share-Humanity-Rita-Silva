@@ -19,6 +19,19 @@ issues=issues;
 
   ngOnInit(): void {
 
+    // let html='';
+
+    // issues.forEach(issue => {
+
+    //   html += `<div><img class="image" src=${issue.src}></img><h5 class="box-title">${issue.title}</h5> <p>${issue.description}</p> <button> <a href=${issue.href}>View Detail</a></button></div>`;
+
+    //   const container = <HTMLElement>(
+    //     document.getElementById("issues-container")
+    //   );
+
+    //   container.innerHTML = html;
+    // });
+
 
   }
 
@@ -26,17 +39,18 @@ issues=issues;
  
   faArrowCircleUp=faArrowCircleUp;
 
+  
+
   test(){
 
+
+    
    
 
-
-    alert()
+    
   }
 
 }
 
 
-if(pageYOffset){
-  document.getElementById("#goTop")?.style.color!="white";
-}
+
