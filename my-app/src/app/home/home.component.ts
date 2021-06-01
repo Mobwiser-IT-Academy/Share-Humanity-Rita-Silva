@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {faArrowCircleUp} from '@fortawesome/free-solid-svg-icons';
+import {issues} from '../mock-issues'
 
 
 @Component({
@@ -9,20 +10,24 @@ import {faArrowCircleUp} from '@fortawesome/free-solid-svg-icons';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+issues=issues;
+
+  constructor() { 
+
+  }
 
   ngOnInit(): void {
 
     
   }
 
+
+ 
   faArrowCircleUp=faArrowCircleUp;
 
   test(){
 
-    let clear = '';
-
-    const container = document.getElementById("issues-container");
+   
 
 
     alert()

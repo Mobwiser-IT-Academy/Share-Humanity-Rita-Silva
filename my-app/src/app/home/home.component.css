@@ -75,5 +75,57 @@
     top: 750px;
     z-index: 1;
   }
+
+  #issues-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 25px;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  #issues-container div {
+    margin: 35px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    width: 20%;
+  }
+  
+  #issues-container img {
+    width: 100%;
+  }
+  
+  #issues-container a {
+    text-decoration: none;
+    color: #1b4965;
+    text-transform: uppercase;
+  }
+  
+  #issues-container p {
+    color: #345568;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0 10px;
+  }
+  
+  button {
+    background-color: #cae9ff;
+    color: #1b4965;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+
+  
   
  
