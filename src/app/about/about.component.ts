@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {faGlobeEurope} from '@fortawesome/free-solid-svg-icons';
 import {faArrowAltCircleDown} from '@fortawesome/free-solid-svg-icons';
-
+import {HomeComponent} from '../home'
 
 
 
@@ -21,6 +21,12 @@ export class AboutComponent implements OnInit {
   faArrowAltCircleDown = faArrowAltCircleDown;
   faGlobeEurope=faGlobeEurope;
 
+  testLocation(){
 
+
+
+    
+    
+    }
 
 }

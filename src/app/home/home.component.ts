@@ -11,6 +11,8 @@ import {issues} from '../mock-issues'
 export class HomeComponent implements OnInit {
 
 issues=issues;
+public goTop=document.getElementById('goTop');
+
 
   constructor() { 
 
@@ -18,7 +20,7 @@ issues=issues;
 
   ngOnInit(): void {
 
-    
+
   }
 
 
@@ -33,4 +35,9 @@ issues=issues;
     alert()
   }
 
+}
+
+
+if(pageYOffset){
+  document.getElementById("#goTop")?.style.color!="white";
 }
