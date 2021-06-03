@@ -39,16 +39,40 @@ issues=issues;
  
   faArrowCircleUp=faArrowCircleUp;
 
-  
+  generateIssues(){
 
-  test(){
+
+ 
+  }
+
+  healthIssues(){
+
+    
+    issues.splice(1,1);
+    issues.splice(1,1);
+    issues.splice(1,1);
+    issues.splice(1,1);
+    issues.splice(1,1);
+    issues.splice(1,1);
+    issues.splice(1,1);
 
 
     
+
+     console.log(issues)
+
+
+
    
+
+
+
+
 
     
   }
+
+  
 
 }
 
