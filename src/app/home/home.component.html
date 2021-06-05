@@ -1,11 +1,11 @@
 
 <div class="filter">
     <ul>
-      <li  id="show-all"><a href="/">Show All issues</a></li>
+      <li (click)="generateIssues()"id="show-all"><a href="/#issues-container">Show All issues</a></li>
       <li (click)="healthIssues()" id="health"><a href="/#issues-container">Health</a></li>
-      <li id="social"><a href="/#issues-container">Social</a></li>
-      <li id="economic"><a href="/#issues-container">Economic</a></li>
-      <li id="environment"><a href="/#issues-container">Environment</a></li>
+      <li (click)="socialIssues()" id="social"><a href="/#issues-container">Social</a></li>
+      <li (click)="economicIssues()" id="economic"><a href="/#issues-container">Economic</a></li>
+      <li (click)="environmentIssues()" id="environment"><a href="/#issues-container">Environment</a></li>
       <li></li>
     </ul>
   </div>
@@ -23,12 +23,12 @@
     </div>
 
     <div id="issues-container">
-          <div *ngFor="let issue of issues" class="box"><img src={{issue.src}}/><h5>{{issue.title}}</h5> <p [innerHTML]="issue.description"></p> <button><a href={{issue.href}}>View Detail</a></button></div>
+          <div *ngFor="let sort of sorted" class="box"><img src={{sort.src}}/><h5>{{sort.title}}</h5> <p [innerHTML]="sort.description"></p> <button><a href={{sort.href}}>View Detail</a></button></div>
 
           
         </div>
 
-    <a href="/home" id="#goTop">
+    <a href="/" id="#goTop">
       
       <fa-icon class="go-top fas fa-arrow-circle-up fa-3x" [icon]="faArrowCircleUp" ></fa-icon>
     </a>

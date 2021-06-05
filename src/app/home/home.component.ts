@@ -10,7 +10,7 @@ import {issues} from '../mock-issues'
 })
 export class HomeComponent implements OnInit {
 
-issues=issues;
+sorted=issues;
 
 
   constructor() { 
@@ -41,31 +41,48 @@ issues=issues;
 
   generateIssues(){
 
+    this.sorted=issues;
 
  
   }
 
   healthIssues(){
+    this.sorted=[];
 
-    
-    issues.splice(1,1);
-    issues.splice(1,1);
-    issues.splice(1,1);
-    issues.splice(1,1);
-    issues.splice(1,1);
-    issues.splice(1,1);
-    issues.splice(1,1);
+ this.sorted.push(issues[0]);
+ console.log(this.sorted)
 
+}
 
-    
+socialIssues(){
+  
+  this.sorted=[];
 
-     console.log(issues)
-
+  this.sorted.push(issues[1],issues[2],issues[3],issues[5],issues[6],issues[7],);
+  console.log(this.sorted)
 
 
-   
+}
+
+economicIssues(){
+  
+  this.sorted=[];
+
+  this.sorted.push(issues[1],issues[2],issues[5],issues[6]);
+  console.log(this.sorted)
 
 
+}
+
+environmentIssues(){
+  
+  this.sorted=[];
+
+  this.sorted.push(issues[3],issues[4]);
+  console.log(this.sorted)
+
+
+}
 
 
 
@@ -74,7 +91,7 @@ issues=issues;
 
   
 
-}
+
 
 
 
