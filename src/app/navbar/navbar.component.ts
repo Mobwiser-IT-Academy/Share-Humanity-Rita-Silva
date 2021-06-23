@@ -36,6 +36,10 @@ export class NavbarComponent implements OnInit {
 
   issuesContainer.innerHTML='';
 
+ 
+
+  
+
   
     
 
