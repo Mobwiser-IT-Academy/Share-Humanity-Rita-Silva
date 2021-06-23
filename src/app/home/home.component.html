@@ -1,40 +1,43 @@
+<div class="search-container">
+  <input id="searchbar" class="searchbar"   type="text" placeholder="Search.." name="search"/>
+  <button (click)="searchButton()" id="search-button" class="search-button" type="submit">
+    <fa-icon class="fa-1x " [icon]="faSearch"></fa-icon>
+  </button>
+</div>
+
 
 <div class="filter">
-    <ul>
-      <li (click)="generateIssues()"id="show-all"><a href="/#issues-container">Show All issues</a></li>
-      <li (click)="healthIssues()" id="health"><a href="/#issues-container">Health</a></li>
-      <li (click)="socialIssues()" id="social"><a href="/#issues-container">Social</a></li>
-      <li (click)="economicIssues()" id="economic"><a href="/#issues-container">Economic</a></li>
-      <li (click)="environmentIssues()" id="environment"><a href="/#issues-container">Environment</a></li>
-      <li></li>
-    </ul>
+  <ul>
+    <li (click)="generateIssues()" id="show-all"><a href="/#issues-container">Show All</a></li>
+    <li (click)="healthIssues()" id="health"><a href="/#issues-container">Health</a></li>
+    <li (click)="socialIssues()" id="social"><a href="/#issues-container">Social</a></li>
+    <li (click)="economicIssues()" id="economic"><a href="/#issues-container">Economic</a></li>
+    <li (click)="environmentIssues()" id="environment"><a href="/#issues-container">Environment</a></li>
+  </ul>
+</div>
+
+
+
+
+
+<img class="imagem-planeta" src="../../assets/images/planet.png" alt="planet earth" />
+
+<h1>Share Humanity</h1>
+
+<div class="subtitulo">
+  <h4>What are the humanitarian global issues we are facing right now?</h4>
+</div>
+
+<div id="issues-container">
+  <div *ngFor="let issue of sorted" class="box"><img src={{issue.src}} />
+    <h5>{{issue.title}}</h5>
+    <p [innerHTML]="issue.description"></p> <button><a href={{issue.href}}>View Detail</a></button>
   </div>
 
 
+</div>
 
-    
+<a href="/" id="#goTop">
 
-    <img class="imagem-planeta" src="../../assets/images/planet.png" alt="planet earth" />
-
-    <h1>Share Humanity</h1>
-
-    <div class="subtitulo">
-      <h4>What are the humanitarian global issues we are facing right now?</h4>
-    </div>
-
-    <div id="issues-container">
-          <div *ngFor="let sort of sorted" class="box"><img src={{sort.src}}/><h5>{{sort.title}}</h5> <p [innerHTML]="sort.description"></p> <button><a href={{sort.href}}>View Detail</a></button></div>
-
-          
-        </div>
-
-    <a href="/" id="#goTop">
-      
-      <fa-icon class="go-top fas fa-arrow-circle-up fa-3x" [icon]="faArrowCircleUp" ></fa-icon>
-    </a>
-
-
-  
-
-
-
+  <fa-icon class="go-top fas fa-arrow-circle-up fa-3x" [icon]="faArrowCircleUp"></fa-icon>
+</a>

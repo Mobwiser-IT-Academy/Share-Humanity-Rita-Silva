@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import {HomeComponent} from '../home/home.component'
-import { issues } from '../mock-issues';
 
 
 
@@ -12,7 +9,7 @@ import { issues } from '../mock-issues';
 })
 export class NavbarComponent implements OnInit {
 
-  sorted=issues;
+
 
   constructor() { }
 
@@ -20,32 +17,7 @@ export class NavbarComponent implements OnInit {
 
 
   }
-
-  faSearch = faSearch;
-
-  searchButton(){
-    const search= (document.getElementById('searchbar')) as HTMLInputElement;
-    const issuesContainer = (document.getElementById('issues-container')) as HTMLElement;
-
-
-   let searchvalue = search.value
-
-   console.log(searchvalue)
-
-  console.log(issuesContainer)
-
-  issuesContainer.innerHTML='';
-
- 
-
-  
-
-  
-    
-
   
   }
 
 
-
-}

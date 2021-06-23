@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {faArrowCircleUp} from '@fortawesome/free-solid-svg-icons';
-import {issues} from '../mock-issues'
+import {faArrowCircleUp, faSortNumericDown} from '@fortawesome/free-solid-svg-icons';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import {issues} from '../mock-issues';
+
 
 
 @Component({
@@ -13,31 +15,24 @@ export class HomeComponent implements OnInit {
 sorted=issues;
 
 
+
   constructor() { 
 
   }
 
   ngOnInit(): void {
 
-    // let html='';
-
-    // issues.forEach(issue => {
-
-    //   html += `<div><img class="image" src=${issue.src}></img><h5 class="box-title">${issue.title}</h5> <p>${issue.description}</p> <button> <a href=${issue.href}>View Detail</a></button></div>`;
-
-    //   const container = <HTMLElement>(
-    //     document.getElementById("issues-container")
-    //   );
-
-    //   container.innerHTML = html;
-    // });
-
-
   }
+
 
 
  
   faArrowCircleUp=faArrowCircleUp;
+  faSearch = faSearch;
+
+
+ 
+ 
 
   generateIssues(){
 
@@ -45,6 +40,8 @@ sorted=issues;
 
  
   }
+
+  
 
   healthIssues(){
     this.sorted=[];
@@ -86,10 +83,51 @@ environmentIssues(){
 
 
 
+searchButton(){
+  this.sorted=[];
+
+const issuesContainer = (document.getElementById('issues-container')) as HTMLElement;
+
+let search = (<HTMLInputElement>document.getElementById("searchbar")).value;
+
+
+   const upperSearch = search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
+
+
+
+  console.log(issuesContainer)
+
+  issues.forEach((issue) => {
+
+
+    if(issue.category.includes(upperSearch)){
+this.sorted.push(issue)
+    }
+
+  } )
+ 
+
+
+  window.location.href = "#issues-container";
+
+
+}
+
+
+ 
+
+
+}
+
+
     
-  }
+  
 
   
+
+
+
+
 
 
 

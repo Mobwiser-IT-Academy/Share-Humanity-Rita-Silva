@@ -69,7 +69,7 @@
     color: #5aa5d7;
   }
   .go-top {
-    color: #1b4965;
+    color: #fff;
     position: fixed;
     right: 6px;
     top: 750px;
@@ -124,6 +124,11 @@
   button:hover {
     cursor: pointer;
   }
+
+  .search-container{
+    position: absolute;
+    right: 0;  
+}
   
 
   
