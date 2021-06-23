@@ -1,10 +1,11 @@
 h3{
     color:#cae9ff;
-    font-size: 20px;
+    font-size: 50px;
 }
 
+
 p{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .image {
@@ -81,7 +82,7 @@ p{
   
   #about-container-2 {
     background-color: #133c55;
-    height: 1000px;
+    height: 1200px;
     display: flex;
     align-items: center;
     flex-direction: column;

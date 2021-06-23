@@ -7,7 +7,7 @@ export const issues = [{
 },
 
 {
-    category: ["Social", "Economic", "Poverty"],
+    category: ["Social", "Economic", "Poverty", "Africa"],
     title: "Poverty",
     src: "https://borgenproject.org/wp-content/uploads/Poverty-in-Malawi.jpg",
     description: "More than <strong> 704 Million </strong> people in the world live in extreme poverty.",
