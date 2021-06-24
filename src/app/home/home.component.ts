@@ -12,8 +12,7 @@ import {issues} from '../mock-issues';
 })
 export class HomeComponent implements OnInit {
 
-sorted=issues;
-
+issues=issues;
 
 
   constructor() { 
@@ -32,86 +31,108 @@ sorted=issues;
 
 
  
- 
 
-  generateIssues(){
+private categoryFilter = 'ALL'; // by default, mostra todos os issues
+private searchFilter = ''; // by default, o filtro da search bar está vazio
+private filterType='';
 
-    this.sorted=issues;
+public changeCategory(category: string) {
+  this.categoryFilter = category;
+}
 
- 
+public changeSearchFilter(event:any) {
+ this.searchFilter = event;
+
+}
+
+public get filteredIssues() {
+  if(this.categoryFilter === 'ALL' && !this.searchFilter) {
+    return this.issues;
   }
+  
+  return this.issues.filter((issues) => (this.categoryFilter === 'ALL' || issue.category === this.filterType) && (!this.searchFilter || issue.title.indexOf(this.searchFilter) >= 0)); 
+
+}
+ 
+
+//   generateIssues(){
+
+//     this.sorted=issues;
+
+ 
+//   }
 
   
 
-  healthIssues(){
-    this.sorted=[];
+//   healthIssues(){
+//     this.sorted=[];
 
- this.sorted.push(issues[0]);
- console.log(this.sorted)
+//  this.sorted.push(issues[0]);
+//  console.log(this.sorted)
 
-}
+// }
 
-socialIssues(){
+// socialIssues(){
   
-  this.sorted=[];
+//   this.sorted=[];
 
-  this.sorted.push(issues[1],issues[2],issues[3],issues[5],issues[6],issues[7],);
-  console.log(this.sorted)
+//   this.sorted.push(issues[1],issues[2],issues[3],issues[5],issues[6],issues[7],);
+//   console.log(this.sorted)
 
 
-}
+// }
 
-economicIssues(){
+// economicIssues(){
   
-  this.sorted=[];
+//   this.sorted=[];
 
-  this.sorted.push(issues[1],issues[2],issues[5],issues[6]);
-  console.log(this.sorted)
+//   this.sorted.push(issues[1],issues[2],issues[5],issues[6]);
+//   console.log(this.sorted)
 
 
-}
+// }
 
-environmentIssues(){
+// environmentIssues(){
   
-  this.sorted=[];
+//   this.sorted=[];
 
-  this.sorted.push(issues[3],issues[4]);
-  console.log(this.sorted)
-
-
-}
+//   this.sorted.push(issues[3],issues[4]);
+//   console.log(this.sorted)
 
 
-
-searchButton(){
-  this.sorted=[];
-
-const issuesContainer = (document.getElementById('issues-container')) as HTMLElement;
-
-let search = (<HTMLInputElement>document.getElementById("searchbar")).value;
-
-
-   const upperSearch = search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
+// }
 
 
 
-  console.log(issuesContainer)
+// searchButton(){
+//   this.sorted=[];
 
-  issues.forEach((issue) => {
+// const issuesContainer = (document.getElementById('issues-container')) as HTMLElement;
+
+// let search = (<HTMLInputElement>document.getElementById("searchbar")).value;
 
 
-    if(issue.category.includes(upperSearch)){
-this.sorted.push(issue)
-    }
+//    const upperSearch = search.charAt(0).toUpperCase() + search.slice(1).toLowerCase();
 
-  } )
+
+
+//   console.log(issuesContainer)
+
+//   issues.forEach((issue) => {
+
+
+//     if(issue.category.includes(upperSearch)){
+// this.sorted.push(issue)
+//     }
+
+//   } )
  
 
 
-  window.location.href = "#issues-container";
+//   window.location.href = "#issues-container";
 
 
-}
+// }
 
 
  
