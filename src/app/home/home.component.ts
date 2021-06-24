@@ -32,7 +32,7 @@ issues=issues;
 
  
 
-private categoryFilter = 'ALL'; // by default, mostra todos os issues
+public categoryFilter = 'ALL'; // by default, mostra todos os issues
 private searchFilter = ''; // by default, o filtro da search bar está vazio
 private filterType='';
 
@@ -42,6 +42,7 @@ public changeCategory(category: string) {
 
 public changeSearchFilter(event:any) {
  this.searchFilter = event;
+ console.log(event)
 
 }
 
@@ -49,6 +50,7 @@ public get filteredIssues() {
   if(this.categoryFilter === 'ALL' && !this.searchFilter) {
     return this.issues;
   }
+  return
   
   return this.issues.filter((issues) => (this.categoryFilter === 'ALL' || issue.category === this.filterType) && (!this.searchFilter || issue.title.indexOf(this.searchFilter) >= 0)); 
 
