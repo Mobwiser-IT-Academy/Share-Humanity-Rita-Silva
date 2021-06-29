@@ -32,29 +32,32 @@ issues=issues;
 
  
 
-public categoryFilter = 'ALL'; // by default, mostra todos os issues
-private searchFilter = ''; // by default, o filtro da search bar está vazio
-private filterType='';
+public categoryFilter = 'All';
+private searchFilter = ''; 
 
 public changeCategory(category: string) {
   this.categoryFilter = category;
+  console.log(category)
+
 }
 
 public changeSearchFilter(event:any) {
  this.searchFilter = event;
+
  console.log(event)
 
 }
 
 public get filteredIssues() {
-  if(this.categoryFilter === 'ALL' && !this.searchFilter) {
+
+  if(this.categoryFilter === 'All' && !this.searchFilter) {
     return this.issues;
   }
-  return
-  
-  return this.issues.filter((issues) => (this.categoryFilter === 'ALL' || issue.category === this.filterType) && (!this.searchFilter || issue.title.indexOf(this.searchFilter) >= 0)); 
 
-}
+
+ 
+return this.issues.filter((issue) => (this.categoryFilter === 'All' || issue.category.includes(this.categoryFilter)) && (!this.searchFilter || issue.title.indexOf(this.searchFilter) >= 0)); 
+
  
 
 //   generateIssues(){
@@ -142,7 +145,7 @@ public get filteredIssues() {
 
 }
 
-
+}
     
   
 

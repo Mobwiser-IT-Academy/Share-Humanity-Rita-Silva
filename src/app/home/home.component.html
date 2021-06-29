@@ -1,8 +1,8 @@
 <div class="search-container">
   <input id="searchbar" class="searchbar" (input)="changeSearchFilter($event)"  type="text" placeholder="Search" name="search"/>
-  <button  id="search-button" class="search-button" type="submit">
+  <!-- <button  id="search-button" class="search-button" type="submit">
     <fa-icon class="fa-1x " [icon]="faSearch"></fa-icon>
-  </button>
+  </button> -->
 </div>
 
 
@@ -37,7 +37,7 @@
 
 </div>
 
-<a href="/" id="#goTop">
+<a  href="#navbar-section" id="#goTop" (click)="changeCategory('All')">
 
   <fa-icon class="go-top fas fa-arrow-circle-up fa-3x" [icon]="faArrowCircleUp"></fa-icon>
 </a>
