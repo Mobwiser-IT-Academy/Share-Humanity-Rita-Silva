@@ -1,7 +1,9 @@
+import { ConditionalExpr } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import {faArrowCircleUp, faSortNumericDown} from '@fortawesome/free-solid-svg-icons';
+import {faArrowCircleUp, faSortNumericDown, faThumbsDown} from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import {issues} from '../mock-issues';
+
 
 
 
@@ -34,6 +36,7 @@ issues=issues;
 
 public categoryFilter = 'All';
 private searchFilter = ''; 
+public searchValue='';
 
 public changeCategory(category: string) {
   this.categoryFilter = category;
@@ -43,22 +46,23 @@ public changeCategory(category: string) {
 
 public changeSearchFilter(event:any) {
  this.searchFilter = event;
-
- console.log(event)
+ console.log(this.searchValue)
 
 }
 
 public get filteredIssues() {
 
-  if(this.categoryFilter === 'All' && !this.searchFilter) {
+  this.searchValue= this.searchValue.charAt(0).toUpperCase() + this.searchValue.slice(1)
+
+  if(this.categoryFilter === 'All'  && this.searchValue==='' ) {
     return this.issues;
   }
 
-
  
-return this.issues.filter((issue) => (this.categoryFilter === 'All' || issue.category.includes(this.categoryFilter)) && (!this.searchFilter || issue.title.indexOf(this.searchFilter) >= 0)); 
 
- 
+  return this.issues.filter((issue) => (issue.category.includes(this.categoryFilter) || issue.category.includes(this.searchValue)))
+
+
 
 //   generateIssues(){
 
