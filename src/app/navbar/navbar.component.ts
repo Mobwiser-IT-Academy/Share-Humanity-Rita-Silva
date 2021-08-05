@@ -28,7 +28,13 @@ export class NavbarComponent implements OnInit {
 
 showMenu(){
 
- 
+  let nav=document.getElementById("page-top");;
+if(!nav?.classList.contains("show-menu")){
+  nav?.classList.add("show-menu")
+}
+  else if(nav?.classList.contains("show-menu")){
+    nav.classList.remove("show-menu")
+  }
 
 }
 

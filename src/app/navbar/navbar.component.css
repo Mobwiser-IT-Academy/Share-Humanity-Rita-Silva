@@ -27,8 +27,13 @@
       left:25px;
       float: left;
       z-index: 1;
+      display:none;
       
 
+    }
+
+    .show-menu{
+      display:block;
     }
 
     .navbar li a {
@@ -38,14 +43,10 @@
       font-weight: 700;
       text-decoration: none;
       color: #59a5d8;
-      display: none;
+      display: block;
       text-align:justify;     
       position: relative;
       top: 15px;
-    }
-
-    .hidden{
-      display: none;
     }
 
 
@@ -64,6 +65,8 @@
         top:0px;
         float: none;
         z-index: 0;
+        display:block;
+
 
       }
     
@@ -99,6 +102,8 @@
         top:0px;
     float: none;
     z-index: 0;
+    display:block;
+
 
     
     
