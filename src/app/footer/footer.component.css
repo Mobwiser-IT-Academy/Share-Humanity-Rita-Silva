@@ -1,0 +1,12 @@
+footer {
+    position: relative;
+    background-color: #fff;
+    height: 100px;
+  }
+  
+  .copyright {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+  }

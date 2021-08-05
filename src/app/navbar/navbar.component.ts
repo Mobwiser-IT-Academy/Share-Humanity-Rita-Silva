@@ -1,4 +1,8 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { $ } from 'protractor';
+
 
 
 
@@ -16,7 +20,20 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
 
 
-  }
+    
+}
+
+
+  
+
+showMenu(){
+
+ 
+
+}
+
+
+  faBars=faBars;
   
   }
 
