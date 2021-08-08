@@ -10,12 +10,12 @@
     display: none;
   }
 
-  @media only screen and (min-width: 300px) and (max-width:1999px) {
+  @media only screen and (min-width: 0px) and (max-width:1999px) {
     
     .menu{
       display: block;
       color:#1b4965;
-      left:50px;
+      left:30px;
     }
     .navbar {
       background-color: transparent;
@@ -24,7 +24,7 @@
       height: 180px;
       position: absolute;
       top:70px;
-      left:25px;
+      left:6px;
       float: left;
       z-index: 1;
       display:none;
