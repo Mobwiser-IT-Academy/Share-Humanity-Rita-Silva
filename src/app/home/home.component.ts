@@ -54,7 +54,7 @@ public get filteredIssues() {
 
   this.searchValue= this.searchValue.charAt(0).toUpperCase() + this.searchValue.slice(1)
 
-  if(this.categoryFilter === 'All'  && this.searchValue==='' ) {
+  if(this.categoryFilter === 'All'  && this.searchValue==='') {
     return this.issues;
   }
 
