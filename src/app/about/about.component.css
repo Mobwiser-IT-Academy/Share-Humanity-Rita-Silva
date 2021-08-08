@@ -103,3 +103,17 @@ p{
       color:#fff
   }
   
+
+  @media only screen and (min-width: 0px) and (max-width:1199px) {
+
+    #about-container-2 {
+      background-color: #133c55;
+      height: 1800px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      top: 0;
+    }
+
+  }
