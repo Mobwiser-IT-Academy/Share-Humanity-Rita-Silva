@@ -5,7 +5,7 @@
   .menu{
     position: relative;
     float: left;
-    top:10px;
+    top:23px;
     z-index: 1;
     display: none;
   }
@@ -39,7 +39,7 @@
     .navbar li a {
       margin: 0 30px;
       font-family: "Open Sans Condensed", sans-serif;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 700;
       text-decoration: none;
       color: #59a5d8;
