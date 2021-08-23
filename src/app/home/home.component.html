@@ -29,14 +29,16 @@
   <h4>What are the humanitarian global issues we are facing right now?</h4>
 </div>
 
+
 <div id="issues-container">
   <div *ngFor="let issue of filteredIssues" class="box"><img src={{issue.src}} />
     <h5>{{issue.title}}</h5>
-    <p [innerHTML]="issue.description"></p> <button><a href={{issue.href}}>View Detail</a></button>
+    <p [innerHTML]="issue.description"></p> 
   </div>
 
 
 </div>
+
 
 <a  href="#navbar-section" id="#goTop" (click)="changeCategory('All')">
 
