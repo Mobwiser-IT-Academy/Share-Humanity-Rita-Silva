@@ -97,8 +97,10 @@
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     width: 20%;
   }
+
+
   
-  #issues-container img {
+ .issue-image {
     width: 100%;
   }
   
@@ -115,6 +117,15 @@
     font-size: 25px;
     padding: 0 10px;
   }
+
+  .pin{
+    position: static;
+    bottom:20px;
+    width:2em;
+    
+  }
+
+  
   
   button {
     background-color: #cae9ff;
