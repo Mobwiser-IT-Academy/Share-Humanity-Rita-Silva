@@ -120,8 +120,8 @@
 
   .pin{
     position: static;
-    bottom:20px;
     width:2em;
+    margin-bottom: 10px;
     
   }
 
