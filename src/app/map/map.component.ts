@@ -13,6 +13,17 @@ export class MapComponent implements OnInit {
   ngOnInit(): void {
   }
 
+public all=true;
+public coronavirus=false;
+public poverty=false;
+public hunger=false;
+public water = false;
+public climateChange=false;
+public refugees=false;
+public genderEquality=false;
+public domesticViolence=false;
+
+
 
 
   latitude = 51.678418;
@@ -40,7 +51,24 @@ export class MapComponent implements OnInit {
  corRosa="#FC95CE"
  corRoxo="#8A009E"
  
- 
+ showIndependentIssues(){
+
+  this.all=false;
+
+ }
+
+ clearIndependentIssues(){
+
+this.coronavirus=false;
+this.poverty=false;
+this.hunger=false;
+this.water = false;
+this.climateChange=false;
+this.refugees=false;
+this.genderEquality=false;
+this.domesticViolence=false;
+
+ }
 
 }
 
