@@ -2,6 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AgmCoreModule } from '@agm/core';
+import { AngularFireModule } from '@angular/fire';
+import{ AngularFirestoreModule} from '@angular/fire/firestore';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +19,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FilterPipe } from './home/filter.pipe';
 import { MapComponent } from './map/map.component';
+import { environment } from 'src/environments/environment';
+
 
 
 @NgModule({
@@ -28,6 +34,7 @@ import { MapComponent } from './map/map.component';
     FooterComponent,
     FilterPipe,
     MapComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -36,9 +43,21 @@ import { MapComponent } from './map/map.component';
     FormsModule,
     AgmCoreModule.forRoot({
       apiKey:'AIzaSyCIMWVMQ8xGLZYIqpnqGOZhyD4J1wIhgu4'
-    })
+    }),
+
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    AngularFireDatabaseModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+
+
+export class AppModule { 
+
+  
+
+}

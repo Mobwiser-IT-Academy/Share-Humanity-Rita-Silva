@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "share-humanity": {
+      "hosting": {
+        "my-app": [
+          "share-humanity"
+        ]
+      }
+    }
+  }
+}

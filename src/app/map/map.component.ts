@@ -1,4 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,  OnInit } from '@angular/core';
+import { AngularFireDatabase } from '@angular/fire/database';
+import { AngularFirestore,AngularFirestoreDocument } from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
+
+
+
+
+
+
 
 
 @Component({
@@ -8,10 +17,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MapComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit(): void {
+  constructor(private firestore: AngularFirestore) { 
+
+    this.firestore=firestore;
+
+  };
+
+  
+  ngOnInit(){
+   
+    this.firestore.collection('coronavirusPins').valueChanges()
+    .subscribe(val=>console.log(val));
+
+    
+
   }
+
+ 
 
 public all=true;
 public coronavirus=false;
@@ -41,15 +64,7 @@ public domesticViolence=false;
 
 
 
- 
- corAzul="#005DAA"
- corAzulClaro="#9BF9F2"
- corAmarelo="#FFCE00"
- corLaranja="#FC7200"
- corVerde="#06CC00"
- corVermelho="#FF0000"
- corRosa="#FC95CE"
- corRoxo="#8A009E"
+
  
  showIndependentIssues(){
 
@@ -71,13 +86,4 @@ this.domesticViolence=false;
  }
 
 }
-
-//   coronavirusLabel = {
-//     color: 'green',
-  
-//     fontFamily: '',
-//     fontSize: '14px',
-//     fontWeight: 'bold',
-//     text: " "
-// }
 
