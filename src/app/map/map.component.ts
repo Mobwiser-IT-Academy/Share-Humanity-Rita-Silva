@@ -1,13 +1,6 @@
 import { Component,  OnInit } from '@angular/core';
-import { AngularFireDatabase } from '@angular/fire/database';
-import { AngularFirestore,AngularFirestoreDocument } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
 
-
-
-
-
-
+import * as data from '../../Pins.json'
 
 
 @Component({
@@ -18,21 +11,21 @@ import { Observable } from 'rxjs';
 export class MapComponent implements OnInit {
 
 
-  constructor(private firestore: AngularFirestore) { 
-
-    this.firestore=firestore;
+  constructor() { 
 
   };
 
   
   ngOnInit(){
    
-    this.firestore.collection('coronavirusPins').valueChanges()
-    .subscribe(val=>console.log(val));
+let pins = data;
 
     
-
   }
+
+
+
+  
 
  
 
