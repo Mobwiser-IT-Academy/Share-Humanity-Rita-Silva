@@ -1,0 +1,128 @@
+.navbar li a:hover {
+    color: #f4f9f4;
+  }
+
+  .menu{
+    position: relative;
+    float: left;
+    top:23px;
+    z-index: 1;
+    display: none;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width:1999px) {
+    
+    .menu{
+      display: block;
+      color:#1b4965;
+      left:30px;
+    }
+    .navbar {
+      background-color: transparent;
+      padding: 0;
+      margin:0;
+      height: 180px;
+      position: absolute;
+      top:70px;
+      left:6px;
+      float: left;
+      z-index: 1;
+      display:none;
+      
+
+    }
+
+    .show-menu{
+      display:block;
+    }
+
+    .navbar li a {
+      margin: 0 30px;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #59a5d8;
+      display: block;
+      text-align:justify;     
+      position: relative;
+      top: 15px;
+    }
+
+
+
+  }
+
+@media only screen and (min-width: 1200px) and (max-width:1499px) {
+
+    .navbar {
+        background-color: #1b4965;
+        padding: 0;
+        margin: 0;
+        height: 60px;
+        position: relative;
+        left:0px;
+        top:0px;
+        float: none;
+        z-index: 0;
+        display:block;
+
+
+      }
+    
+      .navbar li a {
+        margin: 0 30px;
+        font-family: "Open Sans Condensed", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #59a5d8;
+        position: relative;
+        display: inline;
+        text-align: center;      
+        top: 15px;
+      }
+
+      .menu{
+        display: none;
+      }
+  
+}
+
+@media only screen and (min-width: 1500px) {
+
+
+.navbar {
+    background-color: #1b4965;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    position: relative;
+    left:0px;
+        top:0px;
+    float: none;
+    z-index: 0;
+    display:block;
+
+
+    
+    
+  }
+
+  .navbar li a {
+    margin: 0 70px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #59a5d8;
+    position: relative;
+    display: inline;
+    top: 20px;
+  }
+
+  .menu{
+    display: none;
+  }
+}
+

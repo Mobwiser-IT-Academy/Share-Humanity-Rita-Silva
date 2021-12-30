@@ -1,1 +1,0 @@
-import "./coronavirus.css";

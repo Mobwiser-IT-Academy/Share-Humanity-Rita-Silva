@@ -1,0 +1,151 @@
+<section id="map-container">
+<h2> The Humanitarian Issues all over the world</h2>
+
+
+<div class="map" >
+
+<agm-map  [latitude]="14.00000" [longitude]="30.9144977" [zoom]="2.8">
+   
+
+
+
+  <!-- Coronavirus -->
+
+    <agm-marker  *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="23.634501" [longitude]="-102.552788"></agm-marker> <!--Mexico -->
+    <agm-marker *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="-14.235004" [longitude]="-51.925282" ></agm-marker> <!--Brasil -->
+    <agm-marker  *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="20.593683" [longitude]="78.962883" ></agm-marker> <!--india -->
+    <agm-marker *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="-34.9964963" [longitude]="-64.9672817" ></agm-marker> <!--Argentina -->
+    <agm-marker *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="-32.8755548" [longitude]="-56.0201525" ></agm-marker> <!--Uruguay -->
+    <agm-marker *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="26.8234472" [longitude]="18.1236723" ></agm-marker> <!-- Libya -->
+    <agm-marker **ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="38.9597594" [longitude]="34.9249653" ></agm-marker> <!--Turkey-->
+    <agm-marker *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="33.0955793" [longitude]="44.1749775" ></agm-marker>
+    <!--Iraq-->
+    <agm-marker *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="8.559559" [longitude]="-81.1308434" ></agm-marker>
+    <!--Panama-->
+    <agm-marker *ngIf='all || coronavirus' [iconUrl]="pinAzul" [latitude]="4.099917" [longitude]="-72.908813" ></agm-marker>
+    <!--Colombia-->
+
+    <!-- Water -->
+
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="-19.302233" [longitude]="33.9144977" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="17.7356214" [longitude]="9.3238432" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="15.454166" [longitude]="19.732206" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="-2.9814344" [longitude]="23.8222636" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="-11.8775768" [longitude]="17.5691241" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="8.3676771" [longitude]="49.083416" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="10.2116702" [longitude]="38.6521203" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="1.5333554" [longitude]="32.2166578" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="-5.6816069" [longitude]="144.2489081" ></agm-marker>
+    <agm-marker *ngIf='all || water' [iconUrl]="pinAzulClaro" [latitude]="15.9500319" [longitude]="37.9999668" ></agm-marker>
+
+
+    <!-- Poverty -->
+
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="-3.3634357" [longitude]="29.8870575" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="7.8699431" [longitude]="29.6667897" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="8.3676771" [longitude]="47.083416" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="7.0323598" [longitude]="19.9981227" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="-13.2687204" [longitude]="33.9301963" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="-2.9814344" [longitude]="22.8222636" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="17.7356214" [longitude]="10.3238432" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="-19.302233" [longitude]="34.9144977" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="5.7499721" [longitude]="-9.3658524" ></agm-marker>
+    <agm-marker *ngIf='all || poverty' [iconUrl]="pinAmarelo" [latitude]="-18.9249604" [longitude]="46.4416422" ></agm-marker>
+
+
+
+    <!-- Hunger -->
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="15.454166" [longitude]="18.732206" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="-8.5151979" [longitude]="125.8375756" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="-18.9249604" [longitude]="45.4416422" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="19.1399952" [longitude]="-72.3570972" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="-20.302233" [longitude]="32.9144977" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="5.7499721" [longitude]="-9.3658524" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="8.6400349" [longitude]="-11.8400269" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="-29.6039267" [longitude]="28.3350193" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="33.7680065" [longitude]="66.2385139" ></agm-marker>
+    <agm-marker *ngIf='all || hunger' [iconUrl]="pinVermelho" [latitude]="9.6000359" [longitude]="7.9999721" ></agm-marker>
+
+
+<!-- Climate Change -->
+
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="36.5748441" [longitude]="139.2394179" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="12.7503486" [longitude]="122.7312101" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="51.0834196" [longitude]="10.4234469" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="-19.9249604" [longitude]="46.4416422" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="22.3511148" [longitude]="78.6677428" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="7.5554942" [longitude]="80.7137847" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="1.4419683" [longitude]="38.4313975" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="-1.9646631" [longitude]="30.0644358" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="54.0666922" [longitude]="-107.991707" ></agm-marker>
+<agm-marker *ngIf='all || climateChange' [iconUrl]="pinVerde" [latitude]="-18.1239696" [longitude]="178.0122737" ></agm-marker>
+
+
+<!-- Refugees -->
+
+<agm-marker *ngIf='all || refugees' [iconUrl]="pinLaranja" [latitude]="34.6401861" [longitude]="39.0494106" ></agm-marker>
+<agm-marker *ngIf='all || refugees' [iconUrl]="pinLaranja" [latitude]="8.0018709" [longitude]="-66.1109318" ></agm-marker>
+<agm-marker *ngIf='all || refugees' [iconUrl]="pinLaranja" [latitude]="33.7680065" [longitude]="66.2385139" ></agm-marker>
+<agm-marker *ngIf='all || refugees' [iconUrl]="pinLaranja" [latitude]="7.8699431" [longitude]="30.6667897" ></agm-marker>
+<agm-marker *ngIf='all || refugees' [iconUrl]="pinLaranja" [latitude]="17.1750495" [longitude]="95.9999652" ></agm-marker>
+<agm-marker *ngIf='all || refugees' [iconUrl]="pinLaranja" [latitude]="2.9814344" [longitude]="23.8222636" ></agm-marker>
+<agm-marker *ngIf='all || refugees' [iconUrl]="pinLaranja" [latitude]="9.3676771" [longitude]="49.083416" ></agm-marker>
+
+
+<!-- Gender Equality -->
+<agm-marker *ngIf='all || genderEquality' [iconUrl]="pinRosa" [latitude]="16.3471243" [longitude]="46.8915271" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="-5.6816069" [longitude]="143.2489081" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="15.6134137" [longitude]="19.0156172" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="7.0323598" [longitude]="18.9981227" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="16.3700359" [longitude]="-2.2900239" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="33.7680065" [longitude]="65.2385139" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="5.7499721" [longitude]="-9.3658524" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="8.6400349" [longitude]="-12.8400269" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="7.9897371" [longitude]="-5.5679458" ></agm-marker>
+<agm-marker *ngIf='all || genderEquality'  [iconUrl]="pinRosa" [latitude]="19.3299952" [longitude]="-72.6070972" ></agm-marker>
+
+
+
+
+<!-- Domestic Violence -->
+<agm-marker *ngIf='all || domesticViolence'  [iconUrl]="pinRoxo" [latitude]="31.1728205" [longitude]="-7.3362482" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="28.0000272" [longitude]="2.9999825" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="26.8234472" [longitude]="17.1236723" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="26.2540493" [longitude]="29.2675469" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="25.6242618" [longitude]="42.3528328" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="14.5844444" [longitude]="29.4917691" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="-6.8699697" [longitude]="-75.0458515" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="41.6171214" [longitude]="21.7168387" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="32.6475314" [longitude]="54.5643516" ></agm-marker>
+<agm-marker *ngIf='all || domesticViolence' [iconUrl]="pinRoxo" [latitude]="22.3511148" [longitude]="79.6677428" ></agm-marker>
+
+
+
+</agm-map>
+
+<div id="selectors">
+
+  <input type="checkbox"  id="all" name="all" value="All" [(ngModel)]='all' (click)="clearIndependentIssues()" >
+  <label for="all">All Issues</label>  
+  <input type="checkbox" id="coronavirus" name="coronavirus" value="Coronavirus" [(ngModel)]='coronavirus' (click)="showIndependentIssues()">
+  <label for="coronavirus"> Coronavirus</label>
+  <input type="checkbox" id="poverty" name="poverty" value="Poverty" [(ngModel)]='poverty' (click)="showIndependentIssues()">
+  <label for="poverty"> Poverty</label>
+  <input type="checkbox" id="hunger" name="hunger" value="Hunger" [(ngModel)]='hunger' (click)="showIndependentIssues()">
+  <label for="hunger"> Hunger</label>
+  <input type="checkbox" id="water" name="water" value="Water" [(ngModel)]='water' (click)="showIndependentIssues()">
+  <label for="water"> Water</label>
+  <input type="checkbox" id="climateChange" name="climate change" value="Climate Change" [(ngModel)]='climateChange' (click)="showIndependentIssues()">
+  <label for="climate change"> Climate Change</label>
+  <input type="checkbox" id="refugees" name="refugees" value="Refugees" [(ngModel)]='refugees' (click)="showIndependentIssues()">
+  <label for="refugees"> Refugees</label>
+  <input type="checkbox" id="genderEquality" name="gender equality" value="Gender Equality" [(ngModel)]='genderEquality' (click)="showIndependentIssues()">
+  <label for="gender equality">Gender Equality</label>
+  <input type="checkbox" id="domesticViolence" name="domestic violence" value="Domestic Violence" [(ngModel)]='domesticViolence' (click)="showIndependentIssues()">
+  <label for="domestic violence">Domestic Violence</label>
+  
+
+</div>
+</div>
+
+</section>

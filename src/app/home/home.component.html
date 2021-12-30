@@ -1,0 +1,47 @@
+<div class="search-container">
+  <input id="searchbar" class="searchbar"  
+  [(ngModel)]="searchValue" type="text" placeholder="Search" name="search"/>
+  <!-- <button  id="search-button" class="search-button" type="submit">
+    <fa-icon class="fa-1x " [icon]="faSearch"></fa-icon>
+  </button> -->
+</div>
+
+
+<div class="filter ">
+  <ul>
+    <li (click)="changeCategory('All')" id="show-all"><a href="/#issues-container">Show All</a></li>
+    <li (click)="changeCategory('Health')" id="health"><a href="/#issues-container">Health</a></li>
+    <li (click)="changeCategory('Social')" id="social"><a href="/#issues-container">Social</a></li>
+    <li (click)="changeCategory('Economic')" id="economic"><a href="/#issues-container">Economic</a></li>
+    <li (click)="changeCategory('Environment')" id="environment"><a href="/#issues-container">Environment</a></li>
+  </ul>
+</div>
+
+
+
+
+
+<img class="imagem-planeta" src="../../assets/images/planet.png" alt="planet earth" />
+
+<h1>Share Humanity</h1>
+
+<div class="subtitulo">
+  <h4>What are the humanitarian global issues we are facing right now?</h4>
+</div>
+
+
+<div id="issues-container">
+  <div *ngFor="let issue of filteredIssues" class="box"><img class="issue-image" src={{issue.src}} />
+    <h5>{{issue.title}}</h5>
+    <p [innerHTML]="issue.description"></p> 
+    <img class="pin" src={{issue.pin}} alt="" width="20">
+  </div>
+
+
+</div>
+
+
+<a  href="#navbar-section" id="#goTop" (click)="changeCategory('All')">
+
+  <fa-icon class="go-top fas fa-arrow-circle-up fa-3x" [icon]="faArrowCircleUp"></fa-icon>
+</a>

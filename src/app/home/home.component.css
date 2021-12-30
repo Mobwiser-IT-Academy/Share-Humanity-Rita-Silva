@@ -1,0 +1,422 @@
+
+
+.imagem-planeta {
+    width: 10%;
+    margin-top: 90px;
+    align-self: center;
+  }
+  
+  h1 {
+    color: #f4f9f4;
+    font-family: "Amatic SC", cursive;
+    font-weight: 700;
+    font-size: 180px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  h4 {
+    color: #59a5d8;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  
+  h5 {
+    color: #133c55;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+  }
+  
+  .filter {
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d4965;
+    opacity: 0;
+    animation: fade 3s forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .filter li {
+    margin: 0 30px;
+    padding: 0;
+  }
+  
+  .filter li a {
+    text-decoration: none;
+    color: #1d4965;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .filter li a:hover {
+    font-size: 1.3rem;
+    color: #5aa5d7;
+  }
+  .go-top {
+    color: #fff;
+    position: fixed;
+    right: 6px;
+    top: 750px;
+    z-index: 1;
+  }
+
+  #issues-container  {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 25px;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:70px;
+  }
+  
+  #issues-container div {
+    margin: 35px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    width: 20%;
+  }
+
+
+  
+ .issue-image {
+    width: 100%;
+  }
+  
+  #issues-container a {
+    text-decoration: none;
+    color: #1b4965;
+    text-transform: uppercase;
+  }
+  
+  #issues-container p {
+    color: #345568;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0 10px;
+  }
+
+  .pin{
+    position: static;
+    width:2em;
+    margin-bottom: 10px;
+    
+  }
+
+  
+  
+  button {
+    background-color: #cae9ff;
+    color: #1b4965;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  
+ 
+
+  .search-container{
+    position: absolute;
+    top: 21px;
+    float: right;
+    right: 20px;  
+  }
+      
+  .searchbar {
+    width: 280px;
+    height: 40px;
+    border: #1b4965;
+    border-width: 2px;
+    font-size: 18px;
+    color: #1b4965;
+    border-radius: 0;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width:799px) {
+
+    .imagem-planeta {
+      margin-top: 90px;
+      align-self: center;
+      margin-right:50px;
+      width: 20%;
+      margin-top: 130px;
+    }
+
+    .filter{
+      position: relative;
+      width: 72.9%;
+      height: 25px;
+      top: 70px;
+      z-index: 1;
+      float: right;
+      margin-right: 20px;      
+      text-align: center; 
+    }
+
+    .filter li a {
+      text-decoration: none;
+      color: #1d4965;
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+    
+    }
+
+    .filter li a:hover {
+      font-size: 10px;
+      color: #5aa5d7;
+    }
+
+    .filter li {
+      margin: 0 10px;
+      padding: 0;
+    }
+
+    .searchbar {
+      height: 40px;
+      border-color: #00a6cc;
+      border-width: 0px;
+      font-size: 18px;
+      color: #1b4965;
+      border-radius: 0px;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: 700;
+      float: right;
+      margin-right: 20px;      
+      width: 72%;
+      text-align: center; 
+    }
+
+    .search-container{
+      width: 100%;
+      float: right;
+      position: absolute;
+      right:0px;
+      top: 30px;
+    }
+
+    #issues-container {
+    margin-bottom: 50px;
+align-content: center;
+width: 100%;
+ }
+
+    #issues-container div {
+      border-radius: 3px;
+      background-color: #fff;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+      width: 80%;
+    }
+
+  
+
+    h1 {
+      color: #f4f9f4;
+      font-family: "Amatic SC", cursive;
+      font-weight: 700;
+      font-size: 130px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+    }
+
+    h4 {
+      color: #59a5d8;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-right:30px;
+      margin-left:30px;
+
+    }
+
+    .go-top {
+      color: #ffffff;
+      position: fixed;
+      right: 5px;
+      top: 580px;
+      z-index: 1;
+      display:none;
+      
+    }
+  }
+  /*-----------------------------------------------------------------*/
+  
+
+
+  @media only screen and (min-width: 800px) and (max-width:1199px) {
+
+    
+
+
+    .imagem-planeta {
+      margin-top: 90px;
+      align-self: center;
+      margin-right:50px;
+      width: 20%;
+      margin-top: 130px;
+    }
+
+    
+
+    .filter{
+      position: relative;
+      width: 72.5%;
+      height: 26px;
+      top: 70px;
+      float: right;
+      margin-right: 20px;      
+      text-align: center; 
+    }
+
+    .filter li a {
+      text-decoration: none;
+      color: #1d4965;
+      font-size: 15px;
+      font-weight: 800;
+      text-transform: uppercase;
+    
+    }
+
+    .filter li a:hover {
+      font-size: 10px;
+      color: #5aa5d7;
+    }
+
+    .filter li {
+      margin: 0 10px;
+      padding: 0;
+    }
+
+    .searchbar {
+      height: 40px;
+      border-color: #00a6cc;
+      border-width: 0px;
+      font-size: 18px;
+      color: #1b4965;
+      border-radius: 0px;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: 700;
+      float: right;
+      margin-right: 20px;      
+      width: 72%;
+      text-align: center; 
+    }
+
+    .search-container{
+      width: 100%;
+      float: right;
+      position: absolute;
+      right:0px;
+      top: 30px;
+    }
+
+    #issues-container {
+    margin-bottom: 50px;
+align-content: center;
+width: 100%;
+ }
+
+    #issues-container div {
+      border-radius: 3px;
+      background-color: #fff;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+      width: 80%;
+    }
+
+
+    h1 {
+      color: #f4f9f4;
+      font-family: "Amatic SC", cursive;
+      font-weight: 700;
+      font-size: 130px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+    }
+
+    h4 {
+      color: #59a5d8;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-right:30px;
+      margin-left:30px;
+
+    }
+
+    .go-top {
+      color: #ffffff;
+      position: fixed;
+      right: 5px;
+      top: 580px;
+      z-index: 1;
+      display:none;
+      
+    }
+
+    
+
+
+  }
+  @media only screen and (min-width: 1200px) and (max-width:1499px) {
+
+    .search-container{
+      position: absolute;
+      top: 10px;
+      float: right;
+      right: 20px;  
+    }
+
+  }
+
+  @media only screen and (min-width: 1500px) {
+
+    .search-container{
+      position: absolute;
+      top: 21px;
+      float: right;
+      right: 20px;  
+    }
+
+  }
+
+ 
+
+  
+
+  
+  
+ 

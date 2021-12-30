@@ -1,0 +1,119 @@
+h3{
+    color:#cae9ff;
+    font-size: 50px;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+.image {
+    
+    position: relative;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .image::before {
+    content: "";
+    background-image: url("../../assets/images/hands.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+  }
+  .image h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #133c55;
+    opacity: 1;
+    z-index: 1;
+    animation: fade 2s;
+  }
+  
+  #arrow-down {
+    color: #133c55;
+    z-index: 2;
+    position: relative;
+    top: 120px;
+    animation: jump 1.5s infinite;
+  }
+  
+  .button-animation {
+    opacity: 0;
+    animation: fade-button 1.5s forwards;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-button {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, 30%, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  #about-container-2 {
+    background-color: #133c55;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+  }
+  
+  #about-container-2 p {
+    color: #fff;
+    width: 80%;
+  }
+  
+  #about-container-2 i {
+    color: #fff;
+  }
+
+  #planet{
+      color:#fff
+  }
+  
+
+  @media only screen and (min-width: 0px) and (max-width:1199px) {
+
+    #about-container-2 {
+      background-color: #133c55;
+      height: 2000px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      top: 0;
+    }
+
+  }

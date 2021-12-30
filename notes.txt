@@ -1,0 +1,19 @@
+TO DO: 
+
+1. Fix href router link to about-container on about.component.html -- FIXED
+2. 
+
+
+public showSocial() {
+  this.filterType = 'SOCIAL';
+}
+
+public get filteredIssues() {
+  if(this.filterType) {
+    return this.issues.filter((issues) => issue.category === this.filterType'));
+  }
+  return this.issues;
+}
+
+# HTML
+<div *ngFor="let issue of filteredIssues">....</div>
