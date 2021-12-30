@@ -9,7 +9,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "host": "ng serve -o --host 192.168.1.106"
-    
   },
   "private": true,
   "dependencies": {
@@ -28,10 +27,10 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@types/googlemaps": "^3.39.13",
+    "firebase": "^7.0 || ^8.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.3",
-    "firebase": "^7.0 || ^8.0"
+    "zone.js": "~0.11.3"
   },
   "devDependencies": {
     "@angular-devkit/architect": ">= 0.900 < 0.1300",
@@ -40,6 +39,7 @@
     "@angular/compiler-cli": "~11.2.6",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^1.0.0",
     "codelyzer": "^6.0.0",
     "firebase-tools": "^8.0.0 || ^9.0.0",
     "fuzzy": "^0.1.3",
